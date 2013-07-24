@@ -21,11 +21,12 @@ body {
 /* nav bar */
 .main-nav{
   display:inline-block;
+
 }
 
 nav > ul {
   margin-top: 2em;
-  margin-left: 400px;
+  margin-left: 0px;
   height: 40px;
   line-height: 40px;
   padding-left: 2em;
