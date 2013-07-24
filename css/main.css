@@ -1,0 +1,732 @@
+/* Default wide-screen styles */
+
+@media only screen and (max-width: 999px) {
+  /* rules that only apply for canvases narrower than 1000px */
+}
+
+@media only screen and (device-width: 768px) and (orientation: landscape) {
+  /* rules for iPad in landscape orientation */
+  body{
+    width:100%;
+    height: auto;
+  }
+  html{
+    width: 100%;
+    max-width: 768px;
+  }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  /* iPhone, Android rules here */
+    * {
+        max-width: 320px;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+     }
+     html{
+        max-width: 320px;
+     }
+     ul.desktop{
+        list-style-type: none;
+        margin-bottom: 40px;
+      }
+
+      ul.desktop li{
+        display: block;
+        /*
+        margin-left: 10%;
+        margin-right: -8%;
+        */
+        margin-top: -90px;
+      }
+
+      li.port{
+        min-width: 220px;
+        width:240px;
+        display: block;
+        /*float:left;*/
+        width: 48%;
+        margin-left: 3px;
+        margin-right: 10px;
+        /*
+        margin: 10px;
+        */
+      }
+
+      li.contact{
+        width: 240px;
+        min-width: 220px;
+        display: block;
+        margin-right:3px;
+        /*
+        margin: 10px;
+        */
+        /*float: right;*/
+        width: 48%;
+      }
+
+}
+
+/* with modernizr */
+.csscolumns ul.features {
+ -moz-column-count: 2;
+ -webkit-columns: 2;
+ -o-columns: 2;
+ columns: 2;
+}
+.no-csscolumns ul.features {
+ float: left;
+ margin: 0 0 20px;
+}
+.no-csscolumns ul.features li {
+ float: left;
+ width: 180px;
+ margin: 2px;
+}
+.no-csscolumns .column-w{
+  float: left;
+}
+/* with modernizr */
+
+header {
+	margin-bottom: 150px;
+	max-height: 60px;
+	max-width: auto;
+	position: center;
+	
+}
+
+html{
+    background-color: black;
+}
+
+html, body {
+  margin: 0;
+  padding-top: 25px;
+  border:0;
+
+    /* Below is with added columns
+    height: 100%; */
+  min-width: 320px;
+  width:auto;
+  position: relative;
+}
+
+body {
+    font-family: "Lucida Grande", "Arial", sans-serif;
+    margin: 1.5em auto;
+    padding: 1.5em;
+    background-color: white;
+    color: #4D4B39;
+     /*max-width: 35em;*/
+    max-width: auto;
+    min-width: auto;
+    border: 0.75em solid #A6A59C;
+    line-height: 1.5em;
+
+    /* testing image stuff */
+    position: relative;
+
+
+}
+
+background {
+	max-width: auto;
+    max-height: auto;
+    width: 768px;
+    min-width: 30%;
+    position: center;
+    background-position: absolute;
+}
+#content{
+    height:auto;
+    min-width:640px;
+    position: center absolute;
+    background-position: fixed;
+}
+#content img{
+    max-width:100%;
+    height:auto;
+}
+
+#container {
+    max-width: auto;
+    max-height: auto;
+    width: 768px;
+    min-width: 30%;
+    position: center;
+    background-position: absolute;
+}
+
+p {
+    margin: 1.5em 0;
+}
+h1 {
+    background-color: #5E3333;
+    text-align: center;
+    color: #E1DFD3;
+    border-color: indigo;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    text-shadow: 2px 2px #ff0000;
+    font-size: 200%;
+    font-family: 'Great Vibes', cursive;
+    padding: 0.75em;
+    margin: -0.75em -0.75em 0.75em -0.75em;
+    margin-top: -50px;
+}
+h2 {
+    background-color: #5E3333;
+    text-align: center;
+    color: #E1DFD3;
+    border-color: indigo;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    text-shadow: 2px 2px #ff0000;
+    font-size: 150%;
+    font-family: 'Great Vibes', cursive;
+    padding: 1em;
+    margin: -1em -1em 1em -1em;
+    margin-bottom: -25px;
+}
+
+h1 + h2 {
+    margin-top: -2em;
+    padding-top: 0;
+}
+
+h3.company{font-family: "Codystar";
+    font-size: 400%;
+    color: purple;
+    text-align: center;
+    background-image: url();
+    margin-top: 100px;
+}
+
+h3.company:hover{
+    color: red;
+}
+
+h3.home{
+    font-family: "Codystar";
+    font-size: 400%;
+    color: purple;
+    text-align: center;
+    background-image: url();
+    margin-top: -80px;
+}
+
+h3.home:hover{
+    color: red;
+}
+
+h3{
+    font-family: "Codystar";
+    font-size: 400%;
+    color: purple;
+    text-align: center;
+    background-image: url();
+}
+h3:hover{
+    color: red;
+}
+
+h4.ios{
+    font-family:"Megrim";
+    text-align: center;
+    font-size: 60px;
+    color: red;
+    border-color: indigo;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    text-shadow: 2px 2px purple;
+    margin-top:-175px;
+    margin-left:-60px;
+    margin-bottom: 60px;
+}
+
+h4.web{
+    font-family:"Megrim";
+    text-align: center;
+    font-size: 40px;
+    color: red;
+    border-color: indigo;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    text-shadow: 2px 2px purple;
+    margin-top:-90px;
+    margin-right: -830px;
+    margin-bottom: -400px;
+}
+
+h4.droid{
+    font-family:"Megrim";
+    text-align: center;
+    font-size: 60px;
+    color: red;
+    border-color: indigo;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    text-shadow: 2px 2px purple;
+    margin-top:250px;
+    margin-left:-120px;
+    margin-bottom: -40px;
+}
+
+h1.enterSite{
+    text-align: center;
+    background-color: transparent;
+    border-color: indigo;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    text-shadow: 2px 2px #ff0000;
+    font-size: 180px;
+    font-family: 'Shadows Into Light Two';
+    margin-top: 10px;
+    float: 
+}
+
+/* Tabel Team - Zander Norell */
+
+#team{
+	max-width: 100%;
+	max-height: auto;
+	margin: 2px;
+	margin-bottom: 60px;
+	border: 0px;
+}
+
+/* Wrapper div for tabs */
+div.wrapper{
+	margin-bottom: 60px;
+}
+
+/* Images of Zander Norell */
+
+span img{
+	max-width:200px;
+	max-height:300px;
+	margin-right: 15px;
+	margin-bottom: 60px;
+}
+
+#two {
+  max-width: 670px;
+  max-height: 400px;
+  position: center fixed;
+}
+/* below is css for image transition when in place
+
+#enter{
+    position:relative;
+    height: 711px;
+    width:auto;
+    margin: 1.5em auto;
+    margin-bottom: -200px;
+}
+#enter img{
+    position:absolute;
+    height: 400px;
+    width:auto;
+    left:0;
+    margin-left:-20px;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+}
+
+
+img.enterSite3:hover{
+    opacity:0;
+}
+div img.enterSite4:hover{
+    opacity:0;
+}
+
+*/
+
+/*Tabs */
+#hidden_content{display:none;}
+
+#hidden_content2{display:none;}
+
+#hidden_content3{display:none;}
+
+#hidden_content4{display:none;}
+
+#hidden_content5{display:none;}
+
+/* /END mixens*/
+body.tab {
+  font-size: 16px;
+  
+}
+
+.colGroup {
+  width: 100%;
+  .clearfix;
+  
+  .col {
+    width: 18%;
+    float: left;
+    margin: 0 1%;
+    position: relative;
+    perspective: 800;
+   
+  }
+}
+
+.colWeb{
+  margin-bottom: 100px;
+}
+
+.btn {
+  background: #e74c3c;
+  text-decoration: none;
+  margin-bottom: 30px;
+  text-align: center;
+  padding: 1em 0;
+  display: block;
+  color: #fff;
+  transition: background .3s;
+  
+  &:hover {
+    background: lighten(#e74c3c, 10%);
+  }
+  
+}
+
+/* punch */
+/*
+button.punch {
+  background: #bc2c2c;
+  border-top: 1px solid #bc2c2c;
+  border-right: 1px solid #bc2c2c;
+  border-bottom: 1px solid #bc2c2c;
+  border-left: 1px solid #bc2c2c;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 10px 1px #5c8bee, 0px 1px 0 #1d2c4d, 0 6px 0px #1f3053, 0 8px 4px 1px #111111;
+  box-shadow: inset 0 1px 10px 1px #bc2c2c, 0px 1px 0 #bc2c2c, 0 6px 0px #bc2c2c, 0 8px 4px 1px #111111;
+  color: #fff;
+  font: bold 25px/1 "helvetica neue", helvetica, arial, sans-serif;
+  margin-bottom: 10px;
+  padding: 10px 0 12px 0;
+  text-align: center;
+  text-shadow: 0px -1px 1px #bc2c2c;
+  width: 350px;
+  -webkit-background-clip: padding-box; }
+  button.punch:hover {
+    -webkit-box-shadow: inset 0 0px 20px 1px #87adff, 0px 1px 0 #1d2c4d, 0 6px 0px #1f3053, 0 8px 4px 1px #111111;
+    box-shadow: inset 0 0px 20px 1px #87adff, 0px 1px 0 #1d2c4d, 0 6px 0px #1f3053, 0 8px 4px 1px #111111;
+    cursor: pointer; }
+  button.punch:active {
+    -webkit-box-shadow: inset 0 1px 10px 1px #5c8bee, 0 1px 0 #1d2c4d, 0 2px 0 #1f3053, 0 4px 3px 0 #111111;
+    box-shadow: inset 0 1px 10px 1px #5c8bee, 0 1px 0 #1d2c4d, 0 2px 0 #1f3053, 0 4px 3px 0 #111111;
+    margin-top: 58px; }
+
+
+*/
+
+button a {
+	text-decoration: none;
+	text-color: white;
+}
+
+button a:link {color:white;}      /* unvisited link */
+button a:visited {color:white;}  /* visited link */
+button a:hover {color:#FF00FF;}  /* mouse over link */
+button a:active {color:indigo;}  /* selected link */
+
+/* punch */
+.punch {
+  background: #bc2c2c;
+  border-top: 1px solid #bc2c2c;
+  border-right: 1px solid #bc2c2c;
+  border-bottom: 1px solid #bc2c2c;
+  border-left: 1px solid #bc2c2c;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 10px 1px #5c8bee, 0px 1px 0 #1d2c4d, 0 6px 0px #1f3053, 0 8px 4px 1px #111111;
+  box-shadow: inset 0 1px 10px 1px #bc2c2c, 0px 1px 0 #bc2c2c, 0 6px 0px #bc2c2c, 0 8px 4px 1px #111111;
+  color: #fff;
+  font: bold 25px/1 "helvetica neue", helvetica, arial, sans-serif;
+  margin-bottom: 10px;
+  padding: 10px 0 12px 0;
+  text-align: center;
+  text-shadow: 0px -1px 1px #bc2c2c;
+   -webkit-background-clip: padding-box; 
+  /* attempting to get buttons to resize accordingly with screen adjust */
+  width: 100%;
+  height: auto;
+}
+  
+.punch:hover {
+    -webkit-box-shadow: inset 0 0px 20px 1px #87adff, 0px 1px 0 #1d2c4d, 0 6px 0px #1f3053, 0 8px 4px 1px #111111;
+    box-shadow: inset 0 0px 20px 1px #87adff, 0px 1px 0 #1d2c4d, 0 6px 0px #1f3053, 0 8px 4px 1px #111111;
+    cursor: pointer; 
+}
+
+.punch:active {
+    -webkit-box-shadow: inset 0 1px 10px 1px #5c8bee, 0 1px 0 #1d2c4d, 0 2px 0 #1f3053, 0 4px 3px 0 #111111;
+    box-shadow: inset 0 1px 10px 1px #5c8bee, 0 1px 0 #1d2c4d, 0 2px 0 #1f3053, 0 4px 3px 0 #111111;
+    /*margin-top: 58px; */
+    position: static;
+}
+
+.punch2 {
+  background: #bc2c2c;
+  border-top: 1px solid #bc2c2c;
+  border-right: 1px solid #bc2c2c;
+  border-bottom: 1px solid #bc2c2c;
+  border-left: 1px solid #bc2c2c;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 10px 1px #5c8bee, 0px 1px 0 #1d2c4d, 0 6px 0px #1f3053, 0 8px 4px 1px #111111;
+  box-shadow: inset 0 1px 10px 1px #bc2c2c, 0px 1px 0 #bc2c2c, 0 6px 0px #bc2c2c, 0 8px 4px 1px #111111;
+  color: #fff;
+  font: bold 25px/1 "helvetica neue", helvetica, arial, sans-serif;
+  margin-bottom: 10px;
+  padding: 10px 0 12px 0;
+  text-align: center;
+  text-shadow: 0px -1px 1px #bc2c2c;
+  -webkit-background-clip: padding-box; 
+  /* attempting to get buttons to resize accordingly with screen adjust */
+  width: 100%;
+  height: auto;
+
+}
+  
+.punch2:hover {
+    -webkit-box-shadow: inset 0 0px 20px 1px #87adff, 0px 1px 0 #1d2c4d, 0 6px 0px #1f3053, 0 8px 4px 1px #111111;
+    box-shadow: inset 0 0px 20px 1px #87adff, 0px 1px 0 #1d2c4d, 0 6px 0px #1f3053, 0 8px 4px 1px #111111;
+    cursor: pointer; 
+}
+
+.punch2:active {
+    -webkit-box-shadow: inset 0 1px 10px 1px #5c8bee, 0 1px 0 #1d2c4d, 0 2px 0 #1f3053, 0 4px 3px 0 #111111;
+    box-shadow: inset 0 1px 10px 1px #5c8bee, 0 1px 0 #1d2c4d, 0 2px 0 #1f3053, 0 4px 3px 0 #111111;
+    /*margin-top: 58px; */
+    position: static;
+}
+
+center#nav{
+	margin-top:40px;
+	margin-bottom:40px;
+	
+}
+
+.getAutoHeight {
+   position: relative;
+   overflow: auto; /* edit by thobens: overflow: hidden seems to be better, as (at least) IE 8 shows always a disabled scrollbar with overflow: auto */
+}
+
+/* Why is Zanders buttons and photo always larger than mine? */
+/*
+table tr td {
+  color:#bc2c2c;
+}
+
+td.norell{
+  width: 100%;
+  height: auto;
+}
+
+td.zander{
+  width: 50%;
+  height: auto;
+}
+*/
+
+input.punch:hover{
+	color:#FF00FF;
+}
+
+input.punch2:hover{
+	color:#FF00FF;
+}
+
+input#port{
+  width:100%;
+  max-width: 100%;
+}
+
+input#contact{
+  width: 100%;
+  max-width: 100%;
+}
+
+ul.desktop{
+  list-style-type: none;
+  margin-bottom: 40px;
+}
+
+ul.desktop li{
+  display: inline-block;
+  /*
+  margin-left: 10%;
+  margin-right: -8%;
+  */
+  margin-top: -90px;
+}
+
+li.port{
+  min-width: 240px;
+  width:240px;
+  display: inline-block;
+  /*float:left;*/
+  width: 48%;
+  margin-left: 3px;
+  margin-right: 10px;
+  /*
+  margin: 10px;
+  */
+}
+
+li.contact{
+  width: 240px;
+  min-width: 260px;
+  display: inline-block;
+  margin-right:3px;
+  /*
+  margin: 10px;
+  */
+  /*float: right;*/
+  width: 48%;
+}
+
+/* attemptimg to get buttons to scale equally */
+form {
+  width: 100%;
+  max-width: 664px;
+  min-width: 220px;
+  margin: 0 auto;
+}
+
+input {
+  min-width: 220px;
+  width:100%;
+  margin: 10px auto;
+  /*margin-top: 10px;*/
+}
+
+/* Above is attempting to scale buttons equally */
+
+footer {
+	margin-bottom: -85px;
+
+}
+
+footer.desktop {
+  margin-bottom: -85px;
+  text-align: center;
+
+}
+
+footer.homeFoot {
+  margin-bottom: 0px;
+}
+
+/* attempting to get buttons to resize accordingly with screen adjust  THIS IS GOOD*/
+img {
+  width: 100%;
+  height: auto;
+  min-height:auto;
+  /*max-width: 480px;*/
+  position: relative;
+
+}
+
+/* attempting to get buttons to resize accordingly with screen adjust */
+img.teamImg{
+  position: relative;
+  min-width: 240px;
+  /*max-width: 664px;*/
+  /*max-height: 827px;*/
+  /*width: 240px;*/
+  margin: 10px auto;
+  /*width: 100%;*/
+  height: auto;
+  max-width: 100%; 
+  max-height: 100%;
+}
+
+#team {
+/* attempting to get buttons to resize accordingly with screen adjust */
+  width: 100%;
+  height: auto;
+  min-height:auto;
+  /*max-width: 480px;*/
+  position: relative;
+
+}
+
+div.staff {
+  margin-bottom: 100px;
+  position: relative;
+  margin: 10px auto;
+}
+
+
+/* testing
+form a {
+	text-decoration: none;
+	text-color: white;
+}
+*/
+/*form a:link {color:white;} */     /* unvisited link */
+/*form a:visited {color:white;}  */ /* visited link */
+/*form a:hover {color:#FF00FF;} */ /* mouse over link */
+/*form a:active {color:#0000FF;} */ /* selected link */
+
+/* Refactoring table with Norell and Zander into appropriate columns */
+
+* { 
+  -moz-box-sizing: border-box;
+  webkit-box-sizing: border-box; 
+  box-sizing: border-box;
+  margin: 0; padding: 0;
+  margin-bottom: 20px;
+}
+
+/* For Zander Norell info and buttons */
+.column-w {
+  width: 50%;
+  float: left;
+  height: auto;
+}
+
+  /*border: 1px solid indigo; */
+/* just so you can see the gutter */
+
+
+.column-w:first-of-type {
+  padding-right: 2%;
+}
+/* I wouldn't use px... but for example */
+
+
+.column-w:last-of-type {
+  padding-left: 2%;
+}
+/* I wouldn't use px... but for example */
+
+
+.column {
+  padding: 1rem;
+  min-height: 100%;
+  height: auto;
+  margin-bottom: 15px;
+  display: inline-block;
+}
+
+.main {
+  background-color: white;
+}
+
+.sub {
+  background-color: white;
+}
+
+article {
+  color: #bc2c2c;
+
+}

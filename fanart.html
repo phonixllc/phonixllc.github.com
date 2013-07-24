@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Norell Gallery</title>
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;" name="viewport" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <link href="css/photoswipe.css" rel="stylesheet">  
+    <link href='http://fonts.googleapis.com/css?family=Codystar|Give+You+Glory|Poiret+One|Londrina+Outline|Ovo|Great+Vibes|Julius+Sans+One|Shadows+Into+Light+Two|Megrim' rel='stylesheet' type='text/css'>
+    <style>
+        body{
+          text-align:center;
+        }
+        .menu{
+          font-family: 'Megrim';
+          font-size:3rem;
+          line-height:300px;
+          verticle-align:middle;
+          margin-right:30px;
+          border-radius:20px;
+          transition: 2s ease 0s; 
+          cursor:pointer;
+        }
+        .menu:nth-child(1){
+          content:"hello";
+          box-shadow: inset 0px -5px 0px #B73327;
+        }
+        .menu:nth-child(1):hover{
+          box-shadow:inset 0px -300px 0px #B73327;
+        }
+        .menu:nth-child(2){
+          box-shadow:inset 0px 5px 0px #2F3A68;
+        }
+        .menu:nth-child(2):hover{
+          box-shadow:inset 0px 300px 0px #2F3A68;
+        }
+        .menu:nth-child(3){
+          box-shadow:inset 0px -5px 0px #8AAABF;
+        }
+        .menu:nth-child(3):hover{
+          box-shadow:inset 0px -300px 0px #8AAABF;
+        }
+        .menu:nth-child(4){
+          box-shadow:inset 0px 5px 0px #E4D18C;
+        }
+        .menu:nth-child(4):hover{
+          box-shadow:inset 0px 300px 0px #E4D18C;
+        }
+        .menu:nth-child(5){
+          box-shadow:inset 0px -5px 0px #639465;
+        }
+        .menu:nth-child(5):hover{
+          box-shadow:inset 0px -300px 0px #639465;
+        }
+        a{
+            text-decoration: none;
+            color:indigo;
+        }
+        a:hover{
+            color: white;
+        }
+        img{
+            width: 98%;
+            height: auto;
+            margin-bottom: 10px;
+            margin:auto;
+        }
+        h3.company{font-family: "Codystar";
+            font-size: 8em;
+            color: purple;
+            text-align: center;
+            background-image: url();
+            margin-top: -4px;
+        }
+
+        h3.company:hover{
+            color: red;
+        }
+    </style>  
+
+    <script src="js/libs/klass.min.js"></script>
+    <script type="text/javascript" src="js/code.photoswipe-3.0.5.min.js"></script>
+	<script type="text/javascript">
+
+
+        (function(window, PhotoSwipe){
+        
+            document.addEventListener('DOMContentLoaded', function(){
+            
+                var
+                    options = {
+                        
+                        getImageSource: function(obj){
+                            return obj.url;
+                        },
+                        getImageCaption: function(obj){
+                            return obj.caption;
+                        },
+                        getToolbar: function(){
+                            return '<div class="ps-toolbar-close" style="padding-top: 12px;">Close</div></a><div class="ps-toolbar-play" style="padding-top: 12px;">Play</div><div class="ps-toolbar-previous" style="padding-top: 12px;">Previous</div><div class="ps-toolbar-next" style="padding-top: 12px;">Next</div>';
+                            // NB. Calling PhotoSwipe.Toolbar.getToolbar() wil return the default toolbar HTML
+                        }
+                    
+                    },
+                    instance = PhotoSwipe.attach(
+                        [
+                            { url: 'images/norell/fan1.jpg', caption: ''},
+                            { url: 'images/norell/fan2.jpg', caption: ''},
+                            { url: 'images/norell/fan3.jpg', caption: ''},
+                            { url: 'images/norell/fan4.jpg', caption: ''},
+                            { url: 'images/norell/fan5.jpg', caption: ''},
+                            { url: 'images/norell/fan6.jpg', caption: ''},
+                            { url: 'images/norell/fan7.jpg', caption: ''}
+                        ],
+                        options 
+                    );
+                      
+                      instance.show(0);  
+            
+            }, false);
+            
+            
+        }(window, window.Code.PhotoSwipe));
+        
+    </script>
+</head>
+<body>
+<div>
+    <center>
+        <img src="http://dl.dropboxusercontent.com/u/92701281/yes.jpg"/>
+
+    </center>
+    <div>
+        <a href="desktop.html" class = "menu">&#160;Home&#160;</a>
+        <a href="norell.html"class = "menu">&#160;Norell&#160;</a>
+        <a href="fanart.html" class = "menu">&#160;View Again&#160;</a>
+        <a href="zander.html" class = "menu">&#160;Zander&#160;</a>
+        <a href="contact.html" class = "menu">&#160;Contact&#160;</a>
+    </div>
+    <h3 class="company">Ph&ouml;nix</h3>
+</div>
+
+</body>
+</html>

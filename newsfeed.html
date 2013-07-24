@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="Designed By" content="Zander &amp; Norell">
+  <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi"/>
+  <meta name="HandheldFriendly" content="true"/>  
+  <meta name="MobileOptimized" content="320"/>  
+  <meta name="apple-mobile-web-app-capable" content="yes">
+	<link href='http://fonts.googleapis.com/css?family=Codystar|Give+You+Glory|Poiret+One|Londrina+Outline|Ovo|Great+Vibes|Julius+Sans+One|Shadows+Into+Light+Two|Megrim' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/port.css" type="text/css" />
+	<link href="css/photoswipe.css" rel="stylesheet">
+	<style>
+			/* for portfolio */
+
+		#SocialLinks { padding: 10px 0 0 0; }
+		#SocialLinks:after { clear: both; content: "."; display: block; height: 0; visibility: hidden; }
+		#SocialLinks a { display: block; float: left; padding-right: 15px; }
+
+		.gallery { list-style: none; padding: 0; margin: 0; }
+		.gallery:after { clear: both; content: "."; display: block; height: 0; visibility: hidden; }
+		.gallery li { float: left; width: 33.33333333%; }
+		.gallery li a { display: block; margin: 5px; border: 1px solid #3c3c3c; }
+		.gallery li img { display: block; width: 100%; height: auto; }
+
+
+		/* For inline examples only */
+		#PhotoSwipeTarget { width: 100%; height: 200px; }
+
+		#Indicators { text-align: center; margin-top: 20px; }
+		#Indicators span { display: inline-block; height: 10px; width: 10px; margin: 0 10px 0 0; padding: 0; -webkit-border-radius:5px; -moz-border-radius:5px; -o-border-radius:5px; border-radius:5px; background: #c5c5c5; overflow:hidden; }
+		#Indicators span.current{ background: #EEBF02; }
+
+		/* end portfolio page */
+	</style>
+
+	<script src="js/libs/modernizr.custom.min.js"></script>
+    <script src="js/libs/klass.min.js"></script>
+    <script type="text/javascript" src="js/code.photoswipe-3.0.5.min.js"></script>
+    <script type="text/javascript">
+
+        (function(window, PhotoSwipe){
+        
+            document.addEventListener('DOMContentLoaded', function(){
+            
+                var
+                    options = {
+                    
+                        getToolbar: function(){
+                            return '<div class="ps-toolbar-close" style="padding-top: 12px;">Close</div><div class="ps-toolbar-play" style="padding-top: 12px;">Play</div><div class="ps-toolbar-previous" style="padding-top: 12px;">Previous</div><div class="ps-toolbar-next" style="padding-top: 12px;">Next</div>';
+                            // NB. Calling PhotoSwipe.Toolbar.getToolbar() wil return the default toolbar HTML
+                        }
+                    
+                    },
+                    instance = PhotoSwipe.attach( window.document.querySelectorAll('#Gallery a'), options );
+                    
+            
+            }, false);
+            
+            
+        }(window, window.Code.PhotoSwipe));
+        
+    </script>
+</head>
+<div class="wrap">
+		<header class="main-header">
+			<a style="font-family: 'Megrim'; font-size:44px;" class="logo" href="#">Newsfeed</a>
+			<nav class="main-nav">
+				<a style="font-family: 'Julius Sans One'; font-size: 22px;" href="desktop.html">Home</a>
+				<a style="font-family: 'Julius Sans One'; font-size: 22px;" href="contact.html">Contact</a>
+				<div id="SocialLinks">
+                    <a href="http://www.twitter.com/KarnakGallery"><img src="images/twittericon.png" width="32" height="32" alt="Twitter" /></a>
+                    <a href="http://www.facebook.com/PhonixLLC"><img src="images/facebookicon.png" width="32" height="32" alt="Facebook" /></a>
+                </div>
+				<!--<a link href="#">Web Sites</a>
+				<a link href="#">Mobile Web APPS</a> -->
+				<a href="#"></a>
+			</nav>
+		</header>
+		<div class="content">
+			<div class="main col">
+				<ul style="margin:-5px;" id="Gallery" class="gallery">
+	                <!--  Current Events Images -->
+	                <li><a href="images/full/zandernorell.jpg"><img src="images/thumbs/zandernorell.jpg" alt="" /></a></li>
+	                <li><a href="images/full/gay90s.jpg"><img src="images/thumbs/gay90s.jpg" alt="" /></a></li>
+	                 <!--<li><a href="images/full/jsbus.jpg"><img src="images/thumbs/jcbus.jpg" alt="" /></a></li> -->
+	                <li><a href="images/full/benny.jpg"><img src="images/thumbs/benny.jpg" alt="" /></a></li>
+	                <li><a href="images/full/tron.jpg"><img src="images/thumbs/tron.jpg" alt="" /></a></li>
+	                <li><p style="text-align: left; font-family: 'Poiret One'; margin: auto; width: 230px; height: auto; margin-top:5px; min-height: auto; min-width: auto; position: relative; font-size: 14px;">Recently, you may have seen Norell &amp; Zander, or the brains behind Ph&ouml;nix LLC, decorating and embellishing many live canvases at MN Pride at the Gay 90s.</p></li>
+	                <li style="text-align: left; font-family: 'Poiret One'; margin: auto; width: 340px; height: auto; margin-top:5px; min-height: auto; min-width: auto; position: relative; font-size: 14px;">Prior to Pride, Zander was hired by SIMShows, or Sound In Motion, and body painted <h3 style="margin-top:-24px; margin-left: 180px; font-family: 'Megrim'; font-size: 16px;">"Tron in 3D"</h3><p style="text-align: left; font-family: 'Poiret One'; margin: auto; width: 340px; height: auto; margin-top:-15px; min-height: auto; min-width: auto; position: relative; font-size: 14px;">live in downtown Minneapolis at</p><h3 style="margin-top:-24px; margin-left: 200px; font-family: 'Megrim'; font-size: 16px;">Benny Benassi.</h3></li>
+	            </ul>
+
+			</div>
+			<div class="secondary col">
+				<p style="text-align: center; font-family: 'Poiret One'; margin: auto; margin-top:-5px; min-height: auto; min-width: auto; position: relative; font-size: 14px;">They were joined with MUA &amp; Photographer, not to mention model herself, Jessica Collette.</p><p style="text-align: center; font-family: 'Poiret One'; margin: auto; margin-top:-5px; min-height: auto; min-width: auto; position: relative; font-size: 14px;">The three of them painted the town, in the  name of love, and pride in love.</p>
+				<a href="jcartist.html"><img src="img/jcbus.jpg" style="width: auto; height: 227px;"/></a>
+				<a href="jcartist.html"><img src="img/jcbus2.jpg" style="width: auto; height: 227px;"/></a>
+			</div>
+			<div class="extra col">
+				<div class="special">
+	                
+	                <p style="text-align: center; font-family: 'Poiret One'; margin: auto; margin-top:-5px; min-height: auto; min-width: auto; position: relative; font-size: 16px;">Our website, both the mobile and desktop versions, is under construction in some places, such as the contact pages, and Zander and Norell's personal pages in the desktop browser. Check back often to see the progressive transformations our website will take! Thank you for joining us on the journey!</p>
+
+            	</div>
+
+
+			</div>
+		</div>
+		<footer class="main-footer">
+			<h3 style="font-family: 'Londrina Outline'; font-size: 32px;"> Contact Us: </h3>
+			<h2 style="font-family: 'Poiret One'; font-size: 28px; margin: auto; min-width: auto; min-height: auto; position: relative;">zandernorell@gmail.com </h2>
+		</footer>
+	</div>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript" src="js/port.js"></script>
+</html>

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="Designed By" content="Zander &amp; Norell">
+  <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi"/>
+  <meta name="HandheldFriendly" content="true"/>  
+  <meta name="MobileOptimized" content="320"/>  
+  <meta name="apple-mobile-web-app-capable" content="yes">
+	<link href='http://fonts.googleapis.com/css?family=Codystar|Give+You+Glory|Poiret+One|Londrina+Outline|Ovo|Great+Vibes|Julius+Sans+One|Shadows+Into+Light+Two|Megrim' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/port.css" type="text/css" />
+	<link href="css/photoswipe.css" rel="stylesheet">
+	<style>
+			/* for portfolio */
+
+		#SocialLinks { padding: 10px 0 0 0; }
+		#SocialLinks:after { clear: both; content: "."; display: block; height: 0; visibility: hidden; }
+		#SocialLinks a { display: block; float: left; padding-right: 15px; }
+
+		.gallery { list-style: none; padding: 0; margin: 0; }
+		.gallery:after { clear: both; content: "."; display: block; height: 0; visibility: hidden; }
+		.gallery li { float: left; width: 33.33333333%; }
+		.gallery li a { display: block; margin: 5px; border: 1px solid #3c3c3c; }
+		.gallery li img { display: block; width: 100%; height: auto; }
+
+
+		/* For inline examples only */
+		#PhotoSwipeTarget { width: 100%; height: 200px; }
+
+		#Indicators { text-align: center; margin-top: 20px; }
+		#Indicators span { display: inline-block; height: 10px; width: 10px; margin: 0 10px 0 0; padding: 0; -webkit-border-radius:5px; -moz-border-radius:5px; -o-border-radius:5px; border-radius:5px; background: #c5c5c5; overflow:hidden; }
+		#Indicators span.current{ background: #EEBF02; }
+
+		/* end portfolio page */
+	</style>
+
+	<script src="js/libs/modernizr.custom.min.js"></script>
+    <script src="js/libs/klass.min.js"></script>
+    <script type="text/javascript" src="js/code.photoswipe-3.0.5.min.js"></script>
+    <script type="text/javascript">
+
+        (function(window, PhotoSwipe){
+        
+            document.addEventListener('DOMContentLoaded', function(){
+            
+                var
+                    options = {
+                    
+                        getToolbar: function(){
+                            return '<div class="ps-toolbar-close" style="padding-top: 12px;">Close</div><div class="ps-toolbar-play" style="padding-top: 12px;">Play</div><div class="ps-toolbar-previous" style="padding-top: 12px;">Previous</div><div class="ps-toolbar-next" style="padding-top: 12px;">Next</div>';
+                            // NB. Calling PhotoSwipe.Toolbar.getToolbar() wil return the default toolbar HTML
+                        }
+                    
+                    },
+                    instance = PhotoSwipe.attach( window.document.querySelectorAll('#Gallery a'), options );
+                    
+            
+            }, false);
+            
+            
+        }(window, window.Code.PhotoSwipe));
+        
+    </script>
+</head>
+<div class="wrap">
+		<header class="main-header">
+			<a style="font-family: 'Give You Glory'; font-size:40px;" class="logo" href="#">Jessica Collette</a>
+			<nav class="main-nav">
+				<a style="font-family: 'Julius Sans One'; font-size: 22px;" href="desktop.html">Home</a>
+				<a style="font-family: 'Julius Sans One'; font-size: 22px;" href="http://www.facebook.com/pages/Jessica-C-Make-up-Artist/181996975160938?ref=hl">MUA</a>
+				<a style="font-family: 'Julius Sans One'; font-size: 22px;" href="http://www.facebook.com/JessicaCollettePhotography?ref=hl">Photography</a>
+				<!--<a link href="#">Web Sites</a>
+				<a link href="#">Mobile Web APPS</a> -->
+				<a href="#"></a>
+			</nav>
+		</header>
+		<div class="content">
+			<div class="main col">
+				<!-- slider with about 4 images of Jessica's work -->	
+				<ul id="Gallery" class="gallery">
+	                <!--  Jessica Collette Example Images -->
+	                <li><a href="img/jc/full/4jc.jpg"><img src="img/jc/thumbs/4jc.jpg" alt="" /></a></li>
+	                <li><a href="img/jc/full/7jc.jpg"><img src="img/jc/thumbs/7jc.jpg" alt="" /></a></li>
+	                <li><a href="img/jc/full/2jc.jpg"><img src="img/jc/thumbs/2jc.jpg" alt="" /></a></li>
+	                <li><a href="img/jc/full/8jc.jpg"><img src="img/jc/thumbs/8jc.jpg" alt="" /></a></li>
+	                <li><a href="img/jc/full/11jc.jpg"><img src="img/jc/thumbs/11jc.jpg" alt="" /></a></li>	         
+	                <li><a href="img/jc/full/14jc.jpg"><img src="img/jc/thumbs/14jc.jpg" alt="" /></a></li>
+	            </ul>
+			</div>
+			<div class="secondary col">
+				<article style="text-align: center; font-family: 'Poiret One'; margin: auto; min-height: auto; min-width: auto; position: relative; font-size: 30px; margin-top:-10px; text-decoration: underline;">Available For: </article>
+				<article style="text-align: center; font-family: 'Poiret One'; margin: auto; min-height: auto; min-width: auto; position: relative; font-size: 24px;"> Parties, Weddings, &amp; More! Makeup &amp; Photography.</article>
+				<p style="text-align: center; font-family: 'Poiret One'; margin: auto; min-height: auto; min-width: auto; position: relative; font-size: 20px;">High Quality. Reasonable Prices.</p>
+			</div>
+			<div class="extra col">
+				<a href="http://www.facebook.com/JessicacolletteModel?fref=ts"><img src="img/jessica.jpg" width="auto" height="225px" style="margin-top: -12px; margin-left:17px; position:center;"></a>
+			</div>
+		</div>
+		<footer class="main-footer">
+			<h3 style="font-family: 'Londrina Outline'; font-size: 32px;"> Contact Her: </h3>
+			<h2 style="font-family: 'Give You Glory'; font-size: 28px; margin: auto; min-width: auto; min-height: auto; position: relative;">jessica.collette.c@gmail.com </h2>
+		</footer>
+	</div>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript" src="js/port.js"></script>
+</html>
