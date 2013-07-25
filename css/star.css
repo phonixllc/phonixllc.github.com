@@ -5,7 +5,31 @@ html {
 }
 
 body {
-  background: url(http://fbcdn-sphotos-h-a.akamaihd.net/hphotos-ak-prn1/933983_615114615166233_599086299_n.jpg) no-repeat;
+  /*background: url(http://fbcdn-sphotos-h-a.akamaihd.net/hphotos-ak-prn1/933983_615114615166233_599086299_n.jpg) no-repeat;*/
+  background: rgba(247,162,134,1);
+  background: -moz-linear-gradient(left, rgba(247,162,134,1) 0%, rgba(120,178,250,1) 50%, rgba(120,178,250,1) 51%, rgba(247,162,134,1) 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(247,162,134,1)), color-stop(50%, rgba(120,178,250,1)), color-stop(51%, rgba(120,178,250,1)), color-stop(100%, rgba(247,162,134,1)));
+  background: -webkit-linear-gradient(left, rgba(247,162,134,1) 0%, rgba(120,178,250,1) 50%, rgba(120,178,250,1) 51%, rgba(247,162,134,1) 100%);
+  background: -o-linear-gradient(left, rgba(247,162,134,1) 0%, rgba(120,178,250,1) 50%, rgba(120,178,250,1) 51%, rgba(247,162,134,1) 100%);
+  background: -ms-linear-gradient(left, rgba(247,162,134,1) 0%, rgba(120,178,250,1) 50%, rgba(120,178,250,1) 51%, rgba(247,162,134,1) 100%);
+  background: linear-gradient(to right, rgba(247,162,134,1) 0%, rgba(120,178,250,1) 50%, rgba(120,178,250,1) 51%, rgba(247,162,134,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7a286', endColorstr='#f7a286', GradientType=1 );
+  /*
+  background-image: linear-gradient(bottom, rgb(232,232,232) 48%, rgb(181,178,177) 74%, rgb(171,199,199) 0%);
+  background-image: -o-linear-gradient(bottom, rgb(232,232,232) 48%, rgb(181,178,177) 74%, rgb(171,199,199) 0%);
+  background-image: -moz-linear-gradient(bottom, rgb(232,232,232) 48%, rgb(181,178,177) 74%, rgb(171,199,199) 0%);
+  background-image: -webkit-linear-gradient(bottom, rgb(232,232,232) 48%, rgb(181,178,177) 74%, rgb(171,199,199) 0%);
+  background-image: -ms-linear-gradient(bottom, rgb(232,232,232) 48%, rgb(181,178,177) 74%, rgb(171,199,199) 0%);
+
+  background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(0.48, rgb(232,232,232)),
+    color-stop(0.74, rgb(181,178,177)),
+    color-stop(0, rgb(171,199,199))
+  );
+  */
   background-attachment: fixed;
   background-size: 100% auto;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;

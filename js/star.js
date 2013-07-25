@@ -1,7 +1,7 @@
 $('#summary').click(function(){
     $('#hidden_info').slideToggle('slow', function(){
         if( $('#hidden_info').is(':hidden') ){
-            $('#summary').text('More?');
+            $('#summary').text('Summary');
         } else {
             $('#summary').text('Hide content');
         }
