@@ -13,7 +13,7 @@
     <script src="https://apis.google.com/js/plusone.js"></script>
     <script type="text/javascript">
       /* eventually change this to phonixintl.com/norellstar or whatever link will end up being */
-        var tumblr_link_url = "http://phonixllc.github.com/libs/Phonix/norellstar.html";
+        var tumblr_link_url = "http://phonixintl.com/norellstar";
         var tumblr_link_name = "Meet Norell, a Multi-Media Artist";
         var tumblr_link_description = "Singer, Model, Author, Developer.";
     </script>
@@ -300,6 +300,7 @@
 <script type="text/javascript">
     var tumblr_button = document.createElement("a");
     tumblr_button.setAttribute("href", "http://www.tumblr.com/share/link?url=" + encodeURIComponent(tumblr_link_url) + "&name=" + encodeURIComponent(tumblr_link_name) + "&description=" + encodeURIComponent(tumblr_link_description));
+      tumblr_button.setAttribute('target', '_blank');
     tumblr_button.setAttribute("title", "Share on Tumblr");
     tumblr_button.setAttribute("style", "display:inline-block; text-indent:-9999px; overflow:hidden; width:129px; height:20px; background:url('http://platform.tumblr.com/v1/share_3.png') top left no-repeat transparent;");
     tumblr_button.innerHTML = "Share on Tumblr";
