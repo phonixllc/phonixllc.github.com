@@ -503,7 +503,25 @@ a#summary:hover{
   color: indigo;
 }
 
+a#testimonial{
+  text-decoration: none;
+  color:white;
+  font-family: "Megrim";
+  font-size: 30px;
+}
+
 a#testimonial:hover{
+  color: indigo;
+}
+
+a#blogs{
+  text-decoration: none;
+  color:white;
+  font-family: "Megrim";
+  font-size: 30px;
+}
+
+a#blogs:hover{
   color: indigo;
 }
 
