@@ -499,6 +499,13 @@ a#summary{
   font-size: 30px;
 }
 
+a#norellAbout{
+  text-decoration: none;
+  color:white;
+  font-family: "Megrim";
+  font-size: 30px;
+}
+
 a#summary:hover{
   color: indigo;
 }
