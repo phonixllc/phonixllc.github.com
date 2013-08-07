@@ -6,14 +6,14 @@ html {
 
 body {
   /*background: url(http://fbcdn-sphotos-h-a.akamaihd.net/hphotos-ak-prn1/933983_615114615166233_599086299_n.jpg) no-repeat;*/
-  background: rgba(247,162,134,1);
-  background: -moz-linear-gradient(left, rgba(247,162,134,1) 0%, rgba(120,178,250,1) 50%, rgba(120,178,250,1) 51%, rgba(247,162,134,1) 100%);
-  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(247,162,134,1)), color-stop(50%, rgba(120,178,250,1)), color-stop(51%, rgba(120,178,250,1)), color-stop(100%, rgba(247,162,134,1)));
-  background: -webkit-linear-gradient(left, rgba(247,162,134,1) 0%, rgba(120,178,250,1) 50%, rgba(120,178,250,1) 51%, rgba(247,162,134,1) 100%);
-  background: -o-linear-gradient(left, rgba(247,162,134,1) 0%, rgba(120,178,250,1) 50%, rgba(120,178,250,1) 51%, rgba(247,162,134,1) 100%);
-  background: -ms-linear-gradient(left, rgba(247,162,134,1) 0%, rgba(120,178,250,1) 50%, rgba(120,178,250,1) 51%, rgba(247,162,134,1) 100%);
-  background: linear-gradient(to right, rgba(247,162,134,1) 0%, rgba(120,178,250,1) 50%, rgba(120,178,250,1) 51%, rgba(247,162,134,1) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7a286', endColorstr='#f7a286', GradientType=1 );
+  background: rgba(78,126,105,1);
+  background: -moz-linear-gradient(left, rgba(78,126,105,1) 0%, rgba(8,58,36,1) 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(78,126,105,1)), color-stop(100%, rgba(8,58,36,1)));
+  background: -webkit-linear-gradient(left, rgba(78,126,105,1) 0%, rgba(8,58,36,1) 100%);
+  background: -o-linear-gradient(left, rgba(78,126,105,1) 0%, rgba(8,58,36,1) 100%);
+  background: -ms-linear-gradient(left, rgba(78,126,105,1) 0%, rgba(8,58,36,1) 100%);
+  background: linear-gradient(to right, rgba(78,126,105,1) 0%, rgba(8,58,36,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4e7e69', endColorstr='#083a24', GradientType=1 );
   /*
   background-image: linear-gradient(bottom, rgb(232,232,232) 48%, rgb(181,178,177) 74%, rgb(171,199,199) 0%);
   background-image: -o-linear-gradient(bottom, rgb(232,232,232) 48%, rgb(181,178,177) 74%, rgb(171,199,199) 0%);
@@ -454,9 +454,9 @@ h3{
 
 #hidden_info{display:none;}
 
-#hidden_infoN{display:none;}
+#hidden_infoZ{display:none;}
 
-#hidden_infoN2{display:none;}
+#hidden_infoBlogs{display:none;}
 
 .colGroup {
   width: 100%;
@@ -495,15 +495,15 @@ h3{
 a#summary{
   text-decoration: none;
   color:white;
-  font-family: "Megrim";
-  font-size: 30px;
+  font-family: "Give You Glory";
+  font-size: 26px;
 }
 
 a#summary:hover{
   color: indigo;
 }
 
-a#norellAbout:hover{
+a#testimonial:hover{
   color: indigo;
 }
 
