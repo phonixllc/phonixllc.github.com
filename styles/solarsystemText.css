@@ -18,7 +18,8 @@
 	width: 100px;
 	height: 100px;
 	border-radius: 50px;
-	background: red;
+	background: #eb2755;
+
 	position: absolute;
 	top: 500px;
 	left: 500px;
@@ -31,7 +32,8 @@
 	width: 10px;
 	height: 10px;
 	border-radius: 5px;
-	background: green;
+	background: #eb2755;
+
 	position: absolute;
 	top: 500px;
 	left: 500px;
@@ -44,7 +46,7 @@
 	width: 16px;
 	height: 16px;
 	border-radius: 8px;
-	background: orange;
+	background: #eb2755;
 	position: absolute;
 	top: 500px;
 	left: 500px;
@@ -57,7 +59,7 @@
 	width: 20px;
 	height: 20px;
 	border-radius: 10px;
-	background: blue;
+	background: #eb2755;
 	position: absolute;
 	top: 500px;
 	left: 500px;
@@ -70,7 +72,7 @@
 	width: 14px;
 	height: 14px;
 	border-radius: 7px;
-	background: red;
+	background: #eb2755;
 	position: absolute;
 	top: 500px;
 	left: 500px;
@@ -83,7 +85,7 @@
 	width: 40px;
 	height: 40px;
 	border-radius: 20px;	
-	background: red;
+	background: #eb2755;
 	position: absolute;
 	top: 500px;
 	left: 500px;
@@ -96,7 +98,7 @@
 	width: 36px;
 	height: 36px;
 	border-radius: 18px;
-	background: green;
+	background: #eb2755;
 	position: absolute;
 	top: 500px;
 	left: 500px;
@@ -109,7 +111,7 @@
 	width: 32px;
 	height: 32px;
 	border-radius: 16px;
-	background: orange;
+	background: #eb2755;
 	position: absolute;
 	top: 500px;
 	left: 500px;
@@ -122,7 +124,7 @@
 	width: 30px;
 	height: 30px;
 	border-radius: 15px;
-	background: aqua;
+	background: #eb2755;
 	position: absolute;
 	top: 500px;
 	left: 500px;
@@ -135,7 +137,7 @@
 	width: 6px;
 	height: 6px;
 	border-radius: 3px;
-	background: grey;
+	background: #eb2755;
 	position: absolute;
 	top: 500px;
 	left: 500px;
@@ -230,7 +232,7 @@
 	width: 100px;
 	height: 100px;
 	border-radius: 50px;
-	background: red url(sun.jpg) no-repeat top left;
+	background: #eb2755; no-repeat top left;
 	position: absolute;
 	top: 500px;
 	left: 500px;
@@ -246,7 +248,7 @@
 	width: 10px;
 	height: 10px;
 	border-radius: 5px;
-	background: green;
+	background: #eb2755;
 	position: absolute;
 	top: 500px;
 	left: 500px;
@@ -261,7 +263,7 @@
 	width: 16px;
 	height: 16px;
 	border-radius: 8px;
-	background: orange url(venus.jpg) no-repeat top left;
+	background: #eb2755; no-repeat top left;
 	position: absolute;
 	top: 500px;
 	left: 500px;
@@ -276,7 +278,7 @@
 	width: 20px;
 	height: 20px;
 	border-radius: 10px;
-	background: blue url(earth.jpg) no-repeat top left;
+	background: #eb2755; no-repeat top left;
 	position: absolute;
 	top: 500px;
 	left: 500px;
@@ -290,7 +292,7 @@
 #solarsystem ol>li:nth-child(4) li {
 	width: 10px;
 	height: 10px;
-	background: grey;
+	background: #eb2755;
 	text-indent: -100000px;
 	position: absolute;
 	top: 500px;
@@ -306,7 +308,7 @@
 	width: 14px;
 	height: 14px;
 	border-radius: 7px;
-	background: red;
+	background: #eb2755;
 	position: absolute;
 	top: 500px;
 	left: 500px;
@@ -321,7 +323,7 @@
 	width: 40px;
 	height: 40px;
 	border-radius: 20px;	
-	background: red;
+	background: #eb2755;
 	position: absolute;
 	top: 500px;
 	left: 500px;
@@ -336,7 +338,7 @@
 	width: 36px;
 	height: 36px;
 	border-radius: 18px;
-	background: green;
+	background: #eb2755;
 	position: absolute;
 	top: 500px;
 	left: 500px;
@@ -351,7 +353,7 @@
 	width: 32px;
 	height: 32px;
 	border-radius: 16px;
-	background: orange;
+	background: #eb2755;
 	position: absolute;
 	top: 500px;
 	left: 500px;
@@ -366,7 +368,7 @@
 	width: 30px;
 	height: 30px;
 	border-radius: 15px;
-	background: aqua;
+	background: #eb2755;
 	position: absolute;
 	top: 500px;
 	left: 500px;
@@ -381,7 +383,7 @@
 	width: 6px;
 	height: 6px;
 	border-radius: 3px;
-	background: grey;
+	background: #eb2755;
 	position: absolute;
 	top: 500px;
 	left: 500px;

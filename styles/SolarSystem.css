@@ -10,7 +10,7 @@
 #solarsystem ol>li:nth-child(1) {
 	width: 100px;
 	height: 100px;
-	background:; red;
+	background: #eb2755;
 }
 
 /* Kinetic CSS3 Animation */
@@ -29,64 +29,63 @@
 #solarsystem ol>li:nth-child(1) {
 	width: 100px;
 	height: 100px;
-	background: red;
+	background: #eb2755;
 }
 #solarsystem ol>li:nth-child(2) {
 	width: 10px;
 	height: 10px;
-	background: green;
+	background: #eb2755;
 }
 #solarsystem ol>li:nth-child(3) {
 	width: 15px;
 	height: 15px;
-	background: orange;
+	background: #eb2755;
 }
 #solarsystem ol>li:nth-child(4) {
 	width: 20px;
 	height: 20px;
-	background: blue;
+	background: #eb2755;
 }
 /* The Moon */
 #solarsystem ol>li:nth-child(4) li {
 	height: 10px;
-	background: grey;
+	background: #eb2755;
 	text-indent: -100000px;
 }
 /* Mars */
 #solarsystem ol>li:nth-child(5) {
 	width: 14px;
 	height: 14px;
-	background: red;
+	background: #eb2755;
 }
 /* Jupiter */
 #solarsystem ol>li:nth-child(6) {
 	width: 40px;
 	height: 40px;
-	background: red;
+	background: #eb2755;
 }
 /*Saturn */
 #solarsystem ol>li:nth-child(7) {
 	width: 36px;
 	height: 36px;
-	background: green;
+	background: #eb2755;
 }
 /* Uranus */
 #solarsystem ol>li:nth-child(8) {
 	width: 32px;
 	height: 32px;
-	background: orange;
-}
+	background: #eb2755;
 /* Neptune */ 
 #solarsystem ol>li:nth-child(9) {
 	width: 30px;
 	height: 30px;
-	background: aqua;
+	background: #eb2755;
 }
 /* Pluto */
 #solarsystem ol>li:nth-child(10) {
 	width: 6px;
 	height: 6px;
-	background: grey;
+	background: #eb2755;
 }
 #solarsystem ol {
 	position: relative;
@@ -103,7 +102,7 @@
 	height: 100px;
 /* Jupiter */
 border-radius: 50px;
-background: red;
+background: #eb2755;
 }
 /* Mercury */
 #solarsystem ol>li:nth-child(2) 
@@ -111,20 +110,20 @@ background: red;
 	width: 10px;
 	height: 10px;
 	border-radius: 5px;
-	background: green;
+	background: #eb2755;
 }
 /* Venus */
 #solarsystem ol>li:nth-child(3) {
 	width: 16px;
 	border-radius: 8px;
-	background: orange;
+	background: #eb2755;
 }
 /* The Sun */
 	#solarsystem ol>li:nth-child(1) {
 		width: 100px;
 		height: 100px;
 		border-radius: 50px;
-		background: red;
+		background: #eb2755;
 		position: absolute;
 		top: 500px;
 		left: 500px;
@@ -136,7 +135,7 @@ background: red;
 		width: 10px;
 		height: 10px;
 		border-radius: 5px;
-		background: green;
+		background: #eb2755;
 		position: absolute;
 		top: 500px;
 		left: 500px;
@@ -148,7 +147,7 @@ background: red;
 		width: 16px;
 		height: 16px;
 		border-radius: 8px;
-		background: orange;
+		background: #eb2755;
 		position: absolute;
 		top: 500px;
 		left: 500px;
@@ -160,7 +159,7 @@ background: red;
 		width: 20px;
 		height: 20px;
 		border-radius: 10px;
-		background: blue;
+		background: #eb2755;
 		position: absolute;
 		top: 500px;
 		left: 500px;
@@ -172,7 +171,7 @@ background: red;
 		width: 14px;
 		height: 14px;
 		border-radius: 7px;
-		background: red;
+		background: #eb2755;
 		position: absolute;
 		top: 500px;
 		left: 500px;
@@ -184,7 +183,7 @@ background: red;
 		width: 40px;
 		height: 40px;
 		border-radius: 20px;
-		background: red;
+		background: #eb2755;
 		position: absolute;
 		top: 500px;
 		left: 500px;
@@ -196,7 +195,7 @@ background: red;
 		width: 36px;
 		height: 36px;
 		border-radius: 18px;
-		background: green;
+		background: #eb2755;
 		position: absolute;
 		top: 500px;
 		left: 500px;
@@ -208,7 +207,7 @@ background: red;
 		width: 32px;
 		height: 32px;
 		border-radius: 16px;
-		background: orange;
+		background: #eb2755;
 		position: absolute;
 		top: 500px;
 		left: 500px;
@@ -220,7 +219,7 @@ background: red;
 		width: 30px;
 		height: 30px;
 		border-radius: 15px;
-		background: aqua;
+		background: #eb2755;
 		position: absolute;
 		top: 500px;
 		left: 500px;
@@ -232,7 +231,7 @@ background: red;
 		width: 6px;
 		height: 6px;
 		border-radius: 3px;
-		background: grey;
+		background: #eb2755;
 		position: absolute;
 		top: 500px;
 		left: 500px;
@@ -264,7 +263,7 @@ background: red;
 	width: 10px;
 	height: 10px;
 	border-radius: 5px;
-	background: green;
+	background: #eb2755;
 	position: absolute;
 	top: 500px;
 	left: 500px;
@@ -286,7 +285,7 @@ background: red;
 	width: 100px;
 	height: 100px;
 	border-radius: 50px;
-	background: red url(sun.jpg) no-repeat top left;
+	background: #5E3333; url(sun.jpg) no-repeat top left;
 	position: absolute;
 	top: 500px;
 	left: 500px;
@@ -318,7 +317,7 @@ background: red;
 	width: 16px;
 	height: 16px;
 	border-radius: 8px;
-	background: orange url(venus.jpg) no-repeat top left;
+	background: #eb2755; url(venus.jpg) no-repeat top left;
 	position: absolute;
 	top: 500px;
 	left: 500px;
@@ -333,7 +332,7 @@ background: red;
 	width: 20px;
 	height: 20px;
 	border-radius: 10px;
-	background: blue url(earth.jpg) no-repeat top left;
+	background: #eb2755; url(earth.jpg) no-repeat top left;
 	position: absolute;
 	top: 500px;
 	left: 500px;

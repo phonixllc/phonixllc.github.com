@@ -35,7 +35,7 @@ body {
 	width: 90%;
 }
 .main-header {
-	background: #34495E;
+	background: #5E3333;
 	text-align: center;
 }
 .logo, 
@@ -47,7 +47,7 @@ body {
 .main-nav a {
 	padding: 0 .75em;
 	border-right: 1px dotted;
-	color: rgba(255,255,255, .8);
+	color: #eb2755;;
 	font-size: .7em;
 	line-height: 1rem;
 }
@@ -65,17 +65,17 @@ body {
 	height: 340px;
 }
 .main {
-	background: #3498DB;
+	background: #eb2755;
 }
 .secondary {
-	background: #3498DB;
+	background: #eb2755;
 }
 .extra {
 	display: none;
-	background: #3498DB;
+	background: #eb2755;
 }
 .main-footer {
-	background: #34495E;
+	background: #eb2755;
 }
 .main-header, 
 .main-footer, 
@@ -147,7 +147,7 @@ columns:100px 3;
 {
 	}
 body{
-    background: black;
+    background:  #E1DFD3;
     background-size: 100%;
 }
 

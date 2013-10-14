@@ -389,7 +389,7 @@ input.placeholder-text, textarea.placeholder-text  {
 }  
 
 body {
-	background: #444;
+	background: #5E3333;
 	font-family: georgia, times, serif;
 	font-size: 62.5%;
 	line-height: 1.4em;	
@@ -450,7 +450,7 @@ h1 {
 
 	letter-spacing: -5px;
 
-	color: #33cda7; 
+	color:  #eb2755;
 
 }
 
@@ -462,7 +462,7 @@ h1:after {
 
 	position: absolute; left: 10px; top: 5px;
 
-	color: rgba(216,30,179,0.56);   
+	color:  #E1DFD3; 
 
 }
 	
@@ -476,10 +476,9 @@ h2 {
 
 	letter-spacing: -5px;
 
-	color: #33cda7; 
+	color: #eb2755;
 
 }
-
 
 
 h2:after {
@@ -488,7 +487,7 @@ h2:after {
 
 	position: absolute; left: 10px; top: 5px;
 
-	color: rgba(216,30,179,0.56);   
+	color: #E1DFD3;
 
 hr {
 	size: height="30px";
