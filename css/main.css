@@ -113,7 +113,7 @@ html, body {
 }
 
 body {
-    font-family: "Lucida Grande", "Arial", sans-serif;
+    font-family: "Julius Sans One";
     margin: 1.5em auto;
     padding: 1.5em;
     background-color: #f7f7f7;
@@ -196,42 +196,31 @@ h1 + h2 {
 }
 
 /* Company Logo Design */
-h3.company{font-family: "Codystar";
-    font-size: 400%;
-    color: purple;
-    text-align: center;
-    background-image: url();
-    margin-top: 100px;
+h3 {
+	
+	display: inline;
+
+	position: relative;
+
+	font: 150px Helvetica, Sans-Serif;
+
+	letter-spacing: -5px;
+
+	color:  #eb2755;
+
 }
 
-h3.company:hover{
-    color: green;
-}
 
-h3.home{
-    font-family: "Codystar";
-    font-size: 400%;
-    color: purple;
-    text-align: center;
-    background-image: url();
-    margin-top: -80px;
-}
 
-h3.home:hover{
-    color: red;
-}
+h3:after {
 
-h3{
-    font-family: "Codystar";
-    font-size: 400%;
-    color: purple;
-    text-align: center;
-    background-image: url();
-}
-h3:hover{
-    color: red;
-}
+	content: "Phonix";
 
+	position: absolute; left: 10px; top: 5px;
+
+	color:  #E1DFD3; 
+
+}
 h4.ios{
     font-family:"Megrim";
     text-align: center;

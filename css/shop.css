@@ -5,8 +5,8 @@
 body {
   margin: 0;
   padding-top: 25px;
-  background: #ECF0F1;
-  color: #FFF;
+  background: #E1DFD3; 
+  color: #5E3333;
   font: 1.3em/1.6 sans-serif;
 }
 .wrap {
@@ -14,13 +14,13 @@ body {
   width: 90%;
 }
 .main-header {
-  background: black;
+  background:#5E3333;
   text-align: center;
 }
 .logo, 
 .main-nav a {
   display: inline-block;
-  color: #FFF;
+  color: #5E3333;
   text-decoration: none;
 }
 .main-nav a {
@@ -31,7 +31,7 @@ body {
   line-height: 1rem;
 }
 .main-nav a:hover {
-  color:#FF6600;
+  color:#eb2755;
 }
 .main-nav a:last-child {
   border-right: none;
@@ -44,17 +44,17 @@ body {
   height: 320px;
 }
 .main {
-  background: white;
+  background:  #eb2755;
 }
 .secondary {
-  background: black;
+  background:
 }
 .extra {
   display: none;
-  background: black;
+  background: #eb2755;
 }
 .main-footer {
-  background: black;
+  background: #5E3333;
 }
 .main-header, 
 .main-footer, 
