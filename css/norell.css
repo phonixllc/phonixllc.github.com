@@ -22,26 +22,26 @@ nav ul li a {
   font: 16px/1 "Julius Sans One";
   text-decoration: none;
   color: white;
-  background: 0 1px 1px rgba(0,0,0,.7);
+  background: #eb2755;
   padding: 10px 14px;
-  text-shadow: 0 1px 1px rgba(0,0,0,.7);
+  text-shadow: #eb2755;
 }
 
 nav > ul > li > a {
   border-radius: 5px;
   border: 0;
-  box-shadow: 0 1px 2px rgba(0,0,0,.7);
+  box-shadow: #eb2755;
 }
 
 nav ul > li ul {
   position: absolute;
   width: 200px;
-  background: #33cda7;
+  background: #eb2755;
   border-radius: 5px;
   padding: 5px 0;
   opacity: 0;
   visibility: hidden;
-  box-shadow: 0 3px 15px rgba(0,0,0,.7);
+  box-shadow: #eb2755;
   list-style: none;
 }
 
@@ -52,12 +52,12 @@ nav ul > li ul:after {
   left: 1em;
   height: 0; width: 0;
   border: 6px solid transparent;
-  border-bottom-color: rgba(216,30,179,0.56); 
+  border-bottom-color: #eb2755;
 }
 
 nav > ul li a:hover {
-  background: #33cda7;
-  box-shadow: inset 0 0 15px rgba(0,0,0,.2);
+  background: brown;
+  box-shadow: #eb2755;
   color:indigo;
 }
 
@@ -89,7 +89,7 @@ nav > ul > li > ul > li > ul:after {
   left: -12px;
   heght: 0; width: 0;
   border: 6px solid transparent;
-  border-right-color: rgba(216,30,179,0.56); 
+  border-right-color: #eb2755;
 }
 
 nav > ul > li > ul > li:hover > ul {
@@ -112,13 +112,13 @@ nav > ul > li > ul > li:hover > ul {
 .drop:after {
   right: 8px;
   top: 14px;
-  border-top-color: rgba(216,30,179,0.56); 
+  border-top-color: #eb2755;
 }
 
 .dropp:after {
   top: 12px;
   right: 8px;
-  border-left-color: rgba(216,30,179,0.56); 
+  border-left-color: #eb2755;
 }
 
 .newspaper
