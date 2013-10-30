@@ -668,3 +668,73 @@ body {
 .google .icon, .google .slide {
     background: #d24228;
 }
+
+/* for Famous icon on Norellstar page */
+figure {
+  border: 5px solid #fff;
+  height: 270px;
+  margin: 20px auto;
+  overflow:hidden;
+  position: relative;
+  width: 270px;
+  
+  box-shadow: 0 30px 25px -25px black;
+}
+
+figure img {
+  height: 100%;
+  left: -2%;
+  position: absolute;
+  top: -2%;
+  width: 100%;
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.1s ease-in-out;
+  -o-transition: all 0.1s ease-in-out;
+  -ms-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+}
+
+figure:hover img {
+  height: 100%;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+
+
+figcaption {
+  background-color: rgba(0,0,0,0.5);
+  color: white;
+  font-family: "Julius Sans One";
+  opacity: 0;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  text-shadow: 0 0 3px black;
+  top: 0;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  color: #fff;
+  pointer-events:none;
+  
+  display: box;
+  -moz-box-orient: vertical;
+  -moz-box-pack:center;
+  -moz-box-align:center;
+  -webkit-box-orient: vertical;
+  -webkit-box-pack:center;
+  -webkit-box-align:center;
+}
+
+figcaption h3 {
+  margin: 0;
+  padding-top: 150px;
+}
+
+figure:hover figcaption {
+  opacity: 1;
+}
