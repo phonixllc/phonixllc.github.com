@@ -1,0 +1,196 @@
+body {
+  margin:0 auto;
+  overflow:hidden;
+  font: 100%/40px "Marcellus", serif;
+}
+
+canvas {
+  display: block;
+  height: 100%;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 0;
+  width: 100%
+}
+
+#control-panel {
+  background: #33CC33;
+  /*border: 15px solid #E68A8A;*/
+  left: 20px;
+  right: 20px;
+  padding: 10px 15px;
+  position: absolute;
+  top: 20px;
+  z-index: 2;
+  height: 455px;
+  min-width: 800px;
+
+}
+
+
+h1 {
+  position: absolute;
+  left: 42%;
+  margin-left: -1.9em;
+  color: #3399FF;
+  font:700 9em 'Montserrat Subrayada', sans-serif; 
+  margin-top:-20px;
+}
+
+@keyframes loading {
+  from { max-width: 0; }
+}
+
+h1:before {
+  content: attr(data-content);
+  position: absolute;
+  overflow: hidden;
+  max-width: 5.3em;
+  color: #FFFF66;
+  animation: loading 8s linear;
+}
+
+h2 {
+    text-align: center;
+    color: #FFFF66;
+    border-color: indigo;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    text-shadow: 2px 2px #3399FF;
+    font-size: 150%;
+    font-family: 'Marcellus', serif;
+    padding: 1em;
+    margin: -1em -1em 1em -1em;
+    margin-top: -4px;
+}
+
+h1 + h2 {
+    margin-top: -2em;
+    padding-top: 0;
+}
+
+p.playlist{
+  font-family: 'Marcellus', serif;
+  font-size: 150%;
+  color: #FFFF66;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  text-shadow: 2px 2px #3399FF;
+}
+
+p {
+	font-size: 12px;
+  font-family: 'Marcellus', serif;
+  margin: 0 0 5px;
+}
+
+label {
+  font-size: 12px;
+  font-weight: bold;
+}	
+
+button {
+  display: block; 
+  margin: 10px 0 5px;
+}
+
+a {
+  border-bottom: 1px dotted #444;
+  color: #fff;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
+
+.bbplayer {
+  font: bold 16px/1.5 "Marcellus", serif;
+  color: #898989;
+  background: black;
+  padding:10px;
+}
+
+.bb-play {
+  display: inline-block;
+  vertical-align: middle;
+  height: 65px;
+  width:  65px;
+  border: 5px solid #CFCFCF;
+  border-radius: 50%; 
+  background: transparent; 
+  background-image: url('../images/play_med.png');
+  background-repeat: no-repeat;
+  background-position: 7px center;
+  cursor: pointer;
+}
+
+.bb-playing {
+  vertical-align: middle;
+  background-image: url('../images/pause.png');
+  background-position: center center;
+}
+
+.bb-forward {
+  vertical-align: middle;
+  display: inline-block;
+  height: 32px;
+  width:  32px;
+  background: transparent;
+  background-image: url('../images/forward.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.bb-rewind {
+  vertical-align: middle;
+  display: inline-block;
+  height: 32px;
+  width:  32px;
+  background: transparent;
+  background-image: url('../images/rewind.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.bb-trackTime {
+  vertical-align: middle;
+  line-height: 32px;
+  display: inline-block;
+  height: 32px;
+}
+
+.bb-trackLength {
+  vertical-align: middle;
+  line-height: 32px;
+  display: inline-block;
+  height: 32px;
+}
+
+.bb-trackTitle {
+  vertical-align: middle;
+  line-height: 32px;
+  display: inline-block;
+  height: 32px;
+}
+
+.bb-debug {
+  height:10em;
+  width: 32em;
+  border: 1px solid #DDD;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+  overflow: auto;
+  font-weight: normal;
+  font-size: 14px/1.5;
+}
+
+.bb-label {
+  font-size: 14px/1.5;
+  font-weight: 300;
+  margin: 10px;
+}
