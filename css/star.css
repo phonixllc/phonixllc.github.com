@@ -669,6 +669,17 @@ body {
     background: #d24228;
 }
 
+figure.liveart {
+  border: 5px solid #fff;
+  height: 400px;
+  margin: 20px auto;
+  overflow:hidden;
+  position: relative;
+  width: 400px;
+  
+  box-shadow: 0 30px 25px -25px black;
+}
+
 /* for Famous icon on Norellstar page */
 figure {
   border: 5px solid #fff;
