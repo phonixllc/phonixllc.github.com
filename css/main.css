@@ -19,12 +19,12 @@
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   /* iPhone, Android rules here */
     * {
-        max-width: 350px;
+        max-width: 360px;
         box-sizing: border-box;
         -moz-box-sizing: border-box;
      }
      html{
-        max-width: 350px;
+        max-width: 360px;
      }
      ul.desktop{
         list-style-type: none;
