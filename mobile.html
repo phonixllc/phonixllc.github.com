@@ -348,6 +348,15 @@
 </head>
 
 <body>
+    <!-- For FB Newsfeed -->
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=492306967513697";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
     <!--Home Page -->
 
     <div data-role="page" id="home">
@@ -991,11 +1000,19 @@
         <div data-role="content">
              <h1 class="mail">Newsfeed</h1>
             <div class="special">
-                <p>Our website, both the mobile and desktop versions, is under construction in some places, such as the contact pages, and Zander and Norell's personal pages in the desktop browser. Check back often to see the progressive transformations our website will take! Thank you for joining us on the journey!</p>
+                <!-- Twitter Newsfeed -->
+                <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/KarnakGallery" data-widget-id="416396757879107586">Tweets by @KarnakGallery</a>
+                <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+
+
                 <article><img src="img/gay90s.jpg" class="pride"/><p class="pride">Recently, you may have seen Norell &amp; Zander, or the brains behind Ph&ouml;nix LLC, decorating and embellishing many live canvases at MN Pride at the Gay 90s.</p><p>They were joined with MUA &amp; Photographer, not to mention model herself, Jessica Collette.</p> <a href="jcartist.html"><img src="img/jcbus.jpg"/></a>
                 <p>The three of them painted the town, in the  name of love, and pride in love.</p></article>
                 <article><p>Prior to Pride, Zander was hired by SIMShows, or Sound In Motion, to provide live, stellar body painting entertainment in downtown Minneapolis at Epic Nightclub for: <h4>Benny Benassi</h4><img src="http://fbcdn-sphotos-f-a.akamaihd.net/hphotos-ak-ash3/936365_566588893362840_1742481921_n.jpg"/></p></article>
                 <article><h4>Tron in 3D</h4><h5>Live at Benny Benassi</h5> <img src="http://fbcdn-sphotos-b-a.akamaihd.net/hphotos-ak-prn2/980805_567540636600999_1601684874_o.jpg"/></article>
+
+                  <!-- FB Newsfeed -->
+                <div style="background: white;" class="fb-like-box" data-href="http://www.facebook.com/PhonixLLC" data-width="400px" data-height="300px" data-colorscheme="light" data-show-faces="false" data-header="true" data-stream="true" data-show-border="true"></div>
             </div>
 
 
