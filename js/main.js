@@ -47,7 +47,7 @@ $('#web').click(function(){
 $('#brains').click(function(){
     $('#hidden_content5').slideToggle('slow', function(){
         if( $('#hidden_content5').is(':hidden') ){
-            $('#brains').text('Who Are We?');
+            $('#brains').text('Why Hire Us?');
         } else {
             $('#brains').text('Hide content');
         }
