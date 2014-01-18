@@ -244,28 +244,28 @@ href="css/contact.css"/>-->
                       </nav>  
                           <!--<div id="contact-form" class="clearfix">  -->
                             <p>Please fill out the contact form below to get in touch with us! Remember, the more information you provide, the better we will be able to help you with your inquiry.</p>  
-                                <?php  
-                                  //init variables  
-                                  $cf = array();  
-                                  $sr = true;  
-                                    
-                                  if(isset($_SESSION['cf_returndata'])){  
-                                      $cf = $_SESSION['cf_returndata'];  
-                                      $sr = true;  
-                                  }  
-                                ?>  
-                            <ul id="errors" class="<?php echo ($sr && !$cf['form_ok']) ? 'visible' : ''; ?>">  
-                              <li id="info">There were some problems with your form submission:</li>  
-                              <?php   
-                              if(isset($cf['errors']) && count($cf['errors']) > 0) :  
-                                  foreach($cf['errors'] as $error) :  
-                              ?>  
-                              <li><?php echo $error ?></li>  
-                              <?php  
-                                  endforeach;  
-                              endif;  
-                              ?>  
-                            </ul>  
+                            <?php
+                              //init variables
+                              $cf = array();
+                              $sr = false;
+                              
+                              if(isset($_SESSION['cf_returndata'])){
+                                $cf = $_SESSION['cf_returndata'];
+                                $sr = true;
+                              }
+                            ?>
+                            <ul id="errors" class="<?php echo ($sr && !$cf['form_ok']) ? 'visible' : ''; ?>">
+                              <li id="info">There were some problems with your form submission:</li>
+                                <?php 
+                                if(isset($cf['errors']) && count($cf['errors']) > 0) :
+                                  foreach($cf['errors'] as $error) :
+                                ?>
+                                <li><?php echo $error ?></li>
+                                <?php
+                                endforeach;
+                                endif;
+                                ?>
+                            </ul>
                             <p id="success" class="<?php echo ($sr && $cf['form_ok']) ? 'visible' : ''; ?>">Thanks for your message! We will get back to you ASAP!</p> 
 
                             <form method="post" action="process.php">   
@@ -328,11 +328,12 @@ href="css/contact.css"/>-->
 
 </div>  
 
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
-<script type="text/javascript" src="js/about.js"></script>
+
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
 <script>!window.jQuery && document.write(unescape('%3Cscript src="js/libs/jquery-1.5.1.min.js"%3E%3C/script%3E'))</script>
 <script src="js/plugins.js"></script>
 <script src="js/script.js"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+<script type="text/javascript" src="js/about.js"></script>
 </body>
 </html>
