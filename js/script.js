@@ -8,7 +8,7 @@ $(function(){
 		successNotice = $('#success'),
 		loading = $('#loading'),
 		errorMessages = {
-			required: ' is a required field',
+			required: ' is a required field.',
 			email: 'You have not entered a valid email address for the field: ',
 			minlength: ' must be greater than '
 		}
