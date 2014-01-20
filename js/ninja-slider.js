@@ -16,7 +16,7 @@ var nsOptions = {
         screenWidth: [0, 600],
         path: ["/md/", "/lg/"]
     },
-    license: "b2e981"
+    license: "b2h284"
 };
 
 var nslider = new NinjaSlider(nsOptions);
