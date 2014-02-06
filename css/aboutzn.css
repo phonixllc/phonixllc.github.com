@@ -194,7 +194,8 @@ nav ul li {
     position: relative;
     background-color:#F2F7F9;  
     padding:20px;  
-    margin: 50px auto;      
+    margin: 50px auto;  
+    margin-top:80px;  
     border: 6px solid #8FB5C1;  
     -moz-border-radius:15px;  
     -webkit-border-radius:15px;  
