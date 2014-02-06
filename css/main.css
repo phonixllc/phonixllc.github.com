@@ -1,4 +1,45 @@
+#sidebar-top, #sidebar-bottom {
+	width: 30%;
+  float: right;
+  
+}
+#sidebar-bottom {
+float: left;
+}
+#main {
+	height: 650px; /* for demo purposes */
+	width: 70%;
+  float: left;
+}
 
+/* media query to stack them on top of each other < 500px */
+
+@media all and (max-width: 500px) {
+	#sidebar-top, #sidebar-bottom, #main {
+    float: none;
+    width: 100%;
+ 
+	}
+}
+
+/* colours to make it easier to see */
+
+div {
+  background-color: ;
+  border: ;
+  padding: 1em;
+}
+#main {
+  background-color: black;
+}
+#sidebar-top {
+  background-color: ;
+}
+
+
+
+/* apply a natural box layout model to all elements (http://paulirish.com/2012/box-sizing-border-box-ftw/) */
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 				
 @media only screen and (max-width: 999px) {
   /* rules that only apply for canvases narrower than 1000px */
@@ -154,7 +195,7 @@ html{
 
 html, body {
   margin: 0;
-  padding-top: 5px;
+  padding-top: 0px;
   border:0;
   
     /* Below is with added columns
@@ -167,17 +208,19 @@ html, body {
 body {
     font-family: "Julius Sans One";
     margin: 1.5em auto;
-    padding: 1.5em;
-    background-color: #f7f7f7;
+    /*padding: 1.5em;*/
+    /*background-color: #f7f7f7;*/
     color: #4D4B39;
      /*max-width: 35em;*/
     max-width: auto;
     min-width: auto;
-    border: 0.75em solid #A6A59C;
+    border: ;
     line-height: 1.5em;
 
     /* testing image stuff */
     position: relative;
+    height: 100%;
+    background-color: ;
 
 
 }
@@ -190,6 +233,7 @@ background {
     position: center;
     background-position: absolute;
 }
+
 #content{
     height:auto;
     min-width:640px;
@@ -357,36 +401,6 @@ span img{
   max-height: 400px;
   position: center fixed;
 }
-/* below is css for image transition when in place
-
-#enter{
-    position:relative;
-    height: 711px;
-    width:auto;
-    margin: 1.5em auto;
-    margin-bottom: -200px;
-}
-#enter img{
-    position:absolute;
-    height: 400px;
-    width:auto;
-    left:0;
-    margin-left:-20px;
-    -webkit-transition: opacity 1s ease-in-out;
-    -moz-transition: opacity 1s ease-in-out;
-    -o-transition: opacity 1s ease-in-out;
-    transition: opacity 1s ease-in-out;
-}
-
-
-img.enterSite3:hover{
-    opacity:0;
-}
-div img.enterSite4:hover{
-    opacity:0;
-}
-
-*/
 
 /*Tabs */
 #hidden_content{display:none;}
@@ -425,7 +439,7 @@ body.tab {
 
 .btn {
   background: #eb2755;
-  max-width: auto;
+  max-width: 400px;
   text-decoration: none;
   margin-bottom: 30px;
   text-align: center;
@@ -439,37 +453,6 @@ body.tab {
   }
   
 }
-
-/* punch */
-/*
-button.punch {
-  background: #bc2c2c;
-  border-top: 1px solid #bc2c2c;
-  border-right: 1px solid #bc2c2c;
-  border-bottom: 1px solid #bc2c2c;
-  border-left: 1px solid #bc2c2c;
-  border-radius: 4px;
-  -webkit-box-shadow: inset 0 1px 10px 1px #5c8bee, 0px 1px 0 #1d2c4d, 0 6px 0px #1f3053, 0 8px 4px 1px #111111;
-  box-shadow: inset 0 1px 10px 1px #bc2c2c, 0px 1px 0 #bc2c2c, 0 6px 0px #bc2c2c, 0 8px 4px 1px #111111;
-  color: #fff;
-  font: bold 25px/1 "helvetica neue", helvetica, arial, sans-serif;
-  margin-bottom: 10px;
-  padding: 10px 0 12px 0;
-  text-align: center;
-  text-shadow: 0px -1px 1px #bc2c2c;
-  width: 350px;
-  -webkit-background-clip: padding-box; }
-  button.punch:hover {
-    -webkit-box-shadow: inset 0 0px 20px 1px #87adff, 0px 1px 0 #1d2c4d, 0 6px 0px #1f3053, 0 8px 4px 1px #111111;
-    box-shadow: inset 0 0px 20px 1px #87adff, 0px 1px 0 #1d2c4d, 0 6px 0px #1f3053, 0 8px 4px 1px #111111;
-    cursor: pointer; }
-  button.punch:active {
-    -webkit-box-shadow: inset 0 1px 10px 1px #5c8bee, 0 1px 0 #1d2c4d, 0 2px 0 #1f3053, 0 4px 3px 0 #111111;
-    box-shadow: inset 0 1px 10px 1px #5c8bee, 0 1px 0 #1d2c4d, 0 2px 0 #1f3053, 0 4px 3px 0 #111111;
-    margin-top: 58px; }
-
-
-*/
 
 button a {
 	text-decoration: none;
@@ -562,23 +545,6 @@ center#nav{
    overflow: auto; /* edit by thobens: overflow: hidden seems to be better, as (at least) IE 8 shows always a disabled scrollbar with overflow: auto */
 }
 
-/* Why is Zanders buttons and photo always larger than mine? */
-/*
-table tr td {
-  color:#bc2c2c;
-}
-
-td.norell{
-  width: 100%;
-  height: auto;
-}
-
-td.zander{
-  width: 50%;
-  height: auto;
-}
-*/
-
 input.punch:hover{
 	color:#25c655;
 }
@@ -662,6 +628,7 @@ footer.desktop {
   margin-bottom: 0px;
   margin-top: 40px;
   text-align: center;
+  width:100%;
 
 }
 
@@ -711,19 +678,6 @@ div.staff {
   margin: 10px auto;
 }
 
-
-/* testing
-form a {
-	text-decoration: none;
-	text-color: white;
-}
-*/
-/*form a:link {color:white;} */     /* unvisited link */
-/*form a:visited {color:white;}  */ /* visited link */
-/*form a:hover {color:#FF00FF;} */ /* mouse over link */
-/*form a:active {color:#0000FF;} */ /* selected link */
-
-/* Refactoring table with Norell and Zander into appropriate columns */
 
 * { 
   -moz-box-sizing: border-box;
