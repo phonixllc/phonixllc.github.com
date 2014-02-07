@@ -1,15 +1,15 @@
-#sidebar-top, #sidebar-bottom {
-	width: 30%;
-  float: right;
-  
+/*News Scrolling with javascript*/
+
+#pscroller1{
+width: 200px;
+height: 100px;
+border: 11px red;
+padding: 5px;
+background-color: rgba(42,23,23,0.67);
 }
-#sidebar-bottom {
-float: left;
-}
-#main {
-	height: 650px; /* for demo purposes */
-	width: 70%;
-  float: left;
+
+#pscroller2 a{
+text-decoration: none;
 }
 
 /* media query to stack them on top of each other < 500px */
@@ -33,12 +33,24 @@ div {
   background-color: black;
 }
 #sidebar-top {
-  background-color: ;
+  background-color: black;
 }
 
+#sidebar-top, #sidebar-bottom {
+	width: 30%;
+  float: right;
+  
+}
 
-
-/* apply a natural box layout model to all elements (http://paulirish.com/2012/box-sizing-border-box-ftw/) */
+#sidebar-bottom {
+float: left;
+}
+#main {
+	height: 550px; /* for demo purposes */
+	width: 70%;
+  float: left;
+}
+/* apply a natural box layout model to all elements */
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 				
 @media only screen and (max-width: 999px) {
@@ -184,7 +196,6 @@ div {
 header {
 	margin-bottom: 150px;
 	max-height: 60px;
-	max-width: auto;
 	position: center;
 	
 }
