@@ -172,6 +172,14 @@ float: left;
 
 }
 
+/* Center element in HTML is obsolete, this should make it work in css */
+.center
+{
+	margin-left:auto;
+	margin-right:auto;
+	width:70%;
+}
+
 /* with modernizr */
 .csscolumns ul.features {
  -moz-column-count: 2;
