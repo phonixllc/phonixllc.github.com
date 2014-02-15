@@ -1,3 +1,16 @@
+html{
+    background: rgba(235,39,85,1);
+background: -moz-linear-gradient(left, rgba(235,39,85,1) 0%, rgba(225,223,211,1) 50%, rgba(225,223,211,1) 50%, rgba(235,39,85,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(235,39,85,1)), color-stop(50%, rgba(225,223,211,1)), color-stop(50%, rgba(225,223,211,1)), color-stop(100%, rgba(235,39,85,1)));
+background: -webkit-linear-gradient(left, rgba(235,39,85,1) 0%, rgba(225,223,211,1) 50%, rgba(225,223,211,1) 50%, rgba(235,39,85,1) 100%);
+background: -o-linear-gradient(left, rgba(235,39,85,1) 0%, rgba(225,223,211,1) 50%, rgba(225,223,211,1) 50%, rgba(235,39,85,1) 100%);
+background: -ms-linear-gradient(left, rgba(235,39,85,1) 0%, rgba(225,223,211,1) 50%, rgba(225,223,211,1) 50%, rgba(235,39,85,1) 100%);
+background: linear-gradient(to right, rgba(235,39,85,1) 0%, rgba(225,223,211,1) 50%, rgba(225,223,211,1) 50%, rgba(235,39,85,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eb2755', endColorstr='#eb2755', GradientType=1 );
+background-attachment: fixed;
+background-size: 100% auto;
+}
+
 .newspaper
 {
 columns:100px 3;
@@ -132,40 +145,6 @@ nav > ul > li > ul > li:hover > ul {
   border-left-color: #eb2755;
 }
 
-/*
-nav ul li {  
-    float: left;  
-    list-style: none;
-}  
-  
-    nav ul li a {  
-        display: block;  
-        margin-right: 20px;  
-        width: 140px;  
-        font-size: 16px;  
-        line-height: 44px;  
-        text-align: center;  
-        text-decoration: none;  
-        color: #777;  
-    }  
-  
-        nav ul li a:hover {  
-            color: #fff;  
-        }  
-  
-        nav ul li.selected a {  
-            color: #fff;  
-        }  
-  
-        nav ul li.subscribe a {  
-            margin-left: 22px;  
-            padding-left: 33px;  
-            text-align: left;  
-            background: url("rss.png") left center no-repeat;  
-        } 
-
-*/
-
 /* Phones to Tablets */
 
 @media only screen and (min-width: 481px) {
@@ -194,8 +173,7 @@ nav ul li {
     position: relative;
     background-color:#F2F7F9;  
     padding:20px;  
-    margin: 50px auto;  
-    margin-top:80px;  
+    margin: 50px auto;      
     border: 6px solid #8FB5C1;  
     -moz-border-radius:15px;  
     -webkit-border-radius:15px;  
@@ -275,91 +253,6 @@ nav ul li {
     font-weight:bold;  
     color:#F00;      
 }  
-  /*
-#contact-form #submit-button {  
-    width: 100px;  
-    background-color:#333;  
-    color:#FFF;  
-    border:none;  
-    display:block;  
-    float:rightright;  
-    margin-bottom:0px;  
-    margin-right:6px;  
-    background-color:#8FB5C1;  
-    -moz-border-radius:8px;  
-}  
-  
-#contact-form #submit-button:hover {  
-    background-color: #A6CFDD;  
-}  
-  
-#contact-form #submit-button:active {  
-    position:relative;  
-    top:1px;  
-}  
-  
-#contact-form #loading {  
-    width:32px;  
-    height:32px;  
-    background-image:url(../img/loading.gif);  
-    display:block;  
-    position:absolute;  
-    rightright:130px;  
-    bottombottom:16px;  
-    display:none;  
-}  
-  
-#errors {  
-    border:solid 1px #E58E8E;  
-    padding:10px;  
-    margin:25px 0px;  
-    display:block;  
-    width:437px;  
-    -webkit-border-radius:8px;  
-    -moz-border-radius:8px;  
-    border-radius:8px;  
-    background:#FFE6E6 url(../img/cancel_48.png) no-repeat 405px center;  
-    display:none;  
-}  
-  
-#errors li {  
-    padding:2px;  
-    list-style:none;      
-}  
-  
-#errors li:before {  
-    content: ' - ';      
-}  
-  
-#errors #info {  
-    font-weight:bold;  
-}  
-  
-#errors #info:before {  
-    content: '';      
-}  
-  
-#success {  
-    border:solid 1px #83D186;  
-    padding:25px 10px;  
-    margin:25px 0px;  
-    display:block;  
-    width:437px;  
-    -webkit-border-radius:8px;  
-    -moz-border-radius:8px;  
-    border-radius:8px;  
-    background:#D3EDD3 url(../img/accepted_48.png) no-repeat 405px center;  
-    font-weight:bold;  
-    display:none;  
-}  
-  
-#errors.visible, #success.visible {  
-    display:block;      
-}  
-  
-#req-field-desc {  
-    font-style:italic;  
-}  
   
 /* Remove box shadow firefox, chrome and opera put around required fields. It looks rubbish. */  
 input:required, textarea:required {  
@@ -395,11 +288,7 @@ body {
 	font-size: 62.5%;
 	line-height: 1.4em;	
 	min-width: 720px;
-  /* below may or may not be needed
-  position: relative;
-  margin:auto;
-  width:auto; */
-}
+
 article {
 	position: relative;
 	margin: auto;
@@ -432,7 +321,7 @@ article p {
 	-moz-column-fill: balanced
 	-o-column-fill: balanced
 	-ms-column-fill: balanced
-	column-fill: balanced
+	-column-fill: balanced
 }
 
 .rect {
@@ -441,17 +330,47 @@ article p {
 	width: 100%;
 	position:relative;
 }
+
+
+      h3{
+        font-family: 'Megrim'; 
+        font-size: 34px; 
+        color:#eb2755;
+        margin: 17px auto;
+        letter-spacing: 1px;
+        word-spacing: 6px;
+      }
+
+      h3:hover{
+        color: white;
+      }
+
+      p{
+        font-family: "Poiret One";
+        font-size: 22px;
+        color: #eb2755;
+        margin:20px auto;
+        text-align: left;
+      }
+      
+    .center
+    {
+      margin-left:auto;
+      margin-right:auto;
+      width:70%;
+    }
+
 h1 {
 
-	display: inline;
+  display: inline;
 
-	position: relative;
+  position: relative;
 
-	font: 200px Helvetica, Sans-Serif;
+  font: 200px Helvetica, Sans-Serif;
 
-	letter-spacing: -5px;
+  letter-spacing: -5px;
 
-	color:  #eb2755;
+  color: #eb2755;
 
 }
 
@@ -459,45 +378,46 @@ h1 {
 
 h1:after {
 
-	content: "About";
+  content: "About";
 
-	position: absolute; left: 10px; top: 5px;
+  position: absolute; left: 10px; top: 5px;
 
-	color:  #E1DFD3; 
+  color: #E1DFD3; 
 
 }
-	
+  
 h2 {
 
-	display: inline;
+  display: inline;
 
-	position: relative;
+  position: relative;
 
-	font: 200px Helvetica, Sans-Serif;
+  font: 200px Helvetica, Sans-Serif;
 
-	letter-spacing: -5px;
+  letter-spacing: -5px;
 
-	color: #eb2755;
+  color: #eb2755; 
 
 }
+
 
 
 h2:after {
 
-	content: "Zander";
+  content: "Zander";
 
-	position: absolute; left: 10px; top: 5px;
+  position: absolute; left: 10px; top: 5px;
 
-	color: #E1DFD3;
+  color: #E1DFD3;  
+
 
 hr {
-	size: height="30px";
+  size: "30px";
 }
 
 h2 {
   clear:both;
 }
-
 
 p {
 	color:text:blue;
@@ -560,14 +480,6 @@ ul li:hover {
 .user a > span {
   margin-left:10px;
 }
-
-/*
-input.punch:hover {
-    -webkit-box-shadow: inset 0 0px 20px 1px #87adff, 0px 1px 0 #1d2c4d, 0 6px 0px #1f3053, 0 8px 4px 1px #111111;
-    box-shadow: inset 0 0px 20px 1px #87adff, 0px 1px 0 #1d2c4d, 0 6px 0px #1f3053, 0 8px 4px 1px #111111;
-    cursor: pointer; 
-}
-*/
 
 #contact-form input.punch:hover{
     color:#FF00FF;

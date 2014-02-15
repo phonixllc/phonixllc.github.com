@@ -1,3 +1,16 @@
+html{
+    background: rgba(235,39,85,1);
+background: -moz-linear-gradient(left, rgba(235,39,85,1) 0%, rgba(225,223,211,1) 50%, rgba(225,223,211,1) 50%, rgba(235,39,85,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(235,39,85,1)), color-stop(50%, rgba(225,223,211,1)), color-stop(50%, rgba(225,223,211,1)), color-stop(100%, rgba(235,39,85,1)));
+background: -webkit-linear-gradient(left, rgba(235,39,85,1) 0%, rgba(225,223,211,1) 50%, rgba(225,223,211,1) 50%, rgba(235,39,85,1) 100%);
+background: -o-linear-gradient(left, rgba(235,39,85,1) 0%, rgba(225,223,211,1) 50%, rgba(225,223,211,1) 50%, rgba(235,39,85,1) 100%);
+background: -ms-linear-gradient(left, rgba(235,39,85,1) 0%, rgba(225,223,211,1) 50%, rgba(225,223,211,1) 50%, rgba(235,39,85,1) 100%);
+background: linear-gradient(to right, rgba(235,39,85,1) 0%, rgba(225,223,211,1) 50%, rgba(225,223,211,1) 50%, rgba(235,39,85,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eb2755', endColorstr='#eb2755', GradientType=1 );
+background-attachment: fixed;
+background-size: 100% auto;
+}
+
 .main-nav{
   display:inline-block;
 }
@@ -148,7 +161,7 @@ h1 {
 
 	display: inline;
 
-	position: relative;
+	position: relative; left: 130px;
 
 	font: 200px Helvetica, Sans-Serif;
 
@@ -168,13 +181,14 @@ h1:after {
 
 	color: #E1DFD3; 
 
+
 }
 	
 h2 {
 
 	display: inline;
 
-	position: relative;
+	position: relative; left: 220px;
 
 	font: 200px Helvetica, Sans-Serif;
 
