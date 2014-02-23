@@ -5,7 +5,7 @@ body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, 
 }
 
 html{
-    background: rgba(235,39,85,1);
+   background: rgba(235,39,85,1);
 background: -moz-linear-gradient(left, rgba(235,39,85,1) 0%, rgba(225,223,211,1) 50%, rgba(225,223,211,1) 50%, rgba(235,39,85,1) 100%);
 background: -webkit-gradient(left top, right top, color-stop(0%, rgba(235,39,85,1)), color-stop(50%, rgba(225,223,211,1)), color-stop(50%, rgba(225,223,211,1)), color-stop(100%, rgba(235,39,85,1)));
 background: -webkit-linear-gradient(left, rgba(235,39,85,1) 0%, rgba(225,223,211,1) 50%, rgba(225,223,211,1) 50%, rgba(235,39,85,1) 100%);
@@ -1710,3 +1710,9 @@ h4:hover{
     background-color: #d11151;
 }
 
+.center
+{
+   margin-left:auto;
+   margin-right:auto;
+   width:70%;
+}
