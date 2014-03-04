@@ -1,180 +1,9 @@
-html {
-      background: rgba(235,39,85,1);
-background: -moz-linear-gradient(left, rgba(235,39,85,1) 0%, rgba(225,223,211,1) 50%, rgba(225,223,211,1) 50%, rgba(235,39,85,1) 100%);
-background: -webkit-gradient(left top, right top, color-stop(0%, rgba(235,39,85,1)), color-stop(50%, rgba(225,223,211,1)), color-stop(50%, rgba(225,223,211,1)), color-stop(100%, rgba(235,39,85,1)));
-background: -webkit-linear-gradient(left, rgba(235,39,85,1) 0%, rgba(225,223,211,1) 50%, rgba(225,223,211,1) 50%, rgba(235,39,85,1) 100%);
-background: -o-linear-gradient(left, rgba(235,39,85,1) 0%, rgba(225,223,211,1) 50%, rgba(225,223,211,1) 50%, rgba(235,39,85,1) 100%);
-background: -ms-linear-gradient(left, rgba(235,39,85,1) 0%, rgba(225,223,211,1) 50%, rgba(225,223,211,1) 50%, rgba(235,39,85,1) 100%);
-background: linear-gradient(to right, rgba(235,39,85,1) 0%, rgba(225,223,211,1) 50%, rgba(225,223,211,1) 50%, rgba(235,39,85,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eb2755', endColorstr='#eb2755', GradientType=1 );
-background-attachment: fixed;
-background-size: 100% auto;
-}
 
-body {
-  /*background: url(http://fbcdn-sphotos-h-a.akamaihd.net/hphotos-ak-prn1/933983_615114615166233_599086299_n.jpg) no-repeat;*/
-background: rgba(235,39,85,1);
-background: -moz-linear-gradient(left, rgba(235,39,85,1) 0%, rgba(225,223,211,1) 50%, rgba(225,223,211,1) 50%, rgba(235,39,85,1) 100%);
-background: -webkit-gradient(left top, right top, color-stop(0%, rgba(235,39,85,1)), color-stop(50%, rgba(225,223,211,1)), color-stop(50%, rgba(225,223,211,1)), color-stop(100%, rgba(235,39,85,1)));
-background: -webkit-linear-gradient(left, rgba(235,39,85,1) 0%, rgba(225,223,211,1) 50%, rgba(225,223,211,1) 50%, rgba(235,39,85,1) 100%);
-background: -o-linear-gradient(left, rgba(235,39,85,1) 0%, rgba(225,223,211,1) 50%, rgba(225,223,211,1) 50%, rgba(235,39,85,1) 100%);
-background: -ms-linear-gradient(left, rgba(235,39,85,1) 0%, rgba(225,223,211,1) 50%, rgba(225,223,211,1) 50%, rgba(235,39,85,1) 100%);
-background: linear-gradient(to right, rgba(235,39,85,1) 0%, rgba(225,223,211,1) 50%, rgba(225,223,211,1) 50%, rgba(235,39,85,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eb2755', endColorstr='#eb2755', GradientType=1 );
-    /*
-  background-image: linear-gradient(bottom, rgb(232,232,232) 48%, rgb(181,178,177) 74%, rgb(171,199,199) 0%);
-  background-image: -o-linear-gradient(bottom, rgb(232,232,232) 48%, rgb(181,178,177) 74%, rgb(171,199,199) 0%);
-  background-image: -moz-linear-gradient(bottom, rgb(232,232,232) 48%, rgb(181,178,177) 74%, rgb(171,199,199) 0%);
-  background-image: -webkit-linear-gradient(bottom, rgb(232,232,232) 48%, rgb(181,178,177) 74%, rgb(171,199,199) 0%);
-  background-image: -ms-linear-gradient(bottom, rgb(232,232,232) 48%, rgb(181,178,177) 74%, rgb(171,199,199) 0%);
-
-  background-image: -webkit-gradient(
-    linear,
-    left bottom,
-    left top,
-    color-stop(0.48, rgb(232,232,232)),
-    color-stop(0.74, rgb(181,178,177)),
-    color-stop(0, rgb(171,199,199))
-  );
-  */
-  background-attachment: fixed;
-  background-size: 100% auto;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 100%;
-  line-height: 1.2em;
-}
 ::selection {
   background-color: rgba(70, 130, 180, 0.5);
   color: #333;
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
 }
-
-/* nav bar */
-.main-nav{
-  display:inline-block;
-
-}
-
-nav > ul {
-  margin-top: 2em;
-  margin-left: 0px;
-  height: 40px;
-  line-height: 40px;
-  padding-left: 2em;
-  list-style: none;
-}
-
-nav > ul > li {
-  position: relative;
-  margin-right: 1em;
-  float: left;
-}
-
-nav ul li a {
-  display: block;
-  font: 16px/1 "Julius Sans One";
-  text-decoration: none;
-  color: white;
-  background: 0 1px 1px rgba(0,0,0,.7);
-  padding: 10px 14px;
-  text-shadow: 0 1px 1px rgba(0,0,0,.7);
-}
-
-nav > ul > li > a {
-  border-radius: 5px;
-  border: 0;
-  box-shadow: 0 1px 2px rgba(0,0,0,.7);
-}
-
-nav ul > li ul {
-  position: absolute;
-  width: 200px;
-  background: #33cda7;
-  border-radius: 5px;
-  padding: 5px 0;
-  opacity: 0;
-  visibility: hidden;
-  box-shadow: 0 3px 15px rgba(0,0,0,.7);
-  list-style: none;
-}
-
-nav ul > li ul:after {
-  content: "";
-  position: absolute;
-  top: -11px;
-  left: 1em;
-  height: 0; 
-  width: 0;
-  border: 6px solid transparent;
-  border-bottom-color: rgba(216,30,179,0.56); 
-}
-
-nav > ul li a:hover {
-  background: #33cda7;
-  box-shadow: inset 0 0 15px rgba(0,0,0,.2);
-  color: indigo;
-}
-
-nav > ul li:hover > ul {
-  visibility: visible;
-  opacity: 1;
-  top: 2.7em;
-}
-
-nav > ul li > ul > li {
-  position: relative;
-}
-
-nav > ul > li > ul > li > ul {
-  left: 105%;
-  top: -2.5em !important;
-  z-index: 1;
-  width: 180px;
-}
-
-nav > ul > li > ul > li > ul:hover {
-  width: 200px;
-}
-
-nav > ul > li > ul > li > ul:after {
-  content: "";
-  position: absolute;
-  top: 1em;
-  left: -12px;
-  heght: 0; width: 0;
-  border: 6px solid transparent;
-  border-right-color: rgba(216,30,179,0.56); 
-}
-
-nav > ul > li > ul > li:hover > ul {
-  top: 0 !important;
-}
-
-
-.drop,.dropp {
-  padding-right: 2em;
-}
-
-.drop:after,
-.dropp:after{
-  content: "";
-  position: absolute;
-  height: 0; width: 0;
-  border: 6px solid transparent;
-}
-
-.drop:after {
-  right: 8px;
-  top: 14px;
-  border-top-color: rgba(216,30,179,0.56); 
-}
-
-.dropp:after {
-  top: 12px;
-  right: 8px;
-  border-left-color: rgba(216,30,179,0.56); 
-}
-/* end nav bar */
 
 .container {
   width: 80%;
@@ -265,7 +94,7 @@ aside.sidebar h6 {
   -moz-border-radius: 5px;
   border-radius: 5px;
   margin: 0 0 0.6em;
-  background-color: #333333;
+  background-color: #5E3333;
   color: #ffffff;
   font-size: 19.2px;
   font-size: 1.2rem;
@@ -307,13 +136,6 @@ footer.page-footer > div {
   -moz-border-radius: 5px;
   border-radius: 5px;
   background-color: transparent;
-  color: #ffffff;
-}
-footer.page-footer > div a {
-  color: #add8e6;
-}
-footer.page-footer > div a:hover {
-  color: #99cfe0;
 }
 
 section.content {
@@ -456,6 +278,7 @@ h2{
 h3{
   font-family: "Megrim";
   font-size: 30px;
+  background: #e74c3c;
 
 }
 
@@ -485,7 +308,7 @@ h3{
 }
 
 .btn {
-  background: #e74c3c;
+  background: #5E3333;
   text-decoration: none;
   margin-bottom: 10px;
   text-align: center;
@@ -510,16 +333,6 @@ a#summary:hover{
   color: indigo;
 }
 
-a#testimonial{
-  text-decoration: none;
-  color:white;
-  font-family: "Megrim";
-  font-size: 30px;
-}
-
-a#testimonial:hover{
-  color: indigo;
-}
 
 a#blogs{
   text-decoration: none;
@@ -537,15 +350,6 @@ a#blogs:hover{
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400);
 
 @import "//netdna.bootstrapcdn.com/font-awesome/3.0/css/font-awesome.css";
-
-html, body {
-    min-height: 100%;
-}
-
-body {
-    background-image: linear-gradient(45deg, rgba(194, 233, 221, 0.5) 1%, rgba(104, 119, 132, 0.5) 100%), linear-gradient(-45deg, #494d71 0%, rgba(217, 230, 185, 0.5) 80%);
-    margin: 0;
-}
 
 #buttons {
     border-radius: 5px;
@@ -686,3 +490,4 @@ body {
 .google .icon, .google .slide {
     background: #d24228;
 }
+

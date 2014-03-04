@@ -273,7 +273,7 @@ aside.sidebar h6 {
   -moz-border-radius: 5px;
   border-radius: 5px;
   margin: 0 0 0.6em;
-  background-color: #333333;
+  background-color: #5E3333;
   color: #ffffff;
   font-size: 19.2px;
   font-size: 1.2rem;
@@ -315,14 +315,8 @@ footer.page-footer > div {
   -moz-border-radius: 5px;
   border-radius: 5px;
   background-color: transparent;
-  color: #ffffff;
 }
-footer.page-footer > div a {
-  color: #add8e6;
-}
-footer.page-footer > div a:hover {
-  color: #99cfe0;
-}
+
 
 section.content {
   float: left;
@@ -458,13 +452,12 @@ img{
 h2{
   font-family: "Megrim";
   font-size: 30px;
-
 }
 
 h3{
   font-family: "Megrim";
   font-size: 30px;
-
+  background: #e74c3c;
 }
 
 #hidden_info{display:none;}
@@ -499,6 +492,7 @@ h3{
   text-align: center;
   padding: 1em 0;
   display: block;
+  background-color: #5E3333;
   color: #fff;
   transition: background .3s;
   
@@ -507,6 +501,29 @@ h3{
   }
   
 }
+
+a#testimonial{
+  text-decoration: none;
+  color:white;
+  font-family: "Megrim";
+  font-size: 30px;
+}
+
+a#testimonial:hover{
+  color: #eb2755;
+}
+
+a#resume{
+  text-decoration: none;
+  color:white;
+  font-family: "Megrim";
+  font-size: 30px;
+}
+
+a#resume:hover{
+  color: #eb2755;
+}
+
 a#summary{
   text-decoration: none;
   color:white;
@@ -698,8 +715,20 @@ figure {
   overflow:hidden;
   position: relative;
   width: 270px;
-  
+  background: white;
   box-shadow: 0 30px 25px -25px black;
+}
+
+figure.norell {
+  border: 5px solid #fff;
+  height: 400px;
+  margin: 20px auto;
+  overflow:hidden;
+  position: relative;
+  width: 400px;
+  background: white;
+  box-shadow: 0 30px 25px -25px black;
+  margin-bottom: 30px;
 }
 
 figure img {
@@ -759,3 +788,106 @@ figcaption h3 {
 figure:hover figcaption {
   opacity: 1;
 }
+
+figcaption p{
+  line-height: 20px;
+  
+}
+
+figcaption p.buy{
+  position: relative;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  text-shadow: 0 0 3px black;
+  line-height: 20px;
+  margin-top:20px;
+  margin-bottom: 20px;
+}
+
+      ul.docs
+      {
+        list-style: none;
+      }
+      ul.docs li
+      {
+        display: inline;
+      }
+      ul.docs li img
+      {
+        width: 48%;
+        height: auto;
+      }
+h3.footer {
+  background: transparent;
+}
+
+
+      /* for portfolio */
+
+      #SocialLinks { padding: 10px 0 0 0; }
+      #SocialLinks:after { clear: both; content: "."; display: block; height: 0; visibility: hidden; }
+      #SocialLinks a { display: block; float: left; padding-right: 15px; }
+
+      .gallery { list-style: none; padding: 0; margin: 0; }
+      .gallery:after { clear: both; content: "."; display: block; height: 0; visibility: hidden; }
+      .gallery li { float: left; width: 33.33333333%; }
+      .gallery li a { display: block; margin: 5px; border: 1px solid #3c3c3c; }
+      .gallery li img { display: block; width: 100%; height: auto; }
+
+
+      /* For inline examples only */
+      #PhotoSwipeTarget { width: 100%; height: 200px; }
+
+      #Indicators { text-align: center; margin-top: 20px; }
+      #Indicators span { display: inline-block; height: 10px; width: 10px; margin: 0 10px 0 0; padding: 0; -webkit-border-radius:5px; -moz-border-radius:5px; -o-border-radius:5px; border-radius:5px; background: #c5c5c5; overflow:hidden; }
+      #Indicators span.current{ background: #EEBF02; }
+      
+      .main-nav a{font-family: 'Megrim'; font-size: 22px;}
+      a.logo{font-family: 'Megrim'; font-size:40px;}
+      p{font-family: 'Megrim';}
+      p.hireUs{font-family: 'Julius Sans One'; font-size: 16px;}
+      p.buy{font-family: 'Ovo'; font-size: 16px;}
+      p.free{font-family: 'Give You Glory'; font-size: 22px; text-align: center;}
+      a#store img{margin-top: 20px;}
+      ul.igvine li{
+        display: inline;
+      }
+      ul.gplusyt li{
+        display: inline;
+        margin-bottom: 10px;
+      }
+      ul.gplusyt{
+        position: relative;
+      }
+      ul.summerset
+      {
+        list-style: none;
+      }
+      ul.summerset li
+      {
+        display: inline;
+      }
+      ul.summerset li img
+      {
+        width: 48%;
+        height: auto;
+      }
+
+      a#famous{
+        text-decoration: none;
+        font-weight: bold;
+      }
+
+      a#famous:hover{
+        color: #eb2755;
+      }
+
+      a#lmda{
+        text-decoration: none;
+        font-weight: bold;
+      }
+
+      a#lmda:hover{
+        color: #eb2755;
+      }
