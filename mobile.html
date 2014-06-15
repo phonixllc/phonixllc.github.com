@@ -325,6 +325,45 @@
         h2.special {
             clear:both;
         }
+
+
+        /* app store effect */
+        .appStore {
+          margin: 0 auto;
+          padding: 5px;
+
+        }
+
+        .appStore > div {
+          position: relative;
+          float: left;
+          padding: 5px;
+        }
+
+        .appStore > div > a > img {
+          transition: .1s transform;
+          transform: translateZ(0); /* hack */
+        }
+
+        .appStore > div:hover {
+          z-index: 1;
+        }
+
+        .appStore > div:hover > a > img {
+          transform: scale(1.5,1.5);
+          transition: .3s transform;
+        }
+
+        .cf:before, .cf:after {
+            display: table;
+            content: "";
+            line-height: 0;
+        }
+
+        .cf:after {
+            clear: both;
+        }
+
     </style>
     <link href='http://fonts.googleapis.com/css?family=Codystar|Give+You+Glory|Poiret+One|Londrina+Outline|Ovo|Great+Vibes|Julius+Sans+One|Shadows+Into+Light+Two|Megrim' rel='stylesheet' type='text/css'>
     <!-- JavaScript is normally at the end of the body, except for Modernizr which enables HTML5 elements & feature detects -->
@@ -718,6 +757,15 @@
         	<h1 class="mail">Samples</h1>
             <div class="special">
             	<!-- Gallery to go here -->
+                <p class="big">Download our latest App - The Band Famous - built in native iOS, along with media, games, and so much more. Get it now! Android version coming soon.</p>
+                <section>
+                  <div class="appStore cf">
+                    <div>
+                      <a href="http://itunes.apple.com/us/app/the-band-famous/id879979539?mt=8" target="_blank"><img src="img/famousAppStore.png" style="width: 70%; height: auto; margin-top:10px; margin-bottom:10px; margin-left:15%;" alt="Download The Band Famous on the App Store today!"/></a>
+                    </div>         
+                  </div>
+                </section>
+
                 <h3 style="font-family: 'Julius Sans One'; font-size: 20px;"> Tour Manager App - iOS</h3>
                 <ul id="Gallery1" class="gallery">
                         <!-- Tour Manager Demo -->

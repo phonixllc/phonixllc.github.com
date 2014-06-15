@@ -68,6 +68,64 @@
         box-shadow: 0 30px 25px -25px black;
       }
 
+      #wrapper {
+        display: table;
+        width: 80%;
+      }
+      #left, #right {
+        padding: 1em;
+        font-family: sans-serif;
+        color: #fff;
+        height: 480px;
+        display: table-cell;
+      }
+      #left {
+        min-width:640px;
+      }
+      #right {
+        width: 640px;
+
+      }
+
+      /* app store effect */
+      .gallery {
+        width: 530px;
+        margin: 0 auto;
+        padding: 5px;
+        margin-left:75%;
+        margin-top:-40%;
+      }
+
+      .gallery > div {
+        position: relative;
+        float: left;
+        padding: 5px;
+      }
+
+      .gallery > div > a > img {
+        transition: .1s transform;
+        transform: translateZ(0); /* hack */
+      }
+
+      .gallery > div:hover {
+        z-index: 1;
+      }
+
+      .gallery > div:hover > a > img {
+        transform: scale(1.5,1.5);
+        transition: .3s transform;
+      }
+
+      .cf:before, .cf:after {
+          display: table;
+          content: "";
+          line-height: 0;
+      }
+
+      .cf:after {
+          clear: both;
+      }
+
   </style>
 </head>
 <body>
@@ -85,13 +143,23 @@
     <hr>
     <hr>  
     <hr>      
-    <div id="menu" style="background-color:#eb2755; min-height: 700px; height:700px;width:100px;float:right;"></div>
-    <div id="menu" style="background-color:#eb2755; min-height: 700px; height:700px;width:100px;float:left;"></div>
+    <div id="menu" style="background-color:#eb2755; min-height: 700px; height:1100px;width:100px;float:right;"></div>
+    <div id="menu" style="background-color:#eb2755; min-height: 700px; height:1100px;width:100px;float:left;"></div>
     <br>
     <h3 style="text-align: center;">Phönix Mobile Development Portfolio</h3>
     <p style="text-align:center; font-size:11px; text-shadow: 2px 2px black;">Copyright &copy; Ph&ouml;nix LLC</p>
     <br>
-    <p class="buy" style="font-size: 18px; color: white; line-height: 110%; text-align: center; text-shadow: 1px 1px #eb2755;">For your viewing pleasure, we've put together a short playlist to sample some mobile web apps, native apps, and proof of concepts:</p>
+    <center>
+      <div id="wrapper">
+        <div id="left"><img src="img/famousApp.gif" style="width: 65%; height: auto; margin-right:-40px;" alt="Download The Band Famous on the App Store today!"/> </div>
+        <div id="right">
+          <iframe id="ytplayer" type="text/html" width="480" height="320"
+  src="https://www.youtube.com/embed/OPp5yO8Ai3w"
+  frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+    </center>
+    <p class="buy" style="margin-top: -100px; font-size: 18px; color: white; line-height: 110%; text-align: center; text-shadow: 1px 1px #eb2755;">For your viewing pleasure, we've put together a short playlist to sample some mobile web apps, native apps, and proof of concepts:</p>
     <br>
     <figure class="liveart">
       <iframe id="ytplayer" type="text/html" width="720" height="405" src="http://www.youtube.com/embed?listType=playlist&list=PLd4jn8eJXObldzGY-RVovZ7OywG9oGBxs" frameborder="0" allowfullscreen>
