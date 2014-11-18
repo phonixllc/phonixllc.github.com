@@ -39,6 +39,54 @@ $('#norell').click(function(){
     
 });
 
+$('#terry').click(function(){
+    $('#hidden_content8').slideToggle('medium', function(){
+        if( $('#hidden_content8').is(':hidden') ){
+            $('#terry').text('About Terry');
+        } else {
+            $('#terry').text('Hide content');
+        }
+
+    });
+    
+});
+
+$('#nicole').click(function(){
+    $('#hidden_content9').slideToggle('medium', function(){
+        if( $('#hidden_content9').is(':hidden') ){
+            $('#nicole').text('About Nicole');
+        } else {
+            $('#nicole').text('Hide content');
+        }
+
+    });
+    
+});
+
+$('#jess').click(function(){
+    $('#hidden_content10').slideToggle('medium', function(){
+        if( $('#hidden_content10').is(':hidden') ){
+            $('#jess').text('About Jessica');
+        } else {
+            $('#jess').text('Hide content');
+        }
+
+    });
+    
+});
+
+$('#angel').click(function(){
+    $('#hidden_content11').slideToggle('medium', function(){
+        if( $('#hidden_content11').is(':hidden') ){
+            $('#angel').text('About Angelica');
+        } else {
+            $('#angel').text('Hide content');
+        }
+
+    });
+    
+});
+
 $('#signup').on('pageinit', function () {
     function checkData() {
         delete $.validator.methods.date;

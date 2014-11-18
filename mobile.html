@@ -152,6 +152,13 @@
 
         #hidden_content7{display:none;}
 
+        #hidden_content8{display: none;}
+
+        #hidden_content9{display: none;}
+
+        #hidden_content10{display: none;}
+
+        #hidden_content11{display: none;}
 
         #phonix{display:block;}
         
@@ -313,11 +320,13 @@
             font: 5em Helvetica, Sans-Serif;
             letter-spacing: -5px;
             color: #eb2755;
+            background: transparent;
+            border: none;
         }
 
         h2.special:after {
-            content: "Phönix";
-            position: absolute; left: 10px; top: 5px;
+            content: "Phönix Intl";
+            position: absolute; left: 10px; top: 5px; right: 10px;
             color: #E1DFD3;
         }
 
@@ -446,11 +455,10 @@
 	        <article>
             
             <img src="http://dl.dropboxusercontent.com/u/92701281/yes.jpg"/>
-            <h2>Mobile Development Experts</h2>
             <br>
-		    <center><h2 class="special">Phönix</h2></center>
             <br>
-            <h2>Mobile Web Experts</h2>
+		    <center><h2 class="special">Phönix Intl</h2></center>
+            <br>
 		      <hr></hr>
 	    	</article>
 	        
@@ -470,7 +478,7 @@
                     <li data-role="list-divider"></li>
 
                     <li>
-                       <a href="http://www.android.com" target="_blank"><img src="img/Android.png">Android OS</a>
+                       <a href="http://www.android.com" target="_blank"><img src="img/Android.png">Discover Android OS</a>
                         
                     </li>
                     <li data-role="list-divider"></li>
@@ -491,7 +499,7 @@
                     <li data-role="list-divider"></li>
 
                     <li>
-                        <a href="http://www.apple.com/ios/ios7/" target="_blank"><img src="img/Apple.jpg">iOS</a>
+                        <a href="http://www.apple.com/ios/ios7/" target="_blank"><img src="img/Apple.jpg">Discover iOS</a>
                     </li>
 
                     <li data-role="list-divider"></li>
@@ -514,7 +522,7 @@
                     <li data-role="list-divider"></li>
 
                     <li>
-                        <a href="http://articles.washingtonpost.com/2013-02-06/business/36937190_1_mobile-internet-mobile-devices-data-traffic" target="_blank"><img src="img/FireFox.png">Mobile Web</a>
+                        <a href="http://articles.washingtonpost.com/2013-02-06/business/36937190_1_mobile-internet-mobile-devices-data-traffic" target="_blank"><img src="img/FireFox.png">Discover Mobile Web</a>
                     </li>
 
                     <li data-role="list-divider"></li>
@@ -528,16 +536,6 @@
                      </li>
                 </ul>
             </div><br>
-
-            <!--
-            <ul style="float:left;">
-                <li>
-                    <form method="link" action="home.html">
-                        <input type="submit" value="Desktop" class="punch2" id="port">
-                    </form>
-                </li>
-            </ul>  
-            -->  
             
 
 
@@ -578,118 +576,12 @@
             <form action="" id="signupform" name="signupform">
             	<h1 class="mail">Join the Mailing List!</h1>
                 <h3 class="listPage">Your Information</h3>
-                <p>Have Gmail? Email us:</p><a href="https://mail.google.com/mail/?view=cm&fs=1&to=zandernorell@gmail.com&su=&body=" target="_blank"><p class="buy" style="font-size:18px; color:indigo; text-decoration:bold;">Compose New Message in Gmail</a></p>
-                <p style="margin-bottom:20px;">We will respond to your inquiries in a timely manner, as promptly as we can. Thank you.</p>
+                <p><a href="https://mail.google.com/mail/?view=cm&fs=1&to=zandernorell@gmail.com&su=&body=" target="_blank"><p class="buy" style="color:indigo; text-decoration:bold;">Have Gmail? Send an Email!</a></p>
+                <p>Contact our Director of Management:</p>
+                <p>(+1) 651-347-9627.</p>
+                <p>Sign up for our newsletter by submitting through the form below.</p>
 
                 <center><iframe src="https://docs.google.com/forms/d/12mgEKtP4IOuLuVdnAEL9zbcSOHNzPt6A5fZ_IQp0AB4/viewform?embedded=true" width="350" height="825" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe></center>
-
-                <!--  <h5>*Fields are Required.</h5>
-                <div data-role="fieldcontain">
-                    <label for="firstname">*First Name:</label> <input class=
-                    "required" id="firstname" name="firstname" onblur=
-                    "this.placeholder = 'Your First Name'" onfocus=
-                    "this.placeholder = ''" placeholder="Your First Name" type=
-                    "text" value="">
-                </div>
-
-                <div data-role="fieldcontain">
-                    <label for="lastname">*Last Name:</label> <input class=
-                    "required" id="lastname" name="lastname" onblur=
-                    "this.placeholder = 'Your Last Name'" onfocus=
-                    "this.placeholder = ''" placeholder="Your Last Name" type=
-                    "text" value="">
-                </div>
-
-                <div data-role="fieldcontain">
-                    <label for="dob">Birthday:</label> <input data-role=
-                    "datebox" id="dob" name="mydate" onblur=
-                    "this.placeholder = 'MM/DD/YYYY'" onfocus=
-                    "this.placeholder = ''" placeholder="MM/DD/YYYY" type=
-                    "date" value="">
-                </div>
-
-                <div data-role="fieldcontain">
-                    <label for="email">*Email:</label> <input class=
-                    "required email" id="email" name="email" onblur=
-                    "this.placeholder = 'example@email.com'" onfocus=
-                    "this.placeholder = ''" placeholder="example@email.com"
-                    type="text" value="">
-                </div>
-
-                <div data-role="fieldcontain">
-                    <label for="phone">*Phone:</label> <input class="required"
-                    id="phone" name="phone" onblur=
-                    "this.placeholder = '555-555-5555'" onfocus=
-                    "this.placeholder = ''" placeholder="555-555-5555" type=
-                    "tel" value="">
-                </div>
-    
-
-                <div data-role="fieldcontain">
-                    <label for="updates">What would you like to receive updates
-                    on?:</label> <select class="required" data-native-menu=
-                    "false" id="updates" name="updates">
-                        <option data-placeholder="true">
-                            - - Please Select One - -
-                        </option>
-
-                        <option value="MobileDev">
-                            Mobile Development
-                        </option>
-
-                        <option value="BodyPaint">
-                            Body Painting
-                        </option>
-
-                        <option value="ZN">
-                            Zander &amp; Norell
-                        </option>
-
-                        <option value="Special Offers">
-                            Special Offers
-                        </option>
-
-                        <option value="All of the Above">
-                            All of the Above
-                        </option>
-                    </select>
-                </div>
-
-                <div data-role="fieldcontain">
-                    <label for="slider-choice">Which method would you prefer to
-                    receive updates?:</label> <select data-role="slider" id=
-                    "contact" name="slider-choice">
-                        <option value="Email">
-                            Email
-                        </option>
-
-                        <option value="SMS">
-                            SMS
-                        </option>
-                    </select>
-                </div>
-
-                <div data-role="fieldcontain">
-                    <label for="comments">Leave a comment?:</label> 
-                    <textarea id="comments" name="comments">
-                    </textarea>
-                </div>
-
-                <div>
-                    <input data-icon="check" data-theme="b" id="submitData"
-                    type="submit" value="Submit"> 
-
-                    <input data-icon="alert"
-                    data-theme="e" id="clearButton" type="reset" value="Reset">
-
-                    <a data-rel="dialog" data-transition="pop" href=
-                    "#signuperrors" id="suerrorslink"></a>
-
-                    <a data-rel="dialog" data-transition="pop" href=
-                    "#signupsuccess" id="susuccess"></a>
-                </div>
-
-            -->
 
 
 
@@ -761,10 +653,13 @@
                 <section>
                   <div class="appStore cf">
                     <div>
-                      <a href="http://itunes.apple.com/us/app/the-band-famous/id879979539?mt=8" target="_blank"><img src="img/famousAppStore.png" style="width: 70%; height: auto; margin-top:10px; margin-bottom:10px; margin-left:15%;" alt="Download The Band Famous on the App Store today!"/></a>
+                      <a href="http://itunes.apple.com/us/app/the-band-famous/id879979539?mt=8" target="_blank"><img src="img/famousAppStore.png" style="width: 70%; height: auto; margin-bottom:10px; margin-left:15%;" alt="Download The Band Famous on the App Store today!"/></a>
                     </div>         
                   </div>
                 </section>
+                <h3 style="font-family: 'Julius Sans One'; font-size: 20px;">Sample Video Demonstrations</h3>
+                <iframe width="330" height="220" src="http://www.youtube.com/embed/OPp5yO8Ai3w" frameborder="0" allowfullscreen></iframe>
+                <iframe width="330" height="220" src="http://www.youtube.com/embed/L8kQzx1biaY?list=PLd4jn8eJXObldzGY-RVovZ7OywG9oGBxs" frameborder="0" allowfullscreen></iframe>
 
                 <h3 style="font-family: 'Julius Sans One'; font-size: 20px;"> Tour Manager App - iOS</h3>
                 <ul id="Gallery1" class="gallery">
@@ -889,17 +784,8 @@
     <div data-add-back-btn="true" data-role="page" id="ios">
         <div data-position="fixed" data-role="header" data-theme="b">
            <h1>Phönix</h1>
-        </div><!--
-        <ul id="Gallery">
-            <li><a href="images/full/01.jpg"><img src="img/thumb/end.jpg" alt="Image 01" /></a></li>
-            <li><a href="images/full/02.jpg"><img src="images/thumb/02.jpg" alt="Image 02" /></a></li>
-            <li><a href="images/full/03.jpg"><img src="images/thumb/03.jpg" alt="Image 03" /></a></li>
-            <li><a href="images/full/04.jpg"><img src="images/thumb/04.jpg" alt="Image 04" /></a></li>
-            <li><a href="images/full/05.jpg"><img src="images/thumb/05.jpg" alt="Image 05" /></a></li>
-            <li><a href="images/full/06.jpg"><img src="images/thumb/06.jpg" alt="Image 06" /></a></li>
-        </ul>
-        -->
-
+        </div>
+        ß
         <div data-role="content">
             <h1 class="mail">iOS</h1>
             <div class="special">
@@ -993,7 +879,7 @@
 	        		    <!--Company Information below -->
 			    <section>
 			    	<p>Phönix LLC is centered on helping get your website ready to be viewed on the 5-billion mobile devices around the world.</p> 
-			    	<a href="http://www.smartinsights.com/mobile-marketing/mobile-marketing-analytics/mobile-marketing-statistics/"><img src="img/fact.png" style="width:50%; height:auto;"/></a>
+			    	<a href="http://www.smartinsights.com/mobile-marketing/mobile-marketing-analytics/mobile-marketing-statistics/" target="_blank"><img src="img/fact.png" style="width:50%; height:auto;"/></a>
 			    </section>
 			</div>
 	          
@@ -1004,9 +890,12 @@
                         <!-- Staff Information below -->
                         <p>In order to effectively market one's idea, product, or business, one must take into consideration the magnitude in which mobile devices are now expanding. One must also realize the multitude of people who regularly download applications from the Google Play Store and App Store, not to mention internet browsing in general via their smartphones and tablets.</p><p>Phönix has the creativity and the brains to bring your vision to life with a mobile-optimized platform tailored to your needs.</p>
                         <div class="column-w">
-                          <div class="column main">
-                            <article>Zander Figueroa is currently attending Full Sail University for his Bachelor of Science in Mobile Development. A multi-media artist first and foremost, Zander specializes in design in all mediums which translates to exceptional User Interface Design. He is fluent in Spanish.</article>
-                            <form method="link" action="http://www.linkedin.com/in/zandermpls">
+                        <h3 style="font-family: 'Julius Sans One'; font-size: 20px;">Meet Our Team:</h3>
+                        <!-- Zander -->
+                        <div class="column main">
+                            <span><img src="img/zander-1.jpg" class="teamImg"/></span>
+                            <article>Zander Figueroa, C.E.O., attended Full Sail University for Mobile Development. A multi-media artist first and foremost, Zander specializes in design in all mediums which translates to exceptional User Interface Design. He is fluent in Spanish. Based in New York, NY.</article>
+                            <form method="link" action="http://www.linkedin.com/in/zandermpls" target="_blank">
                               <input type="submit" value="Resume" class="punch2">
                             </form>
                             <!-- About Zander is clicked -->
@@ -1017,24 +906,26 @@
                                     <div class="column-w">
                                       <div class="column main">
                                         <article>
-                                           <p>Born Jacob Alexander Figueroa, but you may know him as Jacob Alexander, or simply X/Zander.</p>
-                                            <p>Zander is a multimedia artist, with artworks featured in NY Arts Magazine, he is also a renowned body painter. Zander’s body painting was featured at NY Fashion Week 2011, Summer Set Music and Camping Festival 2012, to high caliber shows such as Benny Benassi and Paul Van Dyk, to Black Kat Shows (Portland/Minneapolis), and most recently, MN Gay Pride 2013.</p>
+                                           <p>Born Jacob Alexander Figueroa, he is a technology enthusiast, front &amp; back end developer, and a multimedia artist with artworks featured in NY Arts Magazine, and he is also a renowned body painter.</p>
+                                           <p>Zander’s body painting was featured at NY Fashion Week 2011, Summer Set Music and Camping Festival 2012, to high caliber shows such as Benny Benassi and Paul Van Dyk, to Black Kat Shows (Portland/Minneapolis), and most recently, MN Gay Pride 2013 and 2014.</p>
                                             <p>Published locally and internationally, Zander is a featured artist in "All Over the Walls", a Blue Bridge Media Group Documentary that premiered at the Minneapolis St Paul International Film Festival in 2011, as well as taking “Best Documentary Film” at the Highway 61 Festival that year, and also featured at the MCAD Underground Film Festival.</p>
-                                            <p>Zander’s artworks have been presented alongside Celebrity Designer Emre Erturk and fine artists Gigi Turker, and Gulay Alpay. Jacob Alexander is also proficient in violin, fluent in Spanish and an avid painter, and photographer. He helped develop Audrey Kitching's Crystal Cactus Product Web Page.</p>
-                                            <p>Technology enthusiast. Front &amp; Back End Developer.</p>
+                                            <p>Zander’s artworks have been presented alongside Celebrity Designer Emre Erturk and fine artists Gigi Turker, and Gulay Alpay. Jacob Alexander is also proficient in violin, fluent in Spanish and an avid painter, and photographer. He helped develop Audrey Kitching's Crystal Cactus Product Web Page. He is also a contributing member in The Band <a href="http://www.bandfamous.com" target="_blank" style="color: pink; font-size: 26px; line-height: 28px;"/>Famous</a>, adding violin to synthesizers to their Alternative and soul EDM sound, and unveiled a new body art installment for their debut performance, body painting at the Love Monster Famous App Release Party on Friday the 13th, in June of 2014.</p>
+                                            <p>He is a front and back-end developer, with knowledge acquired through Full Sail University in Mobile Development. You can download his first live app, <a href="https://itunes.apple.com/us/app/the-band-famous/id879979539?mt=8" target="_blank" style="color: pink; font-size: 26px; line-height: 28px;"/>The Band Famous</a>, free on the iPhone App Store!</p>
                                         </article>
                                         <!-- Implement body paint slider -->
                                       </div>
                                     </div>
                                 </div>
                             </div>
-                            <span><img src="img/zander-1.jpg" class="teamImg"/></span>
+                            
                           </div>
                         </div>
+                        <!-- Norell -->
                         <div class="column-w">
                           <div class="column sub">
-                            <article>Norell Figueroa obtained her Bachelor of Art in Communications, graduating with honors at the University of Minnesota. She is self taught in coding and development. As a skilled writer she has excellent attention to detail, ensuring clean and efficient coding. She is fluent in German.</article>
-                            <form method="link" action="http://www.linkedin.com/in/marynorell">
+                            <span><img src="img/norell2.jpg" class="teamImg"/></span>
+                            <article>Norell Figueroa has a Bachelor of Arts in Communications, graduating with honors at the University of Minnesota. She is self taught in coding and development. As a skilled writer she has excellent attention to detail, ensuring clean and efficient coding. She is fluent in German. Based in New York, NY.</article>
+                            <form method="link" action="http://www.linkedin.com/in/marynorell" target="_blank">
                               <input type="submit" value="Resume" class="punch2">
                             </form>
                             <!-- About Norell is clicked -->
@@ -1045,21 +936,134 @@
                                     <div class="column-w">
                                       <div class="column main">
                                         <article>
-                                            <p>Born Mary Norell Jackson, and known also as simply Norell. A multi-faceted artist, singer, writer, programmer, and communications enthusiast.</p> 
+                
+                                            <p>Born Mary Norell Jackson, and known also as simply Norell. A multi-faceted artist, singer, writer, programmer, and communications enthusiast. </p> 
                                             <p>She studied Liberal Arts at Northland College for two years before transfering in 2009 and graduating with honors in 2011 from the University of Minnesota College of Liberal Arts, earning her Bachelor of Arts in Communications. She tied for first place for best vocal performance at the CLA Talent Show in 2010.</p> 
-                                            <p>She sang with Terrell "Carnage" Woods from Rhymesayers entertainment, alongside Elliott Roche, who is now the frontman of the Cheap Thrills. She also sang in Emily Colay's (Wookiefoot) choir, Cantera in 2011/2012.</p>
-                                            <p>She has done backup vocals for the Artist Brant Kingman's daughter, alongside Emily Colay. She recorded vocals for MPLS.TV "Uptown Episode", performed with Elliott Roche (The Cheap Thrills) at Bubble Me, Driftwood Char Bar, and more, as well as performing solo at the Lounge Nightclub in Minneapolis at X Fashion on September 30th, 2011.</p>
-                                            <p>She has worked alongside the artist Zander on his body paint tours including Summer Set Music and Camping Festival, and Sexapalooza in Minneapolis and Portland in 2012, at Benny Benassi in 2013, followed by Gay Pride in Minneapolis at the Gay 90's.</p><p>She also conducted interviews, and put together several blogs for XTV (founded by Zander) in 2011, with highlights including interviewing Amy Klobuchar, Bill Moyers, and Jacob Frey.</p>
-                                            <p>She has been body painted live in the streets and is currently working on an autobiography, as well as an online gallery featuring her modeling ventures. 
-                                            She is also recording an album with her band, <a href="famous/index.html" target="_blank" style="color: black; font-size: 26px; line-height: 28px;"/>Famous</a>, and coding and programming regularly.</p></article>
-                                        <iframe id="sc-widget" src="https://w.soundcloud.com/player/?url=http://api.soundcloud.com/norell-1/" width="100%" height="465" scrolling="no" frameborder="no"></iframe>
+                                            <p>She has sang with Terrell "Carnage" Woods from Rhymesayers entertainment, alongside Elliott Roche. She also sang in Emily Colay's (Wookiefoot) choir, Cantera in 2011/2012. She has done backup vocals for the Artist Brant Kingman's daughter; recorded vocals for MPLS.TV "Uptown Episode"; performed with Elliott Roche (The Cheap Thrills) at various Twin Cities venues; as well as performing solo at the Lounge Nightclub in Minneapolis at X Fashion on September 30th, 2011.</p>
+                                            <p> She has worked alongside the artist Zander on his body paint tours including Summer Set Music and Camping Festival, and Sexapalooza in Minneapolis and Portland in 2012, Benny Benassi in 2013, followed by Gay Pride in Minneapolis at the Gay 90's in 2013 and 2014.</p>
+                                            <p>She also conducted interviews, and put together several blogs for XTV (founded by Zander) with highlights including interviewing MN Senator Amy Klobuchar, Bill Moyers, and Minneapolis City Council member, Jacob Frey.</p>
+                                            <p>She has been body painted live in the streets and is currently working on an autobiography, as well as an online gallery featuring her modeling ventures.</p>
+                                            <p>Most recently, she took the stage on Friday the 13th, of June 2014, for the Love Monster Famous App Release Party. It was her band's debut live performance, and marked the release of their first album, "Last Words" - a smart album - with videos, games, and much more, all available in the native iOS app she helped build with her band, <a href="famous/index.html" target="_blank" style="color: pink; font-size: 26px; line-height: 28px;"/>Famous</a>. She codes and programs regularly, and is producing new music with her band for upcoming albums that will become available in the app.
+                                            <br>Download their app - <a href="https://itunes.apple.com/us/app/the-band-famous/id879979539?mt=8" target="_blank" style="color: pink; font-size: 26px; line-height: 28px;"/>The Band Famous</a> - for free on the iPhone App Store!</p>
+                                    
                                       </div>
                                     </div>
                                 </div>
                             </div>
-                            <span><img src="img/norell2.jpg" class="teamImg"/></span>
+                            
                           </div>
                         </div>
+                        <!-- Terrance Schubring -->
+                        <div class="column-w">
+                          <div class="column sub">
+                            <span><img src="images/Terry.jpg" class="teamImg"/></span>
+                            <article>Terry aka Jambots has been in the web dev game for a long time. He’s no stranger to the app market, either, with over six apps on the market ranging from games to music and utility. Based in Saint Paul, MN.</article>
+                            <form method="link" action="http://www.jambots.com" target="_blank">
+                              <input type="submit" value="Resume" class="punch2">
+                            </form>
+                            <!-- About Terry is clicked -->
+                            <div class="colWeb">
+                                <a href="#" id="terry" class="btn" data-animate="flap-up">About Terry</a>
+                                <div id="hidden_content8">
+                                    <!-- Staff Information below -->
+                                    <div class="column-w">
+                                      <div class="column main">
+                                        <article>
+                
+                                            <p>Terrance has an extensive music background, and has released music under Princess Wishingstar, and his Ambien project. He also is a podcast enthusiast on several topics, and runs his own, Progwonk.</p> 
+                                            <p>He is a regular contributing member in The Band Famous with keyboards, synthesizers, engineering and development.</p>
+                                            <p>Terrance Clifford performed with TBF on Friday the 13th, of June 2014, for the Love Monster Famous App Release Party. It was TBF's debut live performance, and marked the release of their first album, "Last Words" - within their smart album app - with videos, games, and much more.</p>
+                                            <p>Terry contributed one of several games to come within the app. 
+                                            <br>Download their app - <a href="https://itunes.apple.com/us/app/the-band-famous/id879979539?mt=8" target="_blank" style="color: pink; font-size: 26px; line-height: 28px;"/>The Band Famous</a> - for free on the iPhone App Store!</p>
+                                    
+                                      </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                          </div>
+                        </div>
+                        <!-- Nicole Leer -->
+                        <div class="column-w">
+                          <div class="column sub">
+                            <span><img src="images/Daisy.jpg" class="teamImg"/></span>
+                            <article>Nicole is one of our graphic designers and artists. Based in Minneapolis, MN.</article>
+                            <form method="link" action="http://vixenviolet.deviantart.com" target="_blank">
+                              <input type="submit" value="Resume" class="punch2">
+                            </form>
+                            <!-- About Nicole is clicked -->
+                            <div class="colWeb">
+                                <a href="#" id="nicole" class="btn" data-animate="flap-up">About Nicole</a>
+                                <div id="hidden_content9">
+                                    <!-- Staff Information below -->
+                                    <div class="column-w">
+                                      <div class="column main">
+                                        <article>
+                
+                                            <p>Nicole has a Bachelor of Fine Art degree, along with a Bachelor of Criminal Justice.</p> 
+                                    
+                                      </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                          </div>
+                        </div>
+
+                        <!-- Jessica Collette -->
+                        <div class="column-w">
+                          <div class="column sub">
+                            <span><img src="img/Jessica.jpg" class="teamImg"/></span>
+                            <article>Jessica Collette is one of our graphic designers and photographers. Based in Los Angeles, CA.</article>
+                            <form method="link" action="http://jessicacollette.com" target="_blank">
+                              <input type="submit" value="Resume" class="punch2">
+                            </form>
+                            <!-- About Jessica is clicked -->
+                            <div class="colWeb">
+                                <a href="#" id="jess" class="btn" data-animate="flap-up">About Jessica</a>
+                                <div id="hidden_content10">
+                                    <!-- Staff Information below -->
+                                    <div class="column-w">
+                                      <div class="column main">
+                                        <article>
+                
+                                            <p>Jessica is a multimedia artist living in Los Angeles who specializes in portrait photography.</p>
+                                            <p>She also paints, draws and does graphic design. She also models, does make up, and creates and designs raw vegan drinks and food.</p> 
+                                    
+                                      </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                          </div>
+                        </div>
+
+                        <!-- Angelica Prendez -->
+                        <div class="column-w">
+                          <div class="column sub">
+                            <span><img src="img/Angelica.jpg" class="teamImg"/></span>
+                            <article>Angelica Prendez is the Director of Management for all clientele and staffing. Based in NY/NJ.</article>
+                            <!-- About Nicole is clicked -->
+                            <div class="colWeb">
+                                <a href="#" id="angel" class="btn" data-animate="flap-up">About Angelica</a>
+                                <div id="hidden_content11">
+                                    <!-- Staff Information below -->
+                                    <div class="column-w">
+                                      <div class="column main">
+                                        <article>
+                
+                                            <p>Angelica handles all HR &amp; PR inquiries, references, press releasees, booking inquiries, studio &amp; venue management, and more.</p>
+                                            <p>Contact her with your questions for the quickest response.</p> 
+                                            <h3 style="font-family: 'Julius Sans One'; font-size: 20px;">Contact: (+1) 651-347-9627</h3>
+                                      </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                          </div>
+                        </div>
+
+
                     </div>
                 </div>
 
@@ -1102,12 +1106,12 @@
                 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
                   <!-- FB Newsfeed -->
                 <div class="fb-like-box" data-href="http://www.facebook.com/PhonixLLC" data-width="310px" data-height="300px" data-colorscheme="light" data-show-faces="false" data-header="true" data-stream="true" data-show-border="true"></div>
-                <p>Check out Norell &amp; Zander in their ongoing project, the Band Famous:</p>
+                <p>Check out Norell, Zander &amp; Terrance in their ongoing project, The Band Famous:</p>
                 <a href="http://bandfamous.com/mobile" target="_blank"><img src="famous/img/famous.png" alt="The Band Famous"/></a>
 
                 <article><img src="img/gay90s.jpg" class="pride"/><p class="pride">Recently, you may have seen Norell &amp; Zander, or the brains behind Ph&ouml;nix LLC, decorating and embellishing many live canvases at MN Pride at the Gay 90s.</p><p>They were joined with MUA &amp; Photographer, not to mention model herself, Jessica Collette.</p> <a href="jcartist.html"><img src="img/jcbus.jpg"/></a>
                 <p>The three of them painted the town, in the  name of love, and pride in love.</p></article>
-                <article><p>Prior to Pride, Zander was hired by SIMShows, or Sound In Motion, to provide live, stellar body painting entertainment in downtown Minneapolis at Epic Nightclub for: <h4>Benny Benassi</h4><img src="http://fbcdn-sphotos-f-a.akamaihd.net/hphotos-ak-ash3/936365_566588893362840_1742481921_n.jpg"/></p></article>
+                <article><p>Prior to Pride, Zander was hired by SIMShows, or Sound In Motion, to provide live, stellar body painting entertainment in downtown Minneapolis at Epic Nightclub for: <h4>Benny Benassi</h4><img src="img/benassi.jpg"/></p></article>
                 <article><h4>Tron in 3D</h4><h5>Live at Benny Benassi</h5> <img src="http://fbcdn-sphotos-b-a.akamaihd.net/hphotos-ak-prn2/980805_567540636600999_1601684874_o.jpg"/></article>
 
             </div>
