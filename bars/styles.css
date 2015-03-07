@@ -29,3 +29,7 @@ ul li {
 	vertical-align: center;
 	list-style: none;
 }
+
+div #main {
+	margin-top: 200px;
+}
