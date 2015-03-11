@@ -1188,7 +1188,7 @@ columns:100px 3;
 
 nav > ul {
   margin-top: 2em;
-  margin-left: 400px;
+  margin-left: 0px;
   height: 40px;
   line-height: 40px;
   padding-left: 2em;
@@ -1203,10 +1203,12 @@ nav > ul > li {
 
 nav ul li a {
   display: block;
-  font: 16px/1 "Julius Sans One";
+  font-family: 'Michroma', sans-serif;
+  font-size: 22px;
   text-decoration: none;
   color: white;
-  background: #eb2755;
+  border-top: 1px 1px #0199c7;
+  background: lavender;
   padding: 10px 14px;
   text-shadow: #eb2755;
 }
@@ -1220,7 +1222,7 @@ nav > ul > li > a {
 nav ul > li ul {
   position: absolute;
   width: 200px;
-  background: #eb2755;
+  background: lavender;
   border-radius: 5px;
   padding: 5px 0;
   opacity: 0;
@@ -1234,16 +1236,15 @@ nav ul > li ul:after {
   position: absolute;
   top: -11px;
   left: 1em;
-  height: 0; 
-  width: 0;
+  height: 0; width: 0;
   border: 6px solid transparent;
   border-bottom-color: #eb2755;
 }
 
 nav > ul li a:hover {
-  background: brown;
-  box-shadow: inset #eb2755;
-  color: #eb2755;
+  background: #eb2755;
+  box-shadow: #eb2755;
+  color:indigo;
 }
 
 nav > ul li:hover > ul {
@@ -1305,8 +1306,7 @@ nav > ul > li > ul > li:hover > ul {
   right: 8px;
   border-left-color: #eb2755;
 }
-
-
+/* end nav bar */
 /* Phones to Tablets */
 
 @media only screen and (min-width: 481px) {
@@ -1337,7 +1337,6 @@ figure {
   overflow:hidden;
   position: relative;
   width: 311px;
-  
   box-shadow: 0 30px 25px -25px black;
 }
 
