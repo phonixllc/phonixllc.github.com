@@ -94,8 +94,8 @@ aside.sidebar h6 {
   -moz-border-radius: 5px;
   border-radius: 5px;
   margin: 0 0 0.6em;
-  background-color: #5E3333;
-  color: #ffffff;
+  background-color: black;
+  color: white;
   font-size: 19.2px;
   font-size: 1.2rem;
   text-align: center;
@@ -270,13 +270,13 @@ img{
 }
 
 h2{
-  font-family: "Megrim";
+  font-family: 'Michroma', sans-serif;
   font-size: 30px;
 
 }
 
 h3{
-  font-family: "Megrim";
+  font-family: 'Michroma', sans-serif;
   font-size: 30px;
   background: #e74c3c;
 
@@ -308,7 +308,7 @@ h3{
 }
 
 .btn {
-  background: #5E3333;
+  background: black;
   text-decoration: none;
   margin-bottom: 10px;
   text-align: center;
@@ -325,7 +325,7 @@ h3{
 a#summary{
   text-decoration: none;
   color:white;
-  font-family: "Give You Glory";
+font-family: 'Philosopher', sans-serif;
   font-size: 26px;
 }
 
@@ -337,7 +337,7 @@ a#summary:hover{
 a#blogs{
   text-decoration: none;
   color:white;
-  font-family: "Megrim";
+  font-family: 'Michroma', sans-serif;
   font-size: 30px;
 }
 

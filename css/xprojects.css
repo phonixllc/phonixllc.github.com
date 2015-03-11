@@ -5,29 +5,15 @@ body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, 
 }
 
 html{
-   background: rgba(235,39,85,1);
-background: -moz-linear-gradient(left, rgba(235,39,85,1) 0%, rgba(225,223,211,1) 50%, rgba(225,223,211,1) 50%, rgba(235,39,85,1) 100%);
-background: -webkit-gradient(left top, right top, color-stop(0%, rgba(235,39,85,1)), color-stop(50%, rgba(225,223,211,1)), color-stop(50%, rgba(225,223,211,1)), color-stop(100%, rgba(235,39,85,1)));
-background: -webkit-linear-gradient(left, rgba(235,39,85,1) 0%, rgba(225,223,211,1) 50%, rgba(225,223,211,1) 50%, rgba(235,39,85,1) 100%);
-background: -o-linear-gradient(left, rgba(235,39,85,1) 0%, rgba(225,223,211,1) 50%, rgba(225,223,211,1) 50%, rgba(235,39,85,1) 100%);
-background: -ms-linear-gradient(left, rgba(235,39,85,1) 0%, rgba(225,223,211,1) 50%, rgba(225,223,211,1) 50%, rgba(235,39,85,1) 100%);
-background: linear-gradient(to right, rgba(235,39,85,1) 0%, rgba(225,223,211,1) 50%, rgba(225,223,211,1) 50%, rgba(235,39,85,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eb2755', endColorstr='#eb2755', GradientType=1 );
-background-attachment: fixed;
 background-size: 100% auto;
 }
 
 body{
-background: rgba(235,39,85,1);
-background: -moz-linear-gradient(left, rgba(235,39,85,1) 0%, rgba(225,223,211,1) 50%, rgba(225,223,211,1) 50%, rgba(235,39,85,1) 100%);
-background: -webkit-gradient(left top, right top, color-stop(0%, rgba(235,39,85,1)), color-stop(50%, rgba(225,223,211,1)), color-stop(50%, rgba(225,223,211,1)), color-stop(100%, rgba(235,39,85,1)));
-background: -webkit-linear-gradient(left, rgba(235,39,85,1) 0%, rgba(225,223,211,1) 50%, rgba(225,223,211,1) 50%, rgba(235,39,85,1) 100%);
-background: -o-linear-gradient(left, rgba(235,39,85,1) 0%, rgba(225,223,211,1) 50%, rgba(225,223,211,1) 50%, rgba(235,39,85,1) 100%);
-background: -ms-linear-gradient(left, rgba(235,39,85,1) 0%, rgba(225,223,211,1) 50%, rgba(225,223,211,1) 50%, rgba(235,39,85,1) 100%);
-background: linear-gradient(to right, rgba(235,39,85,1) 0%, rgba(225,223,211,1) 50%, rgba(225,223,211,1) 50%, rgba(235,39,85,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eb2755', endColorstr='#eb2755', GradientType=1 );
-background-attachment: fixed;
-background-size: 100% auto;
+  background: white;
+  font-family: georgia, times, serif;
+  font-size: 62.5%;
+  line-height: 1.4em;
+  min-width: 720px;
 }
 
 /* BOX UNIVERSAL SYLES */
@@ -1320,39 +1306,6 @@ nav > ul > li > ul > li:hover > ul {
   border-left-color: #eb2755;
 }
 
-/*
-nav ul li {  
-    float: left;  
-    list-style: none;
-}  
-  
-    nav ul li a {  
-        display: block;  
-        margin-right: 20px;  
-        width: 140px;  
-        font-size: 16px;  
-        line-height: 44px;  
-        text-align: center;  
-        text-decoration: none;  
-        color: #777;  
-    }  
-  
-        nav ul li a:hover {  
-            color: #fff;  
-        }  
-  
-        nav ul li.selected a {  
-            color: #fff;  
-        }  
-  
-        nav ul li.subscribe a {  
-            margin-left: 22px;  
-            padding-left: 33px;  
-            text-align: left;  
-            background: url("rss.png") left center no-repeat;  
-        } 
-
-*/
 
 /* Phones to Tablets */
 
@@ -1478,17 +1431,6 @@ ul.karnak li img{
 
 p.buy{font-family: 'Ovo'; font-size: 16px;}
 
-body {
-	background: #5E3333;
-	font-family: georgia, times, serif;
-	font-size: 62.5%;
-	line-height: 1.4em;	
-	min-width: 720px;
-  /* below may or may not be needed
-  position: relative;
-  margin:auto;
-  width:auto; */
-}
 article {
 	position: relative;
 	margin: auto;
@@ -1530,61 +1472,15 @@ article p {
 	width: 100%;
 	position:relative;
 }
+
 h1 {
-
-	display: inline;
-
 	position: relative;
+	font-family: 'Rock Salt', cursive;
+   font-size: 120px;
+   margin-top: 100px;
+   margin-bottom: 100px;
+   text-align: center;
 
-	font: 200px Helvetica, Sans-Serif;
-
-	letter-spacing: -5px;
-
-	color:  #eb2755;
-
-}
-
-
-
-h1:after {
-
-	content: "X";
-
-	position: absolute; left: 10px; top: 5px;
-
-	color:  #E1DFD3; 
-
-}
-	
-h2 {
-
-	display: inline;
-
-	position: relative;
-
-	font: 200px Helvetica, Sans-Serif;
-
-	letter-spacing: -5px;
-
-	color: #eb2755;
-
-}
-
-
-h2:after {
-
-	content: "Projects";
-
-	position: absolute; left: 10px; top: 5px;
-
-	color: #E1DFD3;
-
-hr {
-	size: height="30px";
-}
-
-h2 {
-  clear:both;
 }
 
 
@@ -1650,69 +1546,7 @@ ul li:hover {
   margin-left:10px;
 }
 
-/*
-input.punch:hover {
-    -webkit-box-shadow: inset 0 0px 20px 1px #87adff, 0px 1px 0 #1d2c4d, 0 6px 0px #1f3053, 0 8px 4px 1px #111111;
-    box-shadow: inset 0 0px 20px 1px #87adff, 0px 1px 0 #1d2c4d, 0 6px 0px #1f3053, 0 8px 4px 1px #111111;
-    cursor: pointer; 
-}
-*/
-
-#contact-form input.punch:hover{
-    color:#FF00FF;
-}
-
-#contact-form input.punch:active {
-    -webkit-box-shadow: inset 0 1px 10px 1px #5c8bee, 0 1px 0 #1d2c4d, 0 2px 0 #1f3053, 0 4px 3px 0 #111111;
-    box-shadow: inset 0 1px 10px 1px #5c8bee, 0 1px 0 #1d2c4d, 0 2px 0 #1f3053, 0 4px 3px 0 #111111;
-    /*margin-top: 58px; */
-    position: static;
-}
-
-#contact-form input.punch {
-  background: #bc2c2c;
-  border-top: 1px solid #bc2c2c;
-  border-right: 1px solid #bc2c2c;
-  border-bottom: 1px solid #bc2c2c;
-  border-left: 1px solid #bc2c2c;
-  border-radius: 4px;
-  -webkit-box-shadow: inset 0 1px 10px 1px #5c8bee, 0px 1px 0 #1d2c4d, 0 6px 0px #1f3053, 0 8px 4px 1px #111111;
-  box-shadow: inset 0 1px 10px 1px #bc2c2c, 0px 1px 0 #bc2c2c, 0 6px 0px #bc2c2c, 0 8px 4px 1px #111111;
-  color: #fff;
-  font: bold 25px/1 "helvetica neue", helvetica, arial, sans-serif;
-  margin-bottom: 10px;
-  padding: 10px 0 12px 0;
-  text-align: center;
-  text-shadow: 0px -1px 1px #bc2c2c;
-   -webkit-background-clip: padding-box; 
-  /* attempting to get buttons to resize accordingly with screen adjust */
-  width: 100%;
-  height: auto;
-}
-
-
-h4:hover{
-    color:purple;
-    outline: silver;
-    text-shadow: 1px 1px 1px black
-}
-
-#errors {
-    font-family: 'Poiret One';
-    margin: auto; 
-    padding: 4px 22px 4px 22px;
-    border: 1px double #5e0f0f;
-    border-radius: 30px;
-    background: #fae9f5;
-    outline: dotted white;
-    display: block;
-    text-align: center; 
-    background-color: #d11151;
-}
-
-.center
-{
-   margin-left:auto;
-   margin-right:auto;
-   width:70%;
+div#art {
+   width: 80%;
+   margin-top:-200px;
 }
