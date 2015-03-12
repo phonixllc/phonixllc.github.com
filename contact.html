@@ -56,69 +56,7 @@ href="css/contact.css"/>-->
         }
 
     </style>
-    <script>
-        /* home page */
 
-        /* color transitions */
-        var colors = new Array(
-          [62,35,255],
-          [60,255,60],
-          [255,35,98],
-          [45,175,230],
-          [255,0,255],
-          [255,128,0]);
-
-        var step = 0;
-        //color table indices for:
-        // current color left
-        // next color left
-        // current color right
-        // next color right
-        var colorIndices = [0,1,2,3];
-
-        //transition speed
-        var gradientSpeed = 0.002;
-
-        function updateGradient()
-        {
-        var c0_0 = colors[colorIndices[0]];
-        var c0_1 = colors[colorIndices[1]];
-        var c1_0 = colors[colorIndices[2]];
-        var c1_1 = colors[colorIndices[3]];
-
-        var istep = 1 - step;
-        var r1 = Math.round(istep * c0_0[0] + step * c0_1[0]);
-        var g1 = Math.round(istep * c0_0[1] + step * c0_1[1]);
-        var b1 = Math.round(istep * c0_0[2] + step * c0_1[2]);
-        var color1 = "#"+((r1 << 16) | (g1 << 8) | b1).toString(16);
-
-        var r2 = Math.round(istep * c1_0[0] + step * c1_1[0]);
-        var g2 = Math.round(istep * c1_0[1] + step * c1_1[1]);
-        var b2 = Math.round(istep * c1_0[2] + step * c1_1[2]);
-        var color2 = "#"+((r2 << 16) | (g2 << 8) | b2).toString(16);
-
-         $('#gradient').css({
-           background: "-webkit-gradient(linear, left top, right top, from("+color1+"), to("+color2+"))"}).css({
-            background: "-moz-linear-gradient(left, "+color1+" 0%, "+color2+" 100%)"});
-          
-          step += gradientSpeed;
-          if ( step >= 1 )
-          {
-            step %= 1;
-            colorIndices[0] = colorIndices[1];
-            colorIndices[2] = colorIndices[3];
-            
-            //pick two new target color indices
-            //do not pick the same as the current one
-            colorIndices[1] = ( colorIndices[1] + Math.floor( 1 + Math.random() * (colors.length - 1))) % colors.length;
-            colorIndices[3] = ( colorIndices[3] + Math.floor( 1 + Math.random() * (colors.length - 1))) % colors.length;
-            
-          }
-        }
-
-        setInterval(updateGradient,10);
-
-    </script>
 </head>
 <body>
 <header style="margin-bottom:-40px;">
@@ -127,79 +65,27 @@ href="css/contact.css"/>-->
         <nav class="main-nav">
           <ul>
             <li><a href="desktop.html">Home</a></li>
-            <li><a href="#" class="drop">Affiliates</a>
-              <ul>
-                <li><a href="#" class="dropp">Artists</a>
-                  <ul>
-                    <li><a href="http://jessicacollette.com" target="_blank">Jessica Collette</a></li>
-                    <li><a href="http://www.bda.smugmug.com" target="_blank">Johnny Jiron</a></li>
-                  </ul>
-                </li>
-              </ul>
-            </li>
-            <li><a href="#" class="drop">Social Media</a>
-              <ul>
-                <li><a href="#" class="dropp">YouTube</a>
-                  <ul>
-                    <li><a href="http://www.youtube.com/phonixllc">Phönix</a></li>
-                    <li><a href="http://www.youtube.com/theefamousband">TBF</a></li>
-                  </ul>
-                </li>
-                 <li><a href="#" class="dropp">Twitter</a>
-                  <ul>
-                    <li><a href="http://www.twitter.com/KarnakGallery">Phönix</a></li>
-                    <li><a href="http://www.twitter.com/TheBandFamous">TBF</a></li>
-                    <li><a href="http://www.twitter.com/XanderFigueroa">Zander</a></li>
-                    <li><a href="http://www.twitter.com/MaryNorell">Norell</a></li>
-                  </ul>
-                </li>
-                <li><a href="#" class="dropp">Facebook</a>
-                  <ul>
-                    <li><a href="http://www.facebook.com/PhonixLLC">Phönix</a></li>
-                    <li><a href="http://www.facebook.com/TheBandFamous">TBF</a></li>
-                    <li><a href="http://www.facebook.com/VWInkAgency">vw|NK</a></li>
-                    <li><a href="http://www.facebook.com/MaryNorell">Norell</a></li>
-                  </ul>
-                </li>
-              </ul>
-            </li>
-            <!--<li><a href="#">Support</a></li>-->
             
-          </ul>
         </nav>
 </header>
-<div id="gradient" style="height:1400px;">
   <br>
     <div>
 
-        <div id="contact-form" style="margin-top:150px;">
-            <div id="content">
+          <div id="content">
                 <div id="container">
                     <!-- <div id="header"><header><h4 style="font-family: 'Megrim'; font-size:52px; margin-top:20px; text-color: indigo;"><a>Contact Us</a></h4></header> </div>header -->
                 
-                  <div id="main">
-                      <form style="margin-bottom:40px; margin-top: -20px;" action="#" method="post" id="wishLists">
-                          <fieldset>
 
-                            <iframe src="https://docs.google.com/forms/d/12mgEKtP4IOuLuVdnAEL9zbcSOHNzPt6A5fZ_IQp0AB4/viewform?embedded=true" min-width="320" width:"90%;"height="850" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
-                              
-                            <!-- Commenting out Adobe Form while attempting php form 
-                              <script type="text/javascript" src="https://formscentral.acrobat.com/Clients/Current/FormsCentral/htmlClient/scripts/adobe.form.embed.min.js"></script>
-                              <script type="text/javascript">;ADOBEFORMS.EmbedForm({formId:"wUgY7VQv6YMIVeYb7pzGrg"});</script>
-                              -->
-
-                          </fieldset>
-
-                      </form>
+                     <iframe src="https://docs.google.com/forms/d/12mgEKtP4IOuLuVdnAEL9zbcSOHNzPt6A5fZ_IQp0AB4/viewform?embedded=true" width="400" height="850" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
                       <!--<p>If you prefer Gmail, please email</p><a href="https://mail.google.com/mail/?view=cm&fs=1&to=zandernorell@gmail.com&su=&body=" target="_blank"><p class="buy" style="font-size:18px; color:indigo; text-decoration:bold;">zandernorell@gmail.com</a></p>-->
 
-                  </div><!-- main -->
+
                 </div><!-- container -->
-            </div><!-- content -->
-        </div> <!-- contact-form -->
+          </div><!-- content -->
+
     </div>
-</div>
-<div id="footer" style="background-color:lavender; color: black; clear:both;text-align:center; font-family: 'Michroma', sans-serif;">Copyright &copy; Ph&ouml;nix LLC</div>
+
+    <div id="footer" style="background-color:lavender; color: black; margin-top: 400px;clear:both;text-align:center; font-family: 'Michroma', sans-serif;">Copyright &copy; Ph&ouml;nix LLC</div>
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
 <script type="text/javascript" src="js/about.js"></script>
 </body>
