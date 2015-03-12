@@ -16,6 +16,10 @@ body{
   min-width: 300px;
 }
 
+.btn {
+   width: 100px;
+}
+
 h1 {
    position: relative;
    font-family: 'Rock Salt', cursive;
@@ -1459,8 +1463,6 @@ article {
 
 }
 article p {
-	font-size: 1.2em;
-	line-height: 1.6em;
 	-webkit-column-width: 20em;
 	-moz-column-width: 20em;
 	-o-column-width: 20em;

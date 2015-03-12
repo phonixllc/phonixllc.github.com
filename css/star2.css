@@ -162,7 +162,7 @@ nav > ul > li > ul > li > ul:after {
   position: absolute;
   top: 1em;
   left: -12px;
-  heght: 0; width: 0;
+  height: 0; width: 0;
   border: 6px solid transparent;
   border-right-color: #eb2755;
 }
