@@ -42,17 +42,17 @@ nav ul li a {
   font-family: 'Michroma', sans-serif;
   font-size: 22px;
   text-decoration: none;
-  color: white;
+  color: #0199c7;
   border-top: 1px 1px #0199c7;
   background: lavender;
   padding: 10px 14px;
-  text-shadow: #eb2755;
+  text-shadow: #0199c7;
 }
 
 nav > ul > li > a {
   border-radius: 5px;
   border: 0;
-  box-shadow: #eb2755;
+  box-shadow: #0199c7;
 }
 
 nav ul > li ul {
@@ -63,7 +63,7 @@ nav ul > li ul {
   padding: 5px 0;
   opacity: 0;
   visibility: hidden;
-  box-shadow: #eb2755;
+  box-shadow: #0199c7;
   list-style: none;
 }
 
@@ -75,13 +75,14 @@ nav ul > li ul:after {
   height: 0; 
   width: 0;
   border: 6px solid transparent;
-  border-bottom-color: #eb2755;
+  border-bottom-color: #0199c7;
 }
 
 nav > ul li a:hover {
-  background: #eb2755;
-  box-shadow: inset #eb2755;
-  color: indigo;
+  background: #0199c7;
+  box-shadow: #0199c7;
+  color:indigo;
+  text-decoration: underline;
 }
 
 nav > ul li:hover > ul {
@@ -104,7 +105,7 @@ nav > ul > li > ul > li > ul {
 
 nav > ul > li > ul > li > ul:hover {
   width: 200px;
-  background: #eb2755;
+  background: lavender;
 }
 
 nav > ul > li > ul > li > ul:after {
@@ -112,9 +113,9 @@ nav > ul > li > ul > li > ul:after {
   position: absolute;
   top: 1em;
   left: -12px;
-  heght: 0; width: 0;
+  height: 0; width: 0;
   border: 6px solid transparent;
-  border-right-color: #eb2755;
+  border-right-color: #427fed;
 }
 
 nav > ul > li > ul > li:hover > ul {
@@ -137,13 +138,13 @@ nav > ul > li > ul > li:hover > ul {
 .drop:after {
   right: 8px;
   top: 14px;
-  border-top-color: #eb2755;
+  border-top-color: #427fed;
 }
 
 .dropp:after {
   top: 12px;
   right: 8px;
-  border-left-color: #eb2755;
+  border-left-color: #427fed;
 }
 
 /* Phones to Tablets */

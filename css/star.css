@@ -36,9 +36,9 @@ font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
       .main-nav a{font-family: 'Michroma', sans-serif;font-size: 22px;}
       a.logo{font-family: 'Michroma', sans-serif; font-size:40px;}
       p{font-family: 'Philosopher', sans-serif;}
-      p.hireUs{font-family: 'Julius Sans One'; font-size: 16px;}
-      p.buy{font-family: 'Ovo'; font-size: 16px;}
-      p.free{font-family: 'Give You Glory'; font-size: 22px; text-align: center;}
+      p.hireUs{font-family: 'Philosopher', sans-serif; font-size: 16px;}
+      p.buy{font-family: 'Philosopher', sans-serif; font-size: 16px;}
+      p.free{font-family: 'Philosopher', sans-serif;font-size: 22px; text-align: center;}
       a#store img{margin-top: 20px;}
       ul.igvine li{
         display: inline;
@@ -59,7 +59,6 @@ font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 
 nav > ul {
   margin-top: 2em;
-  margin-left: 400px;
   height: 40px;
   line-height: 40px;
   padding-left: 2em;
@@ -74,29 +73,31 @@ nav > ul > li {
 
 nav ul li a {
   display: block;
-  font: 16px/1 "Julius Sans One";
+  font-family: 'Michroma', sans-serif;
+  font-size: 22px;
   text-decoration: none;
-  color: white;
+  color: #0199c7;
+  border-top: 1px 1px #0199c7;
   background: lavender;
   padding: 10px 14px;
-  text-shadow: #eb2755;
+  text-shadow: #0199c7;
 }
 
 nav > ul > li > a {
   border-radius: 5px;
   border: 0;
-  box-shadow: #eb2755;
+  box-shadow: #0199c7;
 }
 
 nav ul > li ul {
   position: absolute;
   width: 200px;
-  background: #eb2755;
+  background: lavender;
   border-radius: 5px;
   padding: 5px 0;
   opacity: 0;
   visibility: hidden;
-  box-shadow: #eb2755;
+  box-shadow: #0199c7;
   list-style: none;
 }
 
@@ -105,21 +106,24 @@ nav ul > li ul:after {
   position: absolute;
   top: -11px;
   left: 1em;
-  height: 0; width: 0;
+  height: 0; 
+  width: 0;
   border: 6px solid transparent;
-  border-bottom-color: #eb2755;
+  border-bottom-color: #0199c7;
 }
 
 nav > ul li a:hover {
-  background: #eb2755;
-  box-shadow: #eb2755;
+  background: #0199c7;
+  box-shadow: #0199c7;
   color:indigo;
+  text-decoration: underline;
 }
 
 nav > ul li:hover > ul {
   visibility: visible;
   opacity: 1;
   top: 2.7em;
+  background: lavender;
 }
 
 nav > ul li > ul > li {
@@ -135,6 +139,7 @@ nav > ul > li > ul > li > ul {
 
 nav > ul > li > ul > li > ul:hover {
   width: 200px;
+  background: lavender;
 }
 
 nav > ul > li > ul > li > ul:after {
@@ -142,9 +147,9 @@ nav > ul > li > ul > li > ul:after {
   position: absolute;
   top: 1em;
   left: -12px;
-  heght: 0; width: 0;
+  height: 0; width: 0;
   border: 6px solid transparent;
-  border-right-color: #eb2755;
+  border-right-color: #427fed;
 }
 
 nav > ul > li > ul > li:hover > ul {
@@ -167,14 +172,26 @@ nav > ul > li > ul > li:hover > ul {
 .drop:after {
   right: 8px;
   top: 14px;
-  border-top-color: #eb2755;
+  border-top-color: #427fed;
 }
 
 .dropp:after {
   top: 12px;
   right: 8px;
-  border-left-color: #eb2755;
+  border-left-color: #427fed;
 }
+
+nav.main-nav ul li {
+  border:1px solid #dedede;
+  margin:5px;
+  padding:5px;
+}
+
+nav.main-nav ul li:hover {
+  background-color:#f0f3fb;
+}
+
+
 /* end nav bar */
 
 .container {
@@ -443,7 +460,7 @@ img{
 }
 
 h2{
-  font-family: 'Orbitron', sans-serif;
+  font-family: 'Michroma', sans-serif;
   font-size: 30px;
 }
 
@@ -694,36 +711,23 @@ figure.liveart {
   box-shadow: 0 30px 25px -25px black;
 }
 
-/* for Famous icon on Norellstar page */
-figure {
-  border: 5px solid #fff;
-  height: 270px;
-  margin: 20px auto;
-  overflow:hidden;
-  position: relative;
-  width: 270px;
-  background: white;
-  box-shadow: 0 30px 25px -25px black;
-}
-
 figure.norell {
   border: 5px solid #fff;
-  height: 400px;
+  height: 280px;
   margin: 20px auto;
   overflow:hidden;
   position: relative;
-  width: 400px;
+  width: 280px;
   background: white;
   box-shadow: 0 30px 25px -25px black;
-  margin-bottom: 30px;
 }
 
 figure img {
-  height: 100%;
-  left: -2%;
+  height: 95%;
+  left: 2%;
   position: absolute;
-  top: -2%;
-  width: 100%;
+  top: 2%;
+  width: 95%;
   -webkit-transition: all 0.1s ease-in-out;
   -moz-transition: all 0.1s ease-in-out;
   -o-transition: all 0.1s ease-in-out;
@@ -732,10 +736,10 @@ figure img {
 }
 
 figure:hover img {
-  height: 100%;
+  height: 102%;
   left: 0;
   top: 0;
-  width: 100%;
+  width: 102%;
 }
 
 
@@ -877,4 +881,15 @@ h3.footer {
 
       a#lmda:hover{
         color: #eb2755;
+      }
+
+     h1 {
+        position: relative;
+        font-family: 'Rock Salt', cursive;
+        font-size: 120px;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        text-align: center;
+        text-shadow: 4px 4px #0199c7;
+
       }
