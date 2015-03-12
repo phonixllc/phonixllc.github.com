@@ -16,6 +16,15 @@ body{
   min-width: 720px;
 }
 
+h1 {
+   position: relative;
+   font-family: 'Rock Salt', cursive;
+   font-size: 120px;
+   margin-top: 0px;
+   margin-bottom: 100px;
+   text-align: center;
+   text-shadow: 4px 4px #0199c7;
+}
 /* BOX UNIVERSAL SYLES */
 
 #square_wrapper {

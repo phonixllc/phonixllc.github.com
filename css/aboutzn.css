@@ -4,6 +4,10 @@ html{
   background-size: 100% auto;
 }
 
+body {
+  height: 100%;
+}
+
 .newspaper
 {
 columns:100px 3;
