@@ -286,7 +286,6 @@ input.placeholder-text, textarea.placeholder-text  {
 body {
 	background: white;
 	font-family: georgia, times, serif;
-	font-size: 62.5%;
 	line-height: 1.4em;	
 	min-width: 720px;
 
@@ -332,75 +331,30 @@ article p {
 	position:relative;
 }
 
-      h3:hover{
-        color: white;
+      h1 {
+        position: relative;
+        font-family: 'Rock Salt', cursive;
+        font-size: 120px;
+        margin-top: 0px;
+        margin-bottom: 100px;
+        text-align: center;
+        text-shadow: 4px 4px #0199c7;
+
       }
-      
-    .center
-    {
-      margin-left:auto;
-      margin-right:auto;
-      width:70%;
-    }
 
-h1 {
+      p.title {
+        text-align: right;
+        margin-bottom: 20px;
+        font-family: 'Michroma', sans-serif;
+        font-size: 2em;    
+        margin-top: -40px;  
+      }
 
-  display: inline;
-
-  position: relative;
-
-  font: 200px Helvetica, Sans-Serif;
-
-  letter-spacing: -5px;
-
-  color: #eb2755;
-
-}
+      nav.main-nav a {
+        color: #0199c7;
+      }
 
 
-
-h1:after {
-
-  content: "About";
-
-  position: absolute; left: 10px; top: 5px;
-
-  color: #E1DFD3; 
-
-}
-  
-h2 {
-
-  display: inline;
-
-  position: relative;
-
-  font: 200px Helvetica, Sans-Serif;
-
-  letter-spacing: -5px;
-
-  color: #eb2755; 
-
-}
-
-
-
-h2:after {
-
-  content: "Zander";
-
-  position: absolute; left: 10px; top: 5px;
-
-  color: #E1DFD3;  
-
-
-hr {
-  size: "30px";
-}
-
-h2 {
-  clear:both;
-}
 
 p {
 	color:text:blue;
@@ -426,82 +380,6 @@ ul li:hover {
   background-color:#f0f3fb;
 }
 
-.user, .tweet, .timePosted {
-  float:left;
-}
-
-.user {
-  width:25%;
-}
-
-.tweet {
-  width:50%;
-}
-
-.timePosted {
-  width:25%;
-}
-
-.user {
-  clear:left;
-}
-
-.user a {
- width: 100px;
-}
-
-.user span span {
-  width:100px;
-  display:block;
-  margin-top:10px;
-}
-
-.user img, .user a > span {
-  float:left;
-}
-
-.user a > span {
-  margin-left:10px;
-}
-
-#contact-form input.punch:hover{
-    color:#FF00FF;
-}
-
-#contact-form input.punch:active {
-    -webkit-box-shadow: inset 0 1px 10px 1px #5c8bee, 0 1px 0 #1d2c4d, 0 2px 0 #1f3053, 0 4px 3px 0 #111111;
-    box-shadow: inset 0 1px 10px 1px #5c8bee, 0 1px 0 #1d2c4d, 0 2px 0 #1f3053, 0 4px 3px 0 #111111;
-    /*margin-top: 58px; */
-    position: static;
-}
-
-#contact-form input.punch {
-  background: #bc2c2c;
-  border-top: 1px solid #bc2c2c;
-  border-right: 1px solid #bc2c2c;
-  border-bottom: 1px solid #bc2c2c;
-  border-left: 1px solid #bc2c2c;
-  border-radius: 4px;
-  -webkit-box-shadow: inset 0 1px 10px 1px #5c8bee, 0px 1px 0 #1d2c4d, 0 6px 0px #1f3053, 0 8px 4px 1px #111111;
-  box-shadow: inset 0 1px 10px 1px #bc2c2c, 0px 1px 0 #bc2c2c, 0 6px 0px #bc2c2c, 0 8px 4px 1px #111111;
-  color: #fff;
-  font: bold 25px/1 "helvetica neue", helvetica, arial, sans-serif;
-  margin-bottom: 10px;
-  padding: 10px 0 12px 0;
-  text-align: center;
-  text-shadow: 0px -1px 1px #bc2c2c;
-   -webkit-background-clip: padding-box; 
-  /* attempting to get buttons to resize accordingly with screen adjust */
-  width: 100%;
-  height: auto;
-}
-
-
-h4:hover{
-    color:purple;
-    outline: silver;
-    text-shadow: 1px 1px 1px black
-}
 
 #errors {
     font-family: 'Poiret One';
@@ -516,14 +394,30 @@ h4:hover{
     background-color: #d11151;
 }
 
-
-nav.main-nav ul li {
-  border:1px solid #dedede;
-  margin:5px;
-  padding:5px;
+img{
+  width: 100%;
+  height: auto;
 }
+        nav.main-nav{
+          margin-bottom: 50px;
+          margin-left: 0px;
+        }
 
-nav.main-nav ul li:hover {
-  background-color:#f0f3fb;
-}
 
+        nav.main-nav ul li {
+          border:1px solid #dedede;
+          margin:5px;
+          padding:5px;
+        }
+
+        nav.main-nav ul li:hover {
+          background-color:#f0f3fb;
+        }
+
+
+        h1.slogan {
+          font-family: 'Michroma', sans-serif;
+          margin-left: 11px;
+          font-size: 36px;
+          text-shadow: 2px 2px #0199c7;
+        }
