@@ -3,12 +3,13 @@ html {
   background: white;
   background-attachment: fixed;
   background-size: 100% auto;
+  min-width: 280px;
 
 }
 
 body {
- 
-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  min-width: 280px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 100%;
   line-height: 1.2em;
 }
@@ -886,7 +887,7 @@ h3.footer {
      h1 {
         position: relative;
         font-family: 'Rock Salt', cursive;
-        font-size: 62px;
+        font-size: 61px;
         margin-top: 50px;
         margin-bottom: 50px;
         text-align: center;
