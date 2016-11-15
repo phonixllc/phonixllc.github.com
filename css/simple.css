@@ -19,8 +19,16 @@ p.fancy {
 	margin:4px;
 }
 
-a{
+a {
 	padding-bottom: 2px;
+	font-family: Orbitron; 
+	font-size: 17px;
+
+}
+
+a:hover {
+	color: #17AD3A;
+	text-decoration: none;
 }
 
 .three-column
