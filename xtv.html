@@ -8,44 +8,61 @@
   <title>Ph&ouml;nix Intl Creative Agency</title>
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
   <link rel="stylesheet" type="text/css"
-  href="styles/solarsystemText.css"/>
-  <link rel="stylesheet" type="text/css"
   href="css/xprojects.css"/>
   <link href='http://fonts.googleapis.com/css?family=Crushed|News+Cycle:400,700|Michroma|Philosopher:400,700,400italic,700italic|Architects+Daughter|Orbitron:400,500,700,900|Rock+Salt' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Codystar|Give+You+Glory|Poiret+One|Londrina+Outline|Ovo|Great+Vibes|Julius+Sans+One|Shadows+Into+Light+Two|Megrim' rel='stylesheet' type='text/css'/>
   <style>
-      h3{
-        font-family: 'Michroma', sans-serif;
-        font-size: 34px; 
-        color:#eb2755;
-        margin: 17px auto;
-        letter-spacing: 1px;
-        word-spacing: 6px;
-      }
+    ul.topnav {
 
-      h3:hover{
-        color: white;
-      }
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: white;
+      background-size: 100%;
+      background-repeat: repeat;
+      min-height:70px;
+      height:auto;
+      width: 100%;
+      
+
+    }
+
 
   </style>
 </head>
 <body>
-<center><header><h1>XTV</h1></center>
-    <nav class="main-nav">
-          <ul>
-            	<li><a href="index.html">Home</a></li>
-              <li><a href="xfashion.html">X Fashion</a></li>
-             	<li><a href="vwink.html">vw|NK</a></li>
-             	<li><a href="karnak.html">Karnak</a>
-          </ul>
-        
-   </nav>
+<ul class="topnav" id="phonixnav">
+  <li><a href="index.html">HOME</a></li>
+  <li><a href="team.html">ABOUT</a></li>
+  <li><a href="artistry.html">ARTISTRY</a></li>
+  <li><a href="xprojects.html">PROJECTS</a></li>
+  <li><a href="contact.html">CONTACT</a></li>
+  <li class="icon">
+    <a href="javascript:void(0);" onclick="myFunction()">&#9776;</a>
+    <script>
+      function myFunction(){
+        var x = document.getElementById("phonixnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+    </script>
+  </li>
+</ul>
+<hr>
+<hr>      
+<hr>
+<header>
+<header><h1>XTV</h1>
+
 </header>
 <div id="container">
-        <hr>
-        <hr>  
-        <hr>      
+     
 <center>
+  <div id="container" style="background: lavender; width: 95%;">
   <ul class="figure">
   <li>
     <figure class="liveart">
@@ -123,7 +140,12 @@
     </figure>
   </li>
 </ul>
+<br>
+<br>
+</div>
 </center>
+<br>
+
 <div id="footer" style="background-color:lavender; color: black; clear:both;text-align:center; font-family: 'Michroma', sans-serif;">Copyright &copy; Ph&ouml;nix LLC</div>
 </body>
 </html>
