@@ -1,0 +1,268 @@
+html {
+	background: black;
+}
+
+body {
+	background: white;
+}
+
+section {
+	background: black;
+}
+
+section.three-column {
+	width: 100%;
+	height: auto;
+  background: black;
+}
+
+h1.slogan {
+	/* also try Allura */
+	font-family: 'Clicker Script', sans-serif;
+	margin-left: 20px;
+	margin-top: 10px;
+	padding-top: 10px;
+	/*text-shadow: 2px 2px #0199c7;*/
+	font-size: 40px;
+}
+
+h2.nav {
+	color: black;
+	/*text-shadow: 2px 2px #0199c7;*/
+	font-size: 25px;
+	font-family: 'Cinzel', sans-serif;
+}
+
+h2.enter {
+  font-family: 'Sacramento', cursive;
+  font-size: 30px;
+  margin-bottom:50px;
+}
+
+h2.enter:hover{
+  color:red;
+  font-size: 35px;
+  font-style:bold;
+
+  margin-bottom: 55px;
+}
+
+a.enter {
+  text-decoration: none;
+  color:black;
+}
+
+a.enter:hover {
+  text-decoration: none;
+}
+
+p.fancy {
+	font-family: 'Raleway', sans-serif;
+	font-size: 14px;
+	margin:4px;
+}
+
+p.music {
+  font-size: 60px;
+  font-family: 'Ruthie', cursive;
+  font-style: bold;
+  color: #a20808;
+}
+
+p.music2 {
+  font-size: 45px;
+  font-family: 'Ruthie', cursive;
+  font-style: bold;
+  color: red;
+}
+
+p {
+	font-style: 25px;
+}
+
+p.signature {
+  font-size: 40px;
+  font-family: 'Sacramento', cursive;
+}
+
+a{
+	padding-bottom: 2px;
+}
+
+.three-column
+{
+  background:black;
+  margin-bottom: 20px;
+}
+
+div {
+  background: white;
+}
+
+ul.header {
+	text-decoration: none;
+	margin-top: 10px;
+	padding-top: 10px;
+}
+
+ul.header li {
+	display: inline-block;
+}
+
+ul.social {
+	text-decoration: none;
+}
+
+ul.social li {
+	display: inline-block;
+	margin-right: 10px;
+}
+
+ul.social img {
+	width: auto;
+	height: 22px;
+  margin-top: -4px;
+}
+
+ul.nav {
+	text-decoration: none;
+}
+
+ul.nav li {
+	display: inline-block;
+}
+
+/* SHOP ITEMS CSS */
+
+ul#shop li {
+  list-style: none;
+  display: inline;
+  margin:4px;
+}
+
+ul#shop li img {
+  box-shadow: 8px 8px 8px 8px red;
+  height: 300px;
+  width: auto;
+
+}
+
+/* End Shop  */
+
+nav {
+	background:#D5DEDE;
+}
+
+img {
+	width: 100%;
+	height: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+img.bw {
+  width: 70%; 
+  height: auto;
+}
+
+h1.music, h1.shop, h1.contact {
+  /*font-family: 'Allura', cursive;*/
+  font-family: 'Cinzel', sans-serif;
+  font-size: 56px;
+  color: black;
+  margin-top: 20px;
+  padding:10px;
+  /*color: red;
+  text-shadow: 2px 2px gold;*/
+  background: white;
+}
+
+hr {
+  color: gray;
+  border-top: 50px solid gray;  
+}
+
+/* for music icons */
+
+ul.music {
+  text-decoration: none;
+}
+
+ul.music li {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+ul.music img {
+  width: 145px;
+  height: auto;
+  margin-top: 10px;
+}
+
+/* end music icons */
+
+
+/* For Slider with Try Love and other music videos */
+
+#slider {
+  position: relative;
+  overflow: hidden;
+  margin: 20px auto 0 auto;
+  border-radius: 4px;
+}
+
+#slider ul {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  height: 200px;
+  list-style: none;
+}
+
+#slider ul li {
+  position: relative;
+  display: block;
+  float: left;
+  margin: 0;
+  padding: 0;
+  width: 500px;
+  height: 300px;
+  background: #ccc;
+  text-align: center;
+  line-height: 300px;
+}
+
+a.control_prev, a.control_next {
+  position: absolute;
+  top: 40%;
+  z-index: 999;
+  display: block;
+  padding: 4% 3%;
+  width: auto;
+  height: auto;
+  background: #2a2a2a;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+a.control_prev:hover, a.control_next:hover {
+  opacity: 1;
+  -webkit-transition: all 0.2s ease;
+}
+
+a.control_prev {
+  border-radius: 0 2px 2px 0;
+}
+
+a.control_next {
+  right: 0;
+  border-radius: 2px 0 0 2px;
+}
+
+/* End slider */
+
+
