@@ -10,83 +10,77 @@
   <meta name="keywords" content="contact Phonix, contact, mobile development, mobile, mobile friendly, native apps, application, web apps, web app, native app, iOS, Android, mobile device, development, web development, mobile friendly website, intuitive website, design, UX, experts, Zander, Norell">
   <meta name="description" content="Contact Phönix. Web/Mobile Development Experts. Artists. Designers. Developers. What can we do for you?">
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" type="text/css"
+href="css/star.css"/>
   <link href='http://fonts.googleapis.com/css?family=Crushed|News+Cycle:400,700|Michroma|Philosopher:400,700,400italic,700italic|Architects+Daughter|Orbitron:400,500,700,900|Rock+Salt' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Codystar|Give+You+Glory|Poiret+One|Londrina+Outline|Ovo|Great+Vibes|Julius+Sans+One|Shadows+Into+Light+Two|Megrim' rel='stylesheet' type='text/css'>
     <title>Ph&ouml;nix Intl Creative Agency</title>
-    <link rel="stylesheet" type="text/css"
-href="css/aboutzn.css"/>
+
     <!--<link rel="stylesheet" type="text/css"
 href="css/contact.css"/>-->
     <style>
-        html, body{
-            height: 100%;
-            width: 100%;
-            min-width: 300px;
 
+        ul.topnav {
+          min-height:70px;
+          height:auto;
+          width: 100%;
         }
-        #gradient{
-            height:100%;
-            width: 99%;
-            margin:0px;
-        }
-
-        nav.main-nav{
-          margin-bottom: 50px;
-          margin-left: 0px;
-        }
-
-
-        nav.main-nav ul li {
-          border:1px solid #dedede;
-          margin:5px;
-          padding:5px;
-        }
-
-        nav.main-nav ul li:hover {
-          background-color:#f0f3fb;
-        }
-
 
         h1.slogan {
           font-family: 'Michroma', sans-serif;
+          /*font-family: 'Rock Salt', cursive;*/
           margin-left: 11px;
-          font-size: 36px;
+          font-size: 2.5em;
           text-shadow: 2px 2px #0199c7;
-          margin-bottom:-17px;
+          margin-bottom:22px;
         }
 
     </style>
 
 </head>
-<body>
-<header style="margin-bottom:-40px;">
-        <h1 class="slogan">Phönix Intl</h1>
-        <!-- The nav bar does not connect to other sites as of yet -->
-        <nav class="main-nav">
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            
-        </nav>
-</header>
-  <br>
-    <div>
-
-          <div id="content">
-                <div id="container">
-                    <!-- <div id="header"><header><h4 style="font-family: 'Megrim'; font-size:52px; margin-top:20px; text-color: indigo;"><a>Contact Us</a></h4></header> </div>header -->
+<body> 
+<!-- The nav bar does not connect to other sites as of yet -->
+<ul class="topnav" id="phonixnav">
+  <li><a href="index.html">HOME</a></li>
+  <li><a href="team.html">ABOUT</a></li>
+  <li><a href="artistry.html">ARTISTRY</a></li>
+  <li><a href="xprojects.html">PROJECTS</a></li>
+  <li><a href="contact.html">CONTACT</a></li>
+  <li class="icon">
+    <a href="javascript:void(0);" onclick="myFunction()">&#9776;</a>
+    <script>
+      function myFunction(){
+        var x = document.getElementById("phonixnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+    </script>
+  </li>
+</ul>
+<hr>
+<hr>      
+<hr>
+<center><div style="background: lavender; width:80%; margin:0 auto; padding:22px 22px;;">
+  <div id="content">
+    <h1 class="slogan">Phönix Intl</h1>
+      <div id="container">
+        <!-- <div id="header"><header><h4 style="font-family: 'Megrim'; font-size:52px; margin-top:20px; text-color: indigo;"><a>Contact Us</a></h4></header> </div>header -->
                 
 
-                     <center><iframe src="https://docs.google.com/forms/d/12mgEKtP4IOuLuVdnAEL9zbcSOHNzPt6A5fZ_IQp0AB4/viewform?embedded=true" width="380" height="850" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe></center>
+        <iframe src="https://docs.google.com/forms/d/12mgEKtP4IOuLuVdnAEL9zbcSOHNzPt6A5fZ_IQp0AB4/viewform?embedded=true" width="90%" height="900" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
                       <!--<p>If you prefer Gmail, please email</p><a href="https://mail.google.com/mail/?view=cm&fs=1&to=zandernorell@gmail.com&su=&body=" target="_blank"><p class="buy" style="font-size:18px; color:indigo; text-decoration:bold;">zandernorell@gmail.com</a></p>-->
 
 
-                </div><!-- container -->
-          </div><!-- content -->
+      </div><!-- container -->
+  </div><!-- content -->
+</div></center>
 
-    </div>
-
-    <div id="footer" style="background-color:lavender; color: black; margin-top: 400px;clear:both;text-align:center; font-family: 'Michroma', sans-serif;">Copyright &copy; Ph&ouml;nix LLC</div>
+<div id="footer" style="background-color:lavender; color: black; margin-top: 400px;clear:both;text-align:center; font-family: 'Michroma', sans-serif;">Copyright &copy; Ph&ouml;nix LLC</div>
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
 <script type="text/javascript" src="js/about.js"></script>
+
 </body>
 </html>

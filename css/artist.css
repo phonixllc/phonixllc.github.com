@@ -45,7 +45,7 @@ header.page-header > div {
   -moz-border-radius: 5px;
   border-radius: 5px;
   background-color: transparent;
-  color: #ffffff;
+  color: lavender;
 }
 header.page-header > div a {
   color: #add8e6;
@@ -63,7 +63,7 @@ section.content > div {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
-  background-color: #ffffff;
+  background-color: lavender;
   color: #333333;
 }
 section.content > div a {
@@ -94,8 +94,8 @@ aside.sidebar h6 {
   -moz-border-radius: 5px;
   border-radius: 5px;
   margin: 0 0 0.6em;
-  background-color: black;
-  color: white;
+  background-color: lavender;
+  color: black;
   font-size: 19.2px;
   font-size: 1.2rem;
   text-align: center;
@@ -107,7 +107,7 @@ aside.sidebar > div {
   border-radius: 5px;
 }
 aside.sidebar.left > div {
-  background-color: #ffffff;
+  background-color: lavender;
   color: #333333;
 }
 aside.sidebar.left > div a {
@@ -117,7 +117,7 @@ aside.sidebar.left > div a:hover {
   color: #b0c4de;
 }
 aside.sidebar.right > div {
-  background-color: #ffffff;
+  background-color: lavender;
   color: #333333;
 }
 aside.sidebar.right > div a {

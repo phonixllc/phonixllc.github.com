@@ -1,11 +1,16 @@
 /* Default wide-screen styles */
+
+/*
 body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td {
     margin: 0;
     padding: 0;
 }
+*/
 
 html{
-background-size: 100% auto;
+   background: white;
+   background-size: 100% auto;
+   width: 100;
 }
 
 body{
@@ -13,7 +18,170 @@ body{
    font-family: georgia, times, serif;
    font-size: 14px;
    line-height: 1.4em;
-  min-width: 300px;
+   min-width: 300px;
+   width: 90;
+}
+
+/* Responsive Nav Bar */
+
+ul.topnav {
+
+  height: 40px;
+  line-height: 40px;
+
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+  background-size: 100%;
+  height:auto;
+  width: 100%;
+
+
+}
+
+
+/* Float list items side by side */
+ul.topnav li {
+  float: left;}
+
+/* Style links inside list items */
+ul.topnav li a {
+
+  font-family: 'Michroma', sans-serif;
+  font-size: 22px;
+  text-decoration: none;
+  color: #0199c7;
+  border-top: 1px 1px #0199c7;
+  background: white;
+  text-shadow: #eb2755;
+}
+
+ul.topnav li a:hover {
+  background: #0199c7;
+  box-shadow: #0199c7;
+  color:#0199c7;
+  text-decoration: underline;
+}
+
+ul.topnav li.icon {
+  display: none;
+}
+
+/* When screen is less than 680px wide, hide list items, except for the first one ("Home"). Show the list item that contains the link to open and close the topnav (li.icon) */
+
+
+@media screen and (max-width:680px) {
+  ul.topnav li:not(:first-child) {display: none;}
+  ul.topnav li.icon {
+    float: right;
+    display: inline-block;
+  }
+}
+
+/* The "responsive" class is added to topnav  with Javascript when the user clicks on the icon. This class makes the topnav look good on small screens */
+
+@media screen and (max-width:680px) {
+  ul.topnav.responsive {position: relative;}
+  ul.topnav.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  ul.topnav.responsive li {
+    float: none;
+    display: inline;
+  }
+  ul.topnav.responsive li a {
+    display: block;
+    text-align: left;
+  }
+
+}
+
+ul.topnav li > a:link {color: #0199c7; -moz-text-decoration-style: solid; padding: 3px 7px;}   /* unvisited link */
+
+ul.topnav li > a:visited {color:#0199c7;}  /* visited link */
+
+ul.topnav li > a:hover {
+  background: #0199c7;
+  border-top: 1px solid #0199c7;
+  border-right: 1px solid #0199c7;
+  border-bottom: 1px solid #0199c7;
+  border-left: 1px solid #0199c7;
+  border-radius: 11px;
+  -webkit-box-shadow: inset 0 1px 10px 1px #5c8bee, 0px 1px 0 #1d2c4d, 0 6px 0px #1f3053, 0 8px 4px 1px #111111;
+  box-shadow: inset 0 1px 10px 1px indigo, 0px 1px 0 indigo, 0 6px 0px indigo, 0 8px 4px 1px #111111;
+  color: #fff;
+  text-shadow: 0px -1px 1px #E1DFD3;
+  -webkit-background-clip: padding-box; 
+ }
+ 
+
+ /* mouse over link */
+ 
+ul.topnav li > a:active {color:indigo; -webkit-box-shadow: inset 0 1px 10px 1px #5c8bee, 0 1px 0 #1d2c4d, 0 2px 0 #1f3053, 0 4px 3px 0 #111111;
+    box-shadow: inset 0 1px 10px 1px #5c8bee, 0 1px 0 #1d2c4d, 0 2px 0 #1f3053, 0 4px 3px 0 #111111;
+    position: static;} */ /* selected link */
+
+
+ul.topnav li ul {
+
+  width: 200px;
+  background: #33cda7;
+  border-radius: 7px;
+  opacity: 0;
+  visibility: hidden;
+  box-shadow: 0 3px 15px rgba(0,0,0,.7);
+  list-style: none;
+}
+
+ul.display li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+
+/* end navigation */
+
+.col-group {
+  overflow: hidden;
+}
+.col-group > div {
+  padding: 1em;
+}
+
+@media screen and (min-width: 44em) {
+  .col-group > div {
+    float: left;
+    width: 50%;
+  }
+  .col-group > div:nth-child(odd) {
+    clear: left;
+  }
+}
+
+@media screen and (min-width: 50em) {
+  .col-group > div {
+    float: left;
+    width: 33.3333333%;
+  }
+  .col-group > div:nth-child(3n+1) {
+    clear: left;
+  }
+  .col-group > div:nth-child(odd) {
+    clear: none;
+  }
+}
+
+@media screen and (min-width: 70em) {
+  .col-group > div {
+    width: 20%;
+  }
+  .col-group > div:nth-child(odd), .col-group > div:nth-child(3n+1) {
+    clear: none;
+  }
 }
 
 .btn {
@@ -23,12 +191,29 @@ body{
 h1 {
    position: relative;
    font-family: 'Rock Salt', cursive;
-   font-size: 120px;
-   margin-top: 0px;
-   margin-bottom: 100px;
+   font-size: 60px;
+   margin-top: 22px;
+   margin-bottom: 22px;
    text-align: center;
    text-shadow: 4px 4px #0199c7;
 }
+
+h3 {
+   /*font-family: 'Crushed', sans-serif; */
+   /*font-family: 'Londrina Outline';   */
+  /*font-family: 'Michroma', sans-serif;
+  font-size:20px; */
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  background-color: lavender;
+  color: black;
+  text-shadow: 2px 2px #0199c7;
+  font-size: 1.2rem;
+  text-align: center;
+  font-family: 'Michroma', sans-serif;
+}
+
 /* BOX UNIVERSAL SYLES */
 
 #square_wrapper {
@@ -1195,132 +1380,6 @@ columns:100px 3;
     min-width: 320px;
 }
 
-.main-nav{
-  display:inline-block;
-}
-
-nav > ul {
-  margin-top: 2em;
-  margin-left: 0px;
-  height: 40px;
-  line-height: 40px;
-  padding-left: 2em;
-  list-style: none;
-}
-
-nav > ul > li {
-  position: relative;
-  margin-right: 1em;
-  float: left;
-}
-
-nav ul li a {
-  display: block;
-  font-family: 'Michroma', sans-serif;
-  font-size: 22px;
-  text-decoration: none;
-  color: white;
-  border-top: 1px 1px #0199c7;
-  background: lavender;
-  padding: 10px 14px;
-  text-shadow: #eb2755;
-}
-
-nav > ul > li > a {
-  border-radius: 5px;
-  border: 0;
-  box-shadow: #eb2755;
-}
-
-nav ul > li ul {
-  position: absolute;
-  width: 200px;
-  background: lavender;
-  border-radius: 5px;
-  padding: 5px 0;
-  opacity: 0;
-  visibility: hidden;
-  box-shadow: #eb2755;
-  list-style: none;
-}
-
-nav ul > li ul:after {
-  content: "";
-  position: absolute;
-  top: -11px;
-  left: 1em;
-  height: 0; width: 0;
-  border: 6px solid transparent;
-  border-bottom-color: #eb2755;
-}
-
-nav > ul li a:hover {
-   background: #0199c7;
-   box-shadow: #0199c7;
-   color:indigo;
-   text-decoration: underline;
-}
-
-nav > ul li:hover > ul {
-  visibility: visible;
-  opacity: 1;
-  top: 2.7em;
-}
-
-nav > ul li > ul > li {
-  position: relative;
-}
-
-nav > ul > li > ul > li > ul {
-  left: 105%;
-  top: -2.5em !important;
-  z-index: 1;
-  width: 180px;
-}
-
-nav > ul > li > ul > li > ul:hover {
-  width: 200px;
-}
-
-nav > ul > li > ul > li > ul:after {
-  content: "";
-  position: absolute;
-  top: 1em;
-  left: -12px;
-  heght: 0; width: 0;
-  border: 6px solid transparent;
-  border-right-color: #eb2755;
-}
-
-nav > ul > li > ul > li:hover > ul {
-  top: 0 !important;
-}
-
-
-.drop,.dropp {
-  padding-right: 2em;
-}
-
-.drop:after,
-.dropp:after{
-  content: "";
-  position: absolute;
-  height: 0; width: 0;
-  border: 6px solid transparent;
-}
-
-.drop:after {
-  right: 8px;
-  top: 14px;
-  border-top-color: #eb2755;
-}
-
-.dropp:after {
-  top: 12px;
-  right: 8px;
-  border-left-color: #eb2755;
-}
-/* end nav bar */
 /* Phones to Tablets */
 
 @media only screen and (min-width: 481px) {
@@ -1496,6 +1555,8 @@ h1 {
 
 p {
 	margin-left: 20px;
+  font-family: 'Philosopher', sans-serif; 
+  font-size: 16px;
 }
 
 a, a:visited {
@@ -1506,6 +1567,7 @@ a:hover {
   color:#82afff;
 }
 
+/*
 ul li {
   list-style:none;
   overflow:hidden;
@@ -1513,7 +1575,7 @@ ul li {
   margin:5px;
   padding:5px;
 }
-
+*/
 ul li:hover {
   background-color:#f0f3fb;
 }
@@ -1560,3 +1622,5 @@ div#art {
    width: 80%;
    margin-top:-200px;
 }
+
+

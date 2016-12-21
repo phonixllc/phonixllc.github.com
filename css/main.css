@@ -181,7 +181,7 @@ header {
 }
 
 html{
-    background: rgba(235,39,85,1);
+background: rgba(235,39,85,1);
 background: -moz-linear-gradient(left, rgba(235,39,85,1) 0%, rgba(225,223,211,1) 50%, rgba(225,223,211,1) 50%, rgba(235,39,85,1) 100%);
 background: -webkit-gradient(left top, right top, color-stop(0%, rgba(235,39,85,1)), color-stop(50%, rgba(225,223,211,1)), color-stop(50%, rgba(225,223,211,1)), color-stop(100%, rgba(235,39,85,1)));
 background: -webkit-linear-gradient(left, rgba(235,39,85,1) 0%, rgba(225,223,211,1) 50%, rgba(225,223,211,1) 50%, rgba(235,39,85,1) 100%);
@@ -200,7 +200,7 @@ html, body {
   
     /* Below is with added columns
     height: 100%; */
-  min-width: 360px;
+  min-width: 220px;
   max-width: 100%;
   width:auto;
   position: relative;
@@ -225,14 +225,6 @@ body {
 
 }
 
-background {
-	max-width: auto;
-    max-height: auto;
-    width: 768px;
-    min-width: 30%;
-    position: center;
-    background-position: absolute;
-}
 
 #content{
     height:auto;
