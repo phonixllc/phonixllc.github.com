@@ -63,40 +63,78 @@
         color: #0199c7;
       }
 
+      /* Responsive Nav Bar */
+
+    ul.topnav {
+
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: white;
+      background-size: 100%;
+      background-repeat: repeat;
+      min-height:70px;
+      height:auto;
+      width: 100%;
+      
+
+    }
+
+
   </style>
 </head>
 <body>
+<ul class="topnav" id="phonixnav">
+  <li><a href="index.html">HOME</a></li>
+  <li><a href="team.html">ABOUT</a></li>
+  <li><a href="artistry.html">ARTISTRY</a></li>
+  <li><a href="xprojects.html">PROJECTS</a></li>
+  <li><a href="contact.html">CONTACT</a></li>
+  <li class="icon">
+    <a href="javascript:void(0);" onclick="myFunction()">&#9776;</a>
+    <script>
+      function myFunction(){
+        var x = document.getElementById("phonixnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+    </script>
+  </li>
+</ul>
+<hr>
+<hr>      
+<hr>
 
-<header class="page-header">
-<header><h1>Artistry</h1>
-<nav class="main-nav">
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="contact.html">Contact</a></li>
-         </ul>
-</nav>    
+<!--<h1>Artistry</h1>-->
 
 
-</header>
 
   <!--<div style="background: #fff; padding: 0.6em; color: #333; margin-top: 4px; font-family: 'Michroma', sans-serif; font-size: 65px; text-align: center; letter-spacing: 2px; word-spacing: 2px;">Norell</div>-->
 
   <div class="page-wrapper">
     <section class="content">
-      <div><h2 style="font-size: 30px;">Photography</h2>
+      <div><h3 style="font-size: 30px;">Photography</h3>
 
         <img src="img/featured.jpg" alt="PhonixIntl.com Photography"/>
-        <p class="buy">We are available for your photography needs, whether from our studio and production space, or a location of your choice!</p>
+        
           
         <center>
+          <p class="buy">With years of experience both behind the camera as well as in front of the camera, <br>we understand perspectives.</p>
+          <p class="buy">We are available for your photography needs on location.</p>
           <p class="buy">We offer customizable rates including, but not limited to:</p>
           <p class="free">Portraits</p>
+          <p class="free">Family</p>
           <p class="free">Glamour</p>
           <p class="free">Lookbooks</p>
           <p class="free">Portfolio</p>
-          <p class="free">Websites</p>
+          <p class="free">Concerts</p>
+          <p class="free">Events</p>
              
-          <p class="free">Samples:</p>
+          <!--<p class="free">Samples:</p>-->
 
           <ul class="docs">
             <li><img src="img/angel.jpg" alt="Photo by PhonixIntl.com vw|NK, Model: Angel"/></li>
@@ -112,30 +150,35 @@
       </div>
     </section>
     <aside class="sidebar left">
-      <div><h3 style="font-size: 30px;">Audio</h3>
+      <div><h3 style="font-size: 30px;">Websites</h3>
 
-        <img src="img/audio.jpg" alt="PhonixIntl.com Audio Engineering"/>
-
-        <p class="buy">We offer competitive rates for vocal and audio recording and engineering.</p>
-      
-        <!-- What we can do. -->
-        <p class="free">Commercials</p>
-        <p class="free">Podcasts</p>
-        <p class="free">Demos</p>
-        <p class="free">Instrumentals</p>
-        <p class="free">Vocals</p>
-        <p class="free">Cover Songs</p>
+        <img src="img/web.jpg" alt="PhonixIntl.com Website Design and Development"/> 
+        <p class="free">Importance of Website Quality</p>
         
-        <p class="buy">Sample audio engineering:</p>
+        
+        <p class="buy">Let's say you're a really talented musician and have amazing shows and amazing merchandise.</p>
+        <p class="buy">At the end of the day do you have your own website?</p>
+        <!-- What we can do. -->
+        <p class="free">Artists</p>
+        <p class="free">Entrepreneurs</p>
+        <p class="free">Musicians</p>
+        <p class="free">Photographers</p>
+   
+        <p class="buy">We offer competitive rates for website consultations and website development and design.</p>
+        <p class="buy">We are your one-stop shop for your web and design needs!</p>
         <!-- TBF  songs below private as of now
         <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/177438264&amp;color=00aabb&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
         <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/171996208&amp;color=00aabb&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
         -->
 
-        <iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/4iVrlY-ap98?rel=0" frameborder="0" allowfullscreen></iframe>
 
-        <!-- Original by Norell -->
+        <!-- TBF
+        <iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/4iVrlY-ap98?rel=0" frameborder="0" allowfullscreen></iframe>
+      -->
+
+        <!-- Original by Norell
         <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/49523082&amp;color=00aabb&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+      -->
 
         <!-- Cover Songs
         <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/85971399&amp;color=00aabb&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
@@ -144,16 +187,14 @@
       </div>
     </aside>
     <aside class="sidebar right">
-      <div><h3 style="font-size: 30px;">Body Paint</h3>
+      <div><h3 style="font-size: 30px;">Painting</h3>
 
             <img src="img/bodypaint1.jpg" alt="PhonixIntl.com Photography"/>
 
-            <p class="buy">Our production space includes an area for body painting, as well as a shower for cleanup afterwards.</p>
-            <p class="buy">We supply models and clientele with a clean bath robe prior to painting, and clean towels for showering after photos of the artistry have been taken.</p>
+            <p class="buy">The artist Zander, also known by Jacob Alexander Figueroa, is a sought-after body painter, with experience spanning more than a decade. He is available for body painting, and is open to your budget, fully ready to work within your means to achieve your vision.</p>
 
             <p class="buy">Want us to come to you? No problem! We are also available to travel on-location.</p>
 
-            <p class="buy">Body painting is great for:</p>
             <!-- What we can do. -->
             <p class="free">Costumes</p>
             <p class="free">Cosplay</p>
@@ -162,7 +203,46 @@
             <p class="free">Parties</p>
             <p class="free">Bachelor &amp; Bachelorette</p>
 
-            <a href="liveart.html" id="resume" class="btn">Learn More</a>
+            <center>
+
+              <ul class="clearing-thumbs clearing-feature" data-clearing> 
+                <li class="clearing-featured-img"><a href="images/model/Maze-Amazed.jpg" id="resume" class="btn" style="">Body Painting</a></li>
+                <li><a href="images/model/Maze-Amazed.jpg" title="Body Painting by Zander"><img src="images/model/Maze-Amazed.jpg"></a></li>
+                <li><a href="images/model/32.jpg"><img src="images/model/32.jpg"></a></li> 
+                <li><a href="images/model/10.jpg"><img src="images/model/10.jpg"></a></li> 
+                <li><a href="images/model/buckaneer.jpg"><img src="images/model/buckaneer.jpg"></a></li> 
+                <li><a href="images/model/maze.jpg"><img src="images/model/maze.jpg"></a></li> 
+                <li><a href="images/model/medusa.jpg"><img src="images/model/medusa.jpg"></a></li> 
+                <li><a href="images/model/angie2.jpg"><img src="images/model/angie2.jpg"></a></li> 
+                <li><a href="images/model/stargirl.jpg"><img src="images/model/stargirl.jpg"></a></li> 
+                <li><a href="images/model/40.jpg"><img src="images/model/40.jpg"></a></li> 
+                <li><a href="images/model/kittie.jpg"><img src="images/model/kittie.jpg"></a></li> 
+                <li><a href="images/model/angie.jpg"><img src="images/model/angie.jpg"></a></li>
+                <li><a href="images/model/ellie.jpg"><img src="images/model/ellie.jpg"></a></li> 
+                <li><a href="images/model/carley.jpg"><img src="images/model/carley.jpg"></a></li> 
+                <li><a href="images/model/12.jpg"><img src="images/model/12.jpg"></a></li> 
+                <li><a href="images/model/13.jpg"><img src="images/model/13.jpg"></a></li> 
+                <li><a href="images/model/16.jpg"><img src="images/model/16.jpg"></a></li> 
+                <li><a href="images/model/19.jpg"><img src="images/model/19.jpg"></a></li>
+                <li><a href="images/model/25.jpg"><img src="images/model/25.jpg"></a></li> 
+                <li><a href="images/model/epic.jpg"><img src="images/model/epic.jpg"></a></li>
+                <li><a href="images/model/39.jpg"><img src="images/model/39.jpg"></a></li> 
+                <li><a href="images/model/45.jpg"><img src="images/model/45.jpg"></a></li> 
+                <li><a href="images/model/46.jpg"><img src="images/model/46.jpg"></a></li> 
+                <li><a href="images/model/48.jpg"><img src="images/model/48.jpg"></a></li> 
+                <li><a href="images/model/49.jpg"><img src="images/model/49.jpg"></a></li>
+                <li><a href="images/model/RichardPendleton7.jpg"><img src="images/model/RichardPendleton7.jpg"></a></li> 
+                <li><a href="images/model/50.jpg"><img src="images/model/50.jpg"></a></li> 
+                <li><a href="images/model/angel devil.jpg"><img src="images/model/angel devil.jpg"></a></li> 
+                <li><a href="images/model/Behind the Scenes1.jpg"><img src="images/model/Behind the Scenes1.jpg"></a></li> 
+                <li><a href="images/model/coral.jpg"><img src="images/model/coral.jpg"></a></li> 
+                <li><a href="images/model/Rainbow.jpg"><img src="images/model/Rainbow.jpg"></a></li> 
+                <li><a href="images/model/RichardPendleton3.jpg"><img src="images/model/RichardPendleton3.jpg"></a></li> 
+                <li><a href="images/model/ButterflyWoman-640x428.jpg"><img src="images/model/ButterflyWoman-640x428.jpg"></a></li> 
+                <li><a href="images/model/BlackWidow-640x534.jpg"><img src="images/model/BlackWidow-640x534.jpg"></a></li> 
+                <li><a href="images/model/XXX.jpg"><img src="images/model/XXX.jpg"></a></li>
+              </ul>
+            </center>
 
             <img src="img/dvs1.jpg" alt="PhonixIntl.com Photography" title="High Seas Heaven Exhibition at DVS1 Hush Studios"/>
 

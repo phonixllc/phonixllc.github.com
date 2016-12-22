@@ -37,3 +37,13 @@ a:hover {
   margin-bottom: 20px;
 }
 
+
+a.enter:hover{
+	text-shadow: 2px 2px indigo;
+}
+
+h2.nav:hover{
+	text-shadow: 2px 2px indigo;
+	text-decoration: none;
+	outline-style: none
+}

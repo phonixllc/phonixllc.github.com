@@ -3,17 +3,17 @@ html {
   background: white;
   background-attachment: fixed;
   background-size: 100% auto;
-  min-width: 280px;
+  min-width: 220px;
+  width: 100;
 
 }
 
 body {
-  min-width: 280px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 100%;
+  background: white;
+  min-width: 220px;
   line-height: 1.2em;
+  width: 90;
 }
-
 
 
       #SocialLinks { padding: 10px 0 0 0; }
@@ -39,7 +39,7 @@ body {
       p{font-family: 'Philosopher', sans-serif;}
       p.hireUs{font-family: 'Philosopher', sans-serif; font-size: 16px;}
       p.buy{font-family: 'Philosopher', sans-serif; font-size: 16px;}
-      p.free{font-family: 'Philosopher', sans-serif;font-size: 22px; text-align: center;}
+      p.free{font-family: 'Michroma', sans-serif;font-size: 22px; text-align: center;}
       a#store img{margin-top: 20px;}
       ul.igvine li{
         display: inline;
@@ -58,147 +58,12 @@ body {
   display:inline-block;
 }
 
-nav > ul {
-  margin-top: 2em;
-  height: 40px;
-  line-height: 40px;
-  padding-left: 2em;
-  list-style: none;
-}
-
-nav > ul > li {
-  position: relative;
-  margin-right: 1em;
-  float: left;
-}
-
-nav ul li a {
-  display: block;
-  font-family: 'Michroma', sans-serif;
-  font-size: 22px;
-  text-decoration: none;
-  color: #0199c7;
-  border-top: 1px 1px #0199c7;
-  background: lavender;
-  padding: 10px 14px;
-  text-shadow: #0199c7;
-}
-
-nav > ul > li > a {
-  border-radius: 5px;
-  border: 0;
-  box-shadow: #0199c7;
-}
-
-nav ul > li ul {
-  position: absolute;
-  width: 200px;
-  background: lavender;
-  border-radius: 5px;
-  padding: 5px 0;
-  opacity: 0;
-  visibility: hidden;
-  box-shadow: #0199c7;
-  list-style: none;
-}
-
-nav ul > li ul:after {
-  content: "";
-  position: absolute;
-  top: -11px;
-  left: 1em;
-  height: 0; 
-  width: 0;
-  border: 6px solid transparent;
-  border-bottom-color: #0199c7;
-}
-
-nav > ul li a:hover {
-  background: #0199c7;
-  box-shadow: #0199c7;
-  color:indigo;
-  text-decoration: underline;
-}
-
-nav > ul li:hover > ul {
-  visibility: visible;
-  opacity: 1;
-  top: 2.7em;
-  background: lavender;
-}
-
-nav > ul li > ul > li {
-  position: relative;
-}
-
-nav > ul > li > ul > li > ul {
-  left: 105%;
-  top: -2.5em !important;
-  z-index: 1;
-  width: 180px;
-}
-
-nav > ul > li > ul > li > ul:hover {
-  width: 200px;
-  background: lavender;
-}
-
-nav > ul > li > ul > li > ul:after {
-  content: "";
-  position: absolute;
-  top: 1em;
-  left: -12px;
-  height: 0; width: 0;
-  border: 6px solid transparent;
-  border-right-color: #427fed;
-}
-
-nav > ul > li > ul > li:hover > ul {
-  top: 0 !important;
-}
-
-
-.drop,.dropp {
-  padding-right: 2em;
-}
-
-.drop:after,
-.dropp:after{
-  content: "";
-  position: absolute;
-  height: 0; width: 0;
-  border: 6px solid transparent;
-}
-
-.drop:after {
-  right: 8px;
-  top: 14px;
-  border-top-color: #427fed;
-}
-
-.dropp:after {
-  top: 12px;
-  right: 8px;
-  border-left-color: #427fed;
-}
-
-nav.main-nav ul li {
-  border:1px solid #dedede;
-  margin:5px;
-  padding:5px;
-}
-
-nav.main-nav ul li:hover {
-  background-color:#f0f3fb;
-}
-
-
-/* end nav bar */
 
 .container {
   width: 80%;
   margin: 0 auto;
 }
+
 @media (max-width: 30em) {
   .container {
     width: 80%;
@@ -207,7 +72,7 @@ nav.main-nav ul li:hover {
 header.page-header,
 div.page-wrapper,
 footer.page-footer {
-  margin: 0.6em 0;
+  margin: 0;
   *zoom: 1;
 }
 header.page-header:before,
@@ -235,7 +100,7 @@ header.page-header > div {
   -moz-border-radius: 5px;
   border-radius: 5px;
   background-color: transparent;
-  color: #ffffff;
+  color: lavender;
 }
 header.page-header > div a {
   color: #add8e6;
@@ -253,7 +118,7 @@ section.content > div {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
-  background-color: #ffffff;
+  background-color: lavender;
   color: #333333;
 }
 section.content > div a:hover {
@@ -276,16 +141,18 @@ aside.sidebar h3,
 aside.sidebar h4,
 aside.sidebar h5,
 aside.sidebar h6 {
-  padding: 0.3em;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
-  margin: 0 0 0.6em;
-  background-color: black;
-  color: white;
+  background-color: lavender;
+  color: black;
+  text-shadow: 2px 2px #0199c7;
   font-size: 19.2px;
   font-size: 1.2rem;
   text-align: center;
+  font-family: 'Michroma', sans-serif;
+  margin-top: 22px;
+  margin-bottom: 22px;
 }
 aside.sidebar > div {
   padding: 0.6em;
@@ -294,7 +161,7 @@ aside.sidebar > div {
   border-radius: 5px;
 }
 aside.sidebar.left > div {
-  background-color: #ffffff;
+  background-color: snow;
   color: #333333;
 }
 aside.sidebar.left > div a {
@@ -304,7 +171,7 @@ aside.sidebar.left > div a:hover {
   color: #b0c4de;
 }
 aside.sidebar.right > div {
-  background-color: #ffffff;
+  background-color: snow;
   color: #333333;
 }
 aside.sidebar.right > div a {
@@ -457,9 +324,13 @@ img{
   height: auto;
 }
 
-h2{
+h3{
   font-family: 'Michroma', sans-serif;
-  font-size: 30px;
+  margin-left: 20px;
+  margin-top: 10px;
+  padding-top: 10px;
+  /*text-shadow: 2px 2px #0199c7;*/
+  font-size: 40px;
 }
 
 #hidden_info{display:none;}
@@ -564,7 +435,7 @@ html, body {
     background: white;
     width: 330px;
     overflow: hidden;
-    margin: 150px auto 0;
+    /* margin: 150px auto 0; */
     box-shadow:0 2px 3px rgba(71, 71, 71, 0.31);
     margin-top:-30px;
 }
@@ -812,14 +683,7 @@ h3.footer {
 }
 
 
-      
-      .main-nav a{font-family: 'Michroma', sans-serif; font-size: 22px;}
-      a.logo{font-family: 'Michroma', sans-serif;font-size:40px;}
-      p{font-family: 'Philosopher', sans-serif;}
-      p.hireUs{font-family: 'Philosopher', sans-serif; font-size: 16px;}
-      p.buy{font-family: 'Philosopher', sans-serif;}
-      p.free{font-family: 'Philosopher', sans-serif;}
-      a#store img{margin-top: 20px;}
+
       ul.igvine li{
         display: inline;
       }
@@ -866,9 +730,134 @@ h3.footer {
         position: relative;
         font-family: 'Rock Salt', cursive;
         font-size: 60px;
-        margin-top: 50px;
-        margin-bottom: 50px;
+        margin-top: 22px;
+        margin-bottom: 22px;
         text-align: center;
         text-shadow: 4px 4px #0199c7;
 
       }
+
+
+
+
+/* Responsive Nav Bar */
+
+ul.topnav {
+
+  height: 40px;
+  line-height: 40px;
+
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+  background-size: 100%;
+  height:auto;
+  width: 100%;
+
+
+}
+
+
+/* Float list items side by side */
+ul.topnav li {
+  float: left;}
+
+/* Style links inside list items */
+ul.topnav li a {
+
+  font-family: 'Michroma', sans-serif;
+  font-size: 22px;
+  text-decoration: none;
+  color: #0199c7;
+  border-top: 1px 1px #0199c7;
+  background: white;
+  text-shadow: #eb2755;
+}
+
+ul.topnav li a:hover {
+  background: #0199c7;
+  box-shadow: #0199c7;
+  color:#0199c7;
+  text-decoration: underline;
+}
+
+ul.topnav li.icon {
+  display: none;
+}
+
+/* When screen is less than 680px wide, hide list items, except for the first one ("Home"). Show the list item that contains the link to open and close the topnav (li.icon) */
+
+
+
+
+@media screen and (max-width:680px) {
+  ul.topnav li:not(:first-child) {display: none;}
+  ul.topnav li.icon {
+    float: right;
+    display: inline-block;
+  }
+}
+
+/* The "responsive" class is added to topnav  with Javascript when the user clicks on the icon. This class makes the topnav look good on small screens */
+
+@media screen and (max-width:680px) {
+  ul.topnav.responsive {position: relative;}
+  ul.topnav.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  ul.topnav.responsive li {
+    float: none;
+    display: inline;
+  }
+  ul.topnav.responsive li a {
+    display: block;
+    text-align: left;
+  }
+
+}
+
+ul.topnav li > a:link {color: #0199c7; -moz-text-decoration-style: solid; padding: 3px 7px;}   /* unvisited link */
+
+ul.topnav li > a:visited {color:#0199c7;}  /* visited link */
+
+ul.topnav li > a:hover {
+  background: #0199c7;
+  border-top: 1px solid #0199c7;
+  border-right: 1px solid #0199c7;
+  border-bottom: 1px solid #0199c7;
+  border-left: 1px solid #0199c7;
+  border-radius: 11px;
+  -webkit-box-shadow: inset 0 1px 10px 1px #5c8bee, 0px 1px 0 #1d2c4d, 0 6px 0px #1f3053, 0 8px 4px 1px #111111;
+  box-shadow: inset 0 1px 10px 1px indigo, 0px 1px 0 indigo, 0 6px 0px indigo, 0 8px 4px 1px #111111;
+  color: #fff;
+  text-shadow: 0px -1px 1px #E1DFD3;
+  -webkit-background-clip: padding-box; 
+ }
+ 
+
+ /* mouse over link */
+ 
+ul.topnav li > a:active {color:indigo; -webkit-box-shadow: inset 0 1px 10px 1px #5c8bee, 0 1px 0 #1d2c4d, 0 2px 0 #1f3053, 0 4px 3px 0 #111111;
+    box-shadow: inset 0 1px 10px 1px #5c8bee, 0 1px 0 #1d2c4d, 0 2px 0 #1f3053, 0 4px 3px 0 #111111;
+    position: static;} */ /* selected link */
+
+
+ul.topnav li ul {
+
+  width: 200px;
+  background: #33cda7;
+  border-radius: 7px;
+  opacity: 0;
+  visibility: hidden;
+  box-shadow: 0 3px 15px rgba(0,0,0,.7);
+  list-style: none;
+}
+
+ul.display li {
+  display: inline-block;
+  margin-right: 20px;
+}
