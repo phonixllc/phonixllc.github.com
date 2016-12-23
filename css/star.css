@@ -419,15 +419,7 @@ a#norellAbout:hover{
   color: indigo;
 }
 
-/* For social media icons */
 
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400);
-
-@import "//netdna.bootstrapcdn.com/font-awesome/3.0/css/font-awesome.css";
-
-html, body {
-    min-height: 100%;
-}
 
 #buttons {
     border-radius: 5px;
@@ -819,6 +811,37 @@ ul.topnav li.icon {
   }
 
 }
+
+/* screen 320px or smaller */
+@media screen and (max-width:320px) {
+
+  ul.topnav li:not(:first-child) {display: none;}
+  ul.topnav li.icon {
+    float: right;
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width:320px) {
+  /* CSS for screens that are 320 pixels or less will be put in this section */
+ ul.topnav.responsive {position: relative;}
+  ul.topnav.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  ul.topnav.responsive li {
+    float: none;
+    display: inline;
+  }
+  ul.topnav.responsive li a {
+    display: block;
+    text-align: left;
+  }
+
+}
+
+/* end phone screen size */
 
 ul.topnav li > a:link {color: #0199c7; -moz-text-decoration-style: solid; padding: 3px 7px;}   /* unvisited link */
 

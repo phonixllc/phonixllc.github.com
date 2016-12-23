@@ -24,22 +24,22 @@ body{
 
 /* Responsive Nav Bar */
 
-ul.topnav {
 
-  height: 40px;
-  line-height: 40px;
+    ul.topnav {
 
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: white;
-  background-size: 100%;
-  height:auto;
-  width: 100%;
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: white;
+      background-size: 100%;
+      background-repeat: repeat;
+      min-height:70px;
+      height:auto;
+      width: 100%;
+      
 
-
-}
+    }
 
 
 /* Float list items side by side */
@@ -98,6 +98,27 @@ ul.topnav li.icon {
     text-align: left;
   }
 
+}
+
+/* screen 320px or smaller */
+
+@media screen and (max-width:320px) {
+  /* CSS for screens that are 320 pixels or less will be put in this section */
+ ul.topnav.responsive {position: relative;}
+  ul.topnav.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  ul.topnav.responsive li {
+    float: none;
+    display: inline;
+  }
+  ul.topnav.responsive li a {
+    display: block;
+    text-align: left;
+  }
+  
 }
 
 ul.topnav li > a:link {color: #0199c7; -moz-text-decoration-style: solid; padding: 3px 7px;}   /* unvisited link */
@@ -218,12 +239,14 @@ h3 {
 
 #square_wrapper {
 	clear: both;
-    margin: 0 auto;
-    width: 1024px;	
+  margin: 0 auto;
+  max-width: 1024px;	
+  min-width: 220px;
 }
 
 .view {
 	width: 300px;
+  min-width: 220px;
 	height: 200px;
 	margin: 10px;
 	float: left;
@@ -1405,11 +1428,13 @@ columns:100px 3;
 /* for Famous icon on Norellstar page */
 figure {
   border: 5px solid #fff;
-  height: 311px;
-  margin: 20px auto;
+  height: 243px;
+  min-height:220px;
+  margin: 11px auto;
   overflow:hidden;
   position: relative;
-  width: 311px;
+  width: 243px;
+  min-width: 220px;
   box-shadow: 0 30px 25px -25px black;
 }
 
@@ -1477,7 +1502,8 @@ ul.figure {
 ul.figure li {
   display: inline-block;
   margin: 4px;
-  margin-left: 50px;
+  margin-left: 11px;
+  margin-right: 22px;
 }
 
 ul li {
@@ -1540,16 +1566,6 @@ article p {
 	height: 500px;
 	width: 100%;
 	position:relative;
-}
-
-h1 {
-	position: relative;
-	font-family: 'Rock Salt', cursive;
-   font-size: 120px;
-   margin-top: 100px;
-   margin-bottom: 100px;
-   text-align: center;
-
 }
 
 
