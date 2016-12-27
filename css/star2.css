@@ -15,6 +15,7 @@ body {
   width: 90;
 }
 
+
 /* Responsive Nav Bar */
 
 ul.topnav {
@@ -105,9 +106,6 @@ ul.topnav li.icon {
   }
 }
 
-
-/* screen 320px or smaller */
-
 @media screen and (max-width:320px) {
   /* CSS for screens that are 320 pixels or less will be put in this section */
  ul.topnav.responsive {position: relative;}
@@ -124,8 +122,10 @@ ul.topnav li.icon {
     display: block;
     text-align: left;
   }
-  
+
 }
+
+/* end phone screen size */
 
 ul.topnav li > a:link {color: #0199c7; -moz-text-decoration-style: solid; padding: 3px 7px;}   /* unvisited link */
 
@@ -146,6 +146,35 @@ ul.topnav li > a:hover {
  }
  
 
+ /* mouse over link */
+ 
+ul.topnav li > a:active {color:indigo; -webkit-box-shadow: inset 0 1px 10px 1px #5c8bee, 0 1px 0 #1d2c4d, 0 2px 0 #1f3053, 0 4px 3px 0 #111111;
+    box-shadow: inset 0 1px 10px 1px #5c8bee, 0 1px 0 #1d2c4d, 0 2px 0 #1f3053, 0 4px 3px 0 #111111;
+    position: static;} */ /* selected link */
+
+
+ul.topnav li ul {
+
+  width: 200px;
+  background: #33cda7;
+  border-radius: 7px;
+  opacity: 0;
+  visibility: hidden;
+  box-shadow: 0 3px 15px rgba(0,0,0,.7);
+  list-style: none;
+}
+
+ul.display li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+/* end navigation */
+/*
+ul li {
+  margin:11px;
+}
+*/
 
       #SocialLinks { padding: 10px 0 0 0; }
       #SocialLinks:after { clear: both; content: "."; display: block; height: 0; visibility: hidden; }

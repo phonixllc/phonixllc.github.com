@@ -18,28 +18,29 @@ body{
    font-family: georgia, times, serif;
    font-size: 14px;
    line-height: 1.4em;
-   min-width: 300px;
+   min-width: 220px;
    width: 90;
 }
 
+
 /* Responsive Nav Bar */
 
+ul.topnav {
 
-    ul.topnav {
+  height: 40px;
+  line-height: 40px;
 
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-      overflow: hidden;
-      background-color: white;
-      background-size: 100%;
-      background-repeat: repeat;
-      min-height:70px;
-      height:auto;
-      width: 100%;
-      
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+  background-size: 100%;
+  height:auto;
+  width: 100%;
 
-    }
+
+}
 
 
 /* Float list items side by side */
@@ -72,6 +73,8 @@ ul.topnav li.icon {
 /* When screen is less than 680px wide, hide list items, except for the first one ("Home"). Show the list item that contains the link to open and close the topnav (li.icon) */
 
 
+
+
 @media screen and (max-width:680px) {
   ul.topnav li:not(:first-child) {display: none;}
   ul.topnav li.icon {
@@ -101,6 +104,14 @@ ul.topnav li.icon {
 }
 
 /* screen 320px or smaller */
+@media screen and (max-width:320px) {
+
+  ul.topnav li:not(:first-child) {display: none;}
+  ul.topnav li.icon {
+    float: right;
+    display: inline-block;
+  }
+}
 
 @media screen and (max-width:320px) {
   /* CSS for screens that are 320 pixels or less will be put in this section */
@@ -118,8 +129,10 @@ ul.topnav li.icon {
     display: block;
     text-align: left;
   }
-  
+
 }
+
+/* end phone screen size */
 
 ul.topnav li > a:link {color: #0199c7; -moz-text-decoration-style: solid; padding: 3px 7px;}   /* unvisited link */
 
@@ -162,7 +175,6 @@ ul.display li {
   display: inline-block;
   margin-right: 20px;
 }
-
 
 /* end navigation */
 
@@ -1400,7 +1412,7 @@ columns:100px 3;
 -moz-columns:100px 3; /* Firefox */
 }
 #content{
-    min-width: 320px;
+    min-width: 220px;
 }
 
 /* Phones to Tablets */
@@ -1506,9 +1518,11 @@ ul.figure li {
   margin-right: 22px;
 }
 
+/*
 ul li {
   margin:11px;
 }
+*/
 
 ul.karnak{
   list-style: none;
@@ -1531,7 +1545,7 @@ p.buy{font-family: 'Ovo'; font-size: 16px;}
 article {
 	position: relative;
 	margin: auto;
-	width: 920px;
+	max-width: 920px;
 	padding: 20px;
 	background: purple;
 	box-shadow: 0px 0px 10px #333;
