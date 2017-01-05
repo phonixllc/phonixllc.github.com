@@ -108,7 +108,7 @@
     <section class="content">
       <div><h2 style="font-size: 30px;">Photo Samples</h2>
         <!-- Images for Submission --> 
-        <ul id="Gallery" class="gallery" style="margin-left:20px;">
+        <ul id="Gallery" class="gallery" style="margin-left:11px;">
           <!--  American Beauty Images -->
           <li><a href="img/ab/full/jacob - figueroa - american beauty.jpg"><img src="img/ab/thumbs/jacob - figueroa - american beauty.jpg" alt="American Beauty" /></a></li>
           <li><a href="img/ab/full/jacob - figueroa - fall flavors.jpg"><img src="img/ab/thumbs/jacob - figueroa - fall flavors.jpg" alt="Fall Flavors" /></a></li>

@@ -315,7 +315,7 @@
 
 
 
-          <a href="photos.html" title="View More" target="popup" onclick="window.open('photos.html','popup','width=800px;,height=800px;'); return false;" class="ui-btn ui-btn-inline ui-corner-all"><img src="img/viewmore.jpg" alt="View More Images" style="width: 88%; margin-left: 14px; max-width: 700px; min-width: 200px; max-height: 500px;" /></a>
+          <a href="photos.html" title="View More" target="popup" onclick="window.open('photos.html','popup','width=800px;,height=800px;'); return false;" class="ui-btn ui-btn-inline ui-corner-all"><img src="img/viewmore.jpg" alt="View More Images" style="width: 89%; margin-left: 14px; max-width: 700px; min-width: 200px; max-height: 500px;" /></a>
           <p>Click above to view more.</p>
         </center>
 
