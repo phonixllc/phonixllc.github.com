@@ -1547,6 +1547,7 @@ article {
 	position: relative;
 	margin: auto;
 	max-width: 920px;
+  min-width: 220px;
 	padding: 20px;
 	background: purple;
 	box-shadow: 0px 0px 10px #333;
@@ -1570,10 +1571,16 @@ article p {
 	column-width: 20em;
 	
 	-webkit-column-fill: balanced;
-	-moz-column-fill: balanced
-	-o-column-fill: balanced
-	-ms-column-fill: balanced
-	column-fill: balanced
+	-moz-column-fill: balanced;
+	-o-column-fill: balanced;
+	-ms-column-fill: balanced;
+	column-fill: balanced;
+  margin-right: 11px;
+  margin-left: 11px;
+  margin-top: 11px;
+  margin-bottom: 11px;
+  font-family: 'Philosopher', sans-serif; 
+  font-size: 16px;
 }
 
 .rect {
@@ -1654,4 +1661,122 @@ div#art {
    margin-top:-200px;
 }
 
+p.hireUs{font-family: 'Philosopher', sans-serif; font-size: 16px;}
+p.buy{font-family: 'Philosopher', sans-serif; font-size: 16px;}
+p.free{font-family: 'Michroma', sans-serif;font-size: 22px; text-align: center;}
 
+/* For testimonials on art page */
+
+.btn {
+  background: #e74c3c;
+  text-decoration: none;
+  margin-bottom: 10px;
+  text-align: center;
+  padding: 1em 0;
+  display: block;
+  background-color: #5E3333;
+  color: #fff;
+  transition: background .3s;
+  
+  &:hover {
+    background: lighten(#e74c3c, 10%);
+  }
+  
+}
+
+a#testimonial{
+  text-decoration: none;
+  color:white;
+  font-family: 'Michroma', sans-serif;
+  font-size: 30px;
+}
+
+a#testimonial:hover{
+  color: #0199c7;
+}
+
+a#resume{
+  text-decoration: none;
+  color:white;
+  font-family: 'Michroma', sans-serif;
+  font-size: 30px;
+}
+
+a#resume:hover{
+  color: #0199c7;
+}
+
+/*
+#hidden_info{display:none;}
+
+#hidden_infoZ{display:none;}
+
+#hidden_infoBlogs{display:none;}
+*/
+
+.colGroup {
+  width: 100%;
+  .clearfix;
+  
+  .col {
+    width: 18%;
+    float: left;
+    margin: 0 1%;
+    position: relative;
+    perspective: 800;
+   
+  }
+}
+
+.colWeb{
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+
+article.columnmain {
+  background: #66cdaa;
+  min-width: 220px;
+}
+
+a#summary{
+  text-decoration: none;
+  color:white;
+  font-family: 'Philosopher', sans-serif;
+  font-size: 26px;
+}
+
+a#summary:hover{
+  color: indigo;
+}
+
+
+a#blogs{
+  text-decoration: none;
+  color:white;
+  font-family: 'Michroma', sans-serif;
+  font-size: 30px;
+}
+
+a#blogs:hover{
+  color: indigo;
+}
+
+/* UL id of "preview" */
+
+ul#preview {
+  width: 100%;
+  min-width: 280px;
+  margin-left: -20px;
+  margin-right: 20px;
+}
+
+ul#preview li {
+  list-style: none;
+  display: inline-block;
+  min-width:280px;
+  width: 45%;
+  height: 320px;
+  margin: auto;
+}
+        
