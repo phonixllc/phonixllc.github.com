@@ -41,8 +41,7 @@
 
 <ul class="topnav" id="phonixnav">
   <li><a href="index.html">HOME</a></li>
-  <li><a href="team.html">MUSIC</a></li>
-  <li><a href="art.html">ART</a></li>
+  <li><a href="team.html">BAND</a></li>
   <li><a href="apps.html">APPS</a></li>
   <li><a href="contact.html">SUPPORT</a></li>
   <li class="icon">
