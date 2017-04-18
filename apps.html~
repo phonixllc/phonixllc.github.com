@@ -14,8 +14,8 @@
   <link rel="stylesheet" type="text/css"
   href="css/xprojects.css"/>
   <link rel="stylesheet" href="css/foundation/foundation.css" type="text/css" />
-  <link href='https://fonts.googleapis.com/css?family=Crushed|News+Cycle:400,700|Michroma|Philosopher:400,700,400italic,700italic|Architects+Daughter|Orbitron:400,500,700,900|Rock+Salt' rel='stylesheet' type='text/css'>
-  <link href='https://fonts.googleapis.com/css?family=Codystar|Give+You+Glory|Poiret+One|Londrina+Outline|Ovo|Great+Vibes|Julius+Sans+One|Shadows+Into+Light+Two|Megrim' rel='stylesheet' type='text/css'/>
+  <link href='http://fonts.googleapis.com/css?family=Crushed|News+Cycle:400,700|Michroma|Philosopher:400,700,400italic,700italic|Architects+Daughter|Orbitron:400,500,700,900|Rock+Salt' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Codystar|Give+You+Glory|Poiret+One|Londrina+Outline|Ovo|Great+Vibes|Julius+Sans+One|Shadows+Into+Light+Two|Megrim' rel='stylesheet' type='text/css'/>
   <style>
 
       /* Responsive Nav Bar */
@@ -89,8 +89,7 @@
 <body>
 <ul class="topnav" id="phonixnav">
   <li><a href="index.html">HOME</a></li>
-  <li><a href="team.html">MUSIC</a></li>
-  <li><a href="art.html">ART</a></li>
+  <li><a href="team.html">BAND</a></li>
   <li><a href="apps.html">APPS</a></li>
   <li><a href="contact.html">SUPPORT</a></li>
   <li class="icon">
@@ -117,7 +116,7 @@
     <div class="meta"><h2>BandFamous.com</h2> </div>
   </header>
 
-  <a href="https://bandfamous.com" target="_blank" title="Check out TBF"><img src="img/thebandfamous.png" style="max-height: 400px; min-width: 220px; max-width: 100%;" data-caption="We made the band famous. www.bandfamous.com." alt="The Band Famous - Website and Apps Made by PhonixIntl.com" /></a>
+  <a href="http://bandfamous.com" target="_blank" title="Check out TBF"><img src="img/thebandfamous.png" style="max-height: 400px; min-width: 220px; max-width: 100%;" data-caption="We made the band famous. www.bandfamous.com." alt="The Band Famous - Website and Apps Made by PhonixIntl.com" /></a>
 
   <p>The Band Famous™ is the first interactive app album self-released by the band, musical group TBF (The Band Famous™). <br>It is available for the iPhone and Android platforms. It features their complete debut album <i>Last Words</i> available offline, along with a strategy retro sophisticated "Rock, Paper, Scissors" video game with high difficulty to master. <br>The Band Famous™ app also features their live interactive in-app concerts at the touch of a button, among other features.</p>
 
@@ -131,7 +130,7 @@
     </li>
     <li>
       <div id="right">
-        <a href="https://itunes.apple.com/us/app/the-band-famous/id879979539?mt=8" target="_blank" title="Have an iPhone? Click for free download!">The Band Famous™ iOS App</a>
+        <a href="http://itunes.apple.com/us/app/the-band-famous/id879979539?mt=8" target="_blank" title="Have an iPhone? Click for free download!">The Band Famous™ iOS App</a>
         <iframe id="ytplayer" type="text/html" width="90%" max-height="320px" min-height="auto" height="320px;" min-width="280px"
                 src="https://www.youtube-nocookie.com/embed/OPp5yO8Ai3w?rel=0" frameborder="0" allowfullscreen
                 style="box-shadow: 8px 8px 5px #888888;"></iframe>
@@ -143,7 +142,7 @@
   <p style="font-size: 22px; width: 70%; margin-top:11px; text-shadow: none; color: black;">Get The Band Famous™ App FREE!</p>
       
       <span><a href="https://play.google.com/store/apps/details?id=com.bandfamous.famous" target="_blank" title="Have an Android phone or tablet? Download our Android app for free!"><img src="img/googleplay.png" style="width: auto; height: 110px; vertical-align: center; margin-left: 5px; margin-top: -30px; margin-bottom: 10px;" alt="Download The Band Famous on Google Play today!"/></a></span>
-      <span><a href="https://itunes.apple.com/us/app/the-band-famous/id879979539?mt=8" target="_blank" title="Have an iPhone, iPad, or iPod Touch? Download our iOS app for free!"><img src="img/appstore.gif" style="width: auto; height: 120px; vertical-align: center; margin-top: -15px; margin-bottom: 5px;" alt="Download The Band Famous on the App Store today!"/></a></span>
+      <span><a href="http://itunes.apple.com/us/app/the-band-famous/id879979539?mt=8" target="_blank" title="Have an iPhone, iPad, or iPod Touch? Download our iOS app for free!"><img src="img/appstore.gif" style="width: auto; height: 120px; vertical-align: center; margin-top: -15px; margin-bottom: 5px;" alt="Download The Band Famous on the App Store today!"/></a></span>
 
   <p>"We like to say we made the band famous - because technically, we are the developers behind the band famous app, and also members of the musical group The Band Famous™." <br><br>- Zander &amp; Norell</p>
 
@@ -153,7 +152,7 @@
 <br>
            
 <div id="footer" style="background-color:lavender; color: black; clear:both; text-align:center; margin-top: 50px; font-family: 'Michroma', sans-serif; width: 100%;">Copyright &copy; Ph&ouml;nix LLC</div>
-    <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script> 
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script> 
     <script src="js/vendor/jquery.js"></script>
     <script src="js/foundation/foundation.js"></script>
     <script src="js/foundation.min.js"></script>

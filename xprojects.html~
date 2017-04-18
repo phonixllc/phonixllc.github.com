@@ -34,15 +34,29 @@
 
     }
 
+    p {
+
+      font-family: 'Philosopher', sans-serif;
+      font-size: 1.2em;
+      color: black;
+      margin:20px auto;
+      text-align: center;
+      line-height: 1.2em;
+      color: black;
+      max-width: 800px;
+      min-width: 230px;
+
+
+    }
+
   </style>
 </head>
 <body>
 <ul class="topnav" id="phonixnav">
   <li><a href="index.html">HOME</a></li>
-  <li><a href="team.html">ABOUT</a></li>
-  <li><a href="artistry.html">ARTISTRY</a></li>
-  <li><a href="xprojects.html">PROJECTS</a></li>
-  <li><a href="contact.html">CONTACT</a></li>
+  <li><a href="team.html">BAND</a></li>
+  <li><a href="apps.html">APPS</a></li>
+  <li><a href="contact.html">SUPPORT</a></li>
   <li class="icon">
     <a href="javascript:void(0);" onclick="myFunction()">&#9776;</a>
     <script>
@@ -60,14 +74,14 @@
 <hr>
 <hr>      
 <hr>
-<h1>What We've Done</h1>
+<h1>Past</h1>
 
 <center>
 
   <div style="background: lavender; width:80%; margin:0 auto; padding:50px 50px;">
 
     <div id="container" style="min-height:800px; height: auto;">
-
+      <p style="font-size: 17px;">CEO Jacob Alexander Figueroa past projects include <u>Mixed Media</u> artworks; several self-curated <u>Exhibits</u> and public art installations as well as features in art shows including "Translucent Threads" at the Broadway Gallery in NYC, with many artworks published in prestigious NY Arts Magazine; <u>Body Painting</u> including for musician and producer Paul Van Dyk, Benny Benassi, Summerset Music and Camping Festival, Sexapalooza, NY Fashion Week; <u>Photography</u> and portfolio development for several aspiring and successful models, with some photography being exhibited at FIMA in Montreal to over 75,000 art lovers in attendance; opening and running <u>Karnak Gallery</u> a multimedia public art venue in the heart of downtown Minneapolis; working under the pseudonym <u>vw|NK</u> (vwINK / VWInk Agency / Virtual Warrior Ink) for several prestigious clientele including Red Bull; pioneering <u>X Fashion</u>, a body paint fashion fusion with elements of saran wrap and aluminum foil among other reflective materials; and <u>XTV</u>, a media project with highlights including having the prestige and honor of photographing and interviewing Senator Amy Klobuchar, as well as incredibly, media icon Bill Moyers.</p>
     <!-- Catalog style linking to different pages. Mixed Media, Body Painting, Music, Fashion, Photography,  Websites, Karnak, vw|NK -->
       <!--Pattern HTML-->
       <div id="pattern" class="pattern">
@@ -220,271 +234,22 @@
 
           </div>
 
-          <div>
-            <h3>Web &amp; Apps</h3>
-             <ul class="clearing-thumbs clearing-feature" data-clearing> 
-              <li class="clearing-featured-img"><a href="img/thebandfamous.png"><img src="img/thebandfamous.png" style="max-height: 400px; width: auto;" data-caption="We made the band famous. www.bandfamous.com." alt="The Band Famous - Website and Apps Made by PhonixIntl.com" /></a></li>
-              <li><a href="img/tbfiOS.png"><img src="img/tbfiOS.png" style="max-height: 400px; width: auto;" data-caption="We made the band famous. Here is it for iPhone, iPad and iPod touch." alt="The Band Famous - free to download on the iPhone App Store" /></a></li>
-              <li><a href="img/tbfandroid.png"><img src="img/tbfandroid.png" data-caption="We made the band famous. Here is it for Android." alt="The Band Famous - free to download on Android Google Play Store" /></a></li>
-              <li><a href="images/full/009.jpg"><img src="images/thumbs/009.jpg" data-caption="Mock Airline Front-End Design" alt="Mock Airline Front-End Design" /></a></li>
-              <li><a href="images/full/010.jpg"><img src="images/thumbs/010.jpg" data-caption="Mock Airline Front-End Design" alt="Mock Airline Front-End Design" /></a></li>
-              <li><a href="images/full/011.jpg"><img src="images/thumbs/011.jpg" data-caption="Mock Airline Front-End Design" alt="Mock Airline Front-End Design" /></a></li>
-              <li><a href="images/full/012.jpg"><img src="images/thumbs/012.jpg" data-caption="Mock Airline Front-End Design" alt="Mock Airline Front-End Design" /></a></li>
-              <li><a href="images/full/005.jpg"><img src="images/thumbs/005.jpg" data-caption="Mock Musician Website" alt="Mock Musician Website" /></a></li>
-              <li><a href="images/full/006.jpg"><img src="images/thumbs/006.jpg" data-caption="Mock Musician Website" alt="Mock Musician Website" /></a></li>
-              <li><a href="images/full/007.jpg"><img src="images/thumbs/007.jpg" data-caption="Mock Musician Website" alt="Mock Musician Website" /></a></li>
-              <li><a href="images/full/008.jpg"><img src="images/thumbs/008.jpg" data-caption="Mock Musician Website" alt="Mock Musician Website" /></a></li>
-              <li><a href="images/full/one.jpg"><img src="images/thumbs/1.png" data-caption="Tour Manager App" alt="Tour Manager App" /></a></li>
-              <li><a href="images/full/five.jpg"><img src="images/thumbs/5.png" data-caption="Tour Manager App" alt="Tour Manager App" /></a></li>
-              <li><a href="images/full/six.jpg"><img src="images/thumbs/6.png" data-caption="Tour Manager App" alt="Tour Manager App" /></a></li>
-              <li><a href="images/full/eight.jpg"><img src="images/thumbs/8.png" data-caption="Tour Manager App" alt="Tour Manager App" /></a></li>
-              <li><a href="images/full/nine.jpg"><img src="images/thumbs/9.png" data-caption="Tour Manager App" alt="Tour Manager App" /></a></li>
-              <li><a href="images/full/end.jpg"><img src="images/thumbs/end.png" data-caption="Tour Manager App" alt="Tour Manager App" /></a></li>
-              <li><a href="images/full/001.jpg"><img src="images/thumbs/001.jpg" data-caption="Event Manager App" alt="Event Manager App" /></a></li>  
-              </ul>
-
-
-             
-          </div>
+         
 
         <!-- getting Karnak / vw|NK / XFashion / XTV underneath first row gallery  and music will be on top above, similar to website -->
 
       </div>
       <!--End Pattern HTML-->
-      <div class="col-group">
-        <div>
-          <!-- Music -->
-          <h3>Music</h3>
-          <!-- Live, Studio, Promo Galleries -->
-          <!-- Gallery of live images. -->
-
-                  <ul class="clearing-thumbs clearing-feature" data-clearing="">
-                      <li class="clearing-featured-img">
-                        <a href="img/live/7.jpg"><img alt="TBF" data-caption="Photography by Jessica Ramaker." src=
-                          "img/live/7.jpg" style=
-                          "width: auto; height:220px; margin-bottom: 20px; box-shadow: 8px 8px 5px #888888;"
-                          title="Click to view live performance images."></a>
-                      </li>
-
-                      <li>
-                          <a href="img/live/2.jpg"><img alt="TBF" data-caption="Photography by Jessica Ramaker." src=
-                          "img/live/2.jpg"></a>
-                      </li> 
-
-                      <li>
-                          <a href="img/live/17.jpg"><img alt="TBF" data-caption="Photography by Page Photographics." src=
-                          "img/live/17.jpg"></a>
-                      </li>
-
-                      <li>
-                          <a href="img/live/14.jpg"><img alt="TBF" data-caption="Photography by Page Photographics." src=
-                          "img/live/14.jpg"></a>
-                      </li>
-
-                      <li>
-                          <a href="img/live/15.jpg"><img alt="TBF" data-caption="Photography by Page Photographics." src=
-                          "img/live/15.jpg"></a>
-                      </li>
-
-                      <li>
-                          <a href="img/live/3.jpg"><img alt="TBF" data-caption="Photography by Jessica Ramaker." src=
-                          "img/live/3.jpg"></a>
-                      </li>
-
-                      <li>
-                          <a href="img/live/4.jpg"><img alt="TBF" data-caption="Photography by Dale Lotts." src=
-                          "img/live/4.jpg"></a>
-                      </li>
-
-                      <li>
-                          <a href="img/live/6.jpg"><img alt="TBF" data-caption="Photography by Jessica Ramaker." src=
-                          "img/live/6.jpg"></a>
-                      </li>
-
-                      <!--<li>
-                          <a href="img/live/7.jpg"><img alt="TBF" data-caption="" src=
-                          "img/live/7.jpg"></a>
-                      </li>-->
-
-                      <li>
-                          <a href="img/live/8.jpg"><img alt="TBF" data-caption="Photography by Jessica Ramaker." src=
-                          "img/live/8.jpg"></a>
-                      </li>
-
-                      <li>
-                          <a href="img/live/16.jpg"><img alt="TBF" data-caption="Photography by Jessica Ramaker." src=
-                          "img/live/16.jpg"></a>
-                      </li>
-
-                      <li>
-                          <a href="img/live/18.jpg"><img alt="TBF" data-caption="Photography by Jessica Ramaker." src=
-                          "img/live/18.jpg"></a>
-                      </li>
-
-                      <li>
-                          <a href="img/live/9.jpg"><img alt="TBF" data-caption="Photography by Jessica Ramaker." src=
-                          "img/live/9.jpg"></a>
-                      </li>
-
-                      <li>
-                          <a href="img/live/28.jpg"><img alt="TBF" data-caption="Photography by Jessica Ramaker." src=
-                          "img/live/28.jpg"></a>
-                      </li>
-
-                      <li>
-                          <a href="img/live/10.jpg"><img alt="TBF" data-caption="Photography by Jessica Ramaker." src=
-                          "img/live/10.jpg"></a>
-                      </li>
-
-                      <li>
-                          <a href="img/live/11.jpg"><img alt="TBF" data-caption="Photography by Jessica Ramaker." src=
-                          "img/live/11.jpg"></a>
-                      </li>
-
-                      <li>
-                          <a href="img/live/12.jpg"><img alt="TBF" data-caption="Photography by Jessica Ramaker." src=
-                          "img/live/12.jpg"></a>
-                      </li>
-
-                      <li>
-                          <a href="img/live/19.jpg"><img alt="TBF" data-caption="Photography by Page Photographics." src=
-                          "img/live/19.jpg"></a>
-                      </li>
-
-                      <li>
-                          <a href="img/live/20.jpg"><img alt="TBF" data-caption="Photography by Jessica Ramaker." src=
-                          "img/live/20.jpg"></a>
-                      </li>
-
-                      <li>
-                          <a href="img/live/21.jpg"><img alt="TBF" data-caption="Photography by Jessica Ramaker." src=
-                          "img/live/21.jpg"></a>
-                      </li>
-
-                      <li>
-                          <a href="img/live/22.jpg"><img alt="TBF" data-caption="Photography by Dale Lotts." src=
-                          "img/live/22.jpg"></a>
-                      </li>
-
-                      <li>
-                          <a href="img/live/13.jpg"><img alt="TBF" data-caption="Photography by Jessica Ramaker." src=
-                          "img/live/13.jpg"></a>
-                      </li>
-
-                      <li>
-                          <a href="img/live/23.jpg"><img alt="TBF" data-caption="Photography by Jessica Ramaker." src=
-                          "img/live/23.jpg"></a>
-                      </li>
-
-                      <li>
-                          <a href="img/live/24.jpg"><img alt="TBF" data-caption="Art by Lolamade. Photography by Jessica Ramaker." src=
-                          "img/live/24.jpg"></a>
-                      </li>
-                      <li>
-                          <a href="img/live/1.jpg"><img alt="TBF" data-caption="Photography by Jessica Ramaker." src=
-                          "img/live/1.jpg"></a>
-                      </li>
-
-                  </ul>
-                  <p style="margin-left: 18%; margin-top:0px;">TBF Live</p>
-
-
-                    <!-- Gallery of studio images -->
-
-                    <ul class="clearing-thumbs clearing-feature" data-clearing="">
-                        <li class="clearing-featured-img">
-                            <a href="img/studio/Famous-0022.jpg"><img alt="TBF" data-caption="Photography by Jessica Ramaker."
-                            src="img/studio/Famous-0022.jpg" style=
-                            "width: auto; height:220px; margin-bottom: 20px; box-shadow: 8px 8px 5px #888888;"
-                            title="Click to view images of TBF in studio."></a>
-                        </li>
-
-                        <li>
-                            <a href="img/studio/bw-0035.jpg"><img alt="TBF"
-                            data-caption="Photography by Jessica Ramaker." src="img/studio/bw-0035.jpg"></a>
-                        </li>
-
-                        <li>
-                            <a href="img/studio/Famous-0017.jpg"><img alt="TBF"
-                            data-caption="Photography by Jessica Ramaker." src="img/studio/Famous-0017.jpg"></a>
-                        </li>
-
-                        <li>
-                            <a href="img/studio/Famous-0012.jpg"><img alt="TBF"
-                            data-caption="Photography by Jessica Ramaker." src="img/studio/Famous-0012.jpg"></a>
-                        </li>
-
-                        <li>
-                            <a href="img/studio/bw-0038.jpg"><img alt="TBF"
-                            data-caption="Photography by Jessica Ramaker." src="img/studio/bw-0038.jpg"></a>
-                        </li>
-
-                        <li>
-                            <a href="img/studio/Famous-0018.jpg"><img alt="TBF"
-                            data-caption="Photography by Jessica Ramaker." src="img/studio/Famous-0018.jpg"></a>
-                        </li>
-
-                        <li>
-                            <a href="img/studio/Famous-0013.jpg"><img alt="TBF"
-                             data-caption="Photography by Jessica Ramaker." src="img/studio/Famous-0013.jpg"></a>
-                        </li>
-
-                        <li>
-                            <a href="img/studio/Famous-0016.jpg"><img alt="TBF"
-                            data-caption="Photography by Jessica Ramaker." src="img/studio/Famous-0016.jpg"></a>
-                        </li>
-
-                        <li>
-                            <a href="img/studio/Famous-0023.jpg"><img alt="TBF"
-                             data-caption="Photography by Jessica Ramaker." src="img/studio/Famous-0023.jpg"></a>
-                        </li>
-
-                        <li>
-                            <a href="img/studio/Famous-0026.jpg"><img alt="TBF"
-                             data-caption="Photography by Jessica Ramaker." src="img/studio/Famous-0026.jpg"></a>
-                        </li>
-
-                        <li>
-                            <a href="img/studio/Famous-0014.jpg"><img alt="TBF"
-                             data-caption="Photography by Jessica Ramaker." src="img/studio/Famous-0014.jpg"></a>
-                        </li>
-
-                        <li>
-                            <a href="img/studio/Famous-0019.jpg"><img alt="TBF"
-                             data-caption="Photography by Jessica Ramaker." src="img/studio/Famous-0019.jpg"></a>
-                        </li>
-
-                        <li>
-                            <a href="img/studio/bw-0047.jpg"><img alt="TBF"
-                            data-caption="Photography by Jessica Ramaker." src="img/studio/bw-0047.jpg"></a>
-                        </li>
-
-                        <li>
-                            <a href="img/studio/bw-0046.jpg"><img alt="TBF"
-                             data-caption="Photography by Jessica Ramaker." src="img/studio/bw-0046.jpg"></a>
-                        </li>
-
-                        <!--<li>
-                            <a href="img/studio/Famous-0010.jpg"><img alt="TBF"
-                             src="img/studio/Famous-0010.jpg"></a>
-                        </li>-->
-
-
-                    </ul>
-                    <p style="margin-left: 18%; margin-top:0px;">TBF in Studio</p>
-    
-
-          </div>
-        </div>
+      
       
       <div class="container"> 
         <section class="pattern-description">
-          <h3>Let Us Help You With Your Projects!</h3>
+          <h3>Placeholder Text</h3>
           <p>With our experience spanning from music to art to apps, and everything in between, don't hesitate to contact us with your inquiry today! <br>We are confident that we have the balance you need to meet and exceed the expectations for any project.</p>
-          <h2>Don't Be Shy</h2>
+          <h2>Art Bio</h2>
           <ul style="list-style: none; margin-left:-25px;">
-            <li>Contact Us Today</li>
-            <li>Let Us Help You With Your Vision</li>
+            <li>TBF Placeholder Text</li>
+            <li>Placeholder</li>
           </ul>
         </section>
 

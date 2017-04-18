@@ -1,9 +1,13 @@
 html {
 	background: black;
+	width: 100%;
+	min-width: 220px;
 }
 
 body {
 	background: white;
+	width: 100%;
+	min-width: 220px;
 }
 
 
@@ -363,6 +367,7 @@ ul.music img {
   padding: 0;
   height: 200px;
   list-style: none;
+  min-width: 220px;
 }
 
 #slider ul li {
@@ -371,7 +376,7 @@ ul.music img {
   float: left;
   margin: 0;
   padding: 0;
-  width: 500px;
+  min-width: 220px;
   height: 300px;
   background: #ccc;
   text-align: center;

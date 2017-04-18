@@ -99,7 +99,7 @@
         <a href="#" class="control_prev"><</a>
         <ul>
           <!-- "Try Love" Music Video will be #1 in play here -->
-          <li><iframe width="500" height="300" src="https://www.youtube.com/embed/ZQPdkcFNCCQ" frameborder="0" allowfullscreen></iframe></li>
+          <li><iframe width="100%" height="300" src="https://www.youtube.com/embed/ZQPdkcFNCCQ" frameborder="0" allowfullscreen></iframe></li>
           <li>Placeholder 2</li>
           <li>Placeholder 3</li>
           <li style="background: #aaa;">Placeholder 4</li>

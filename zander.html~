@@ -4,71 +4,18 @@
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi"/>  
   <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="keywords" content="artist, body painter, programmer, developer, famous, famous band, Norell, Mary Norell Jackson, Norell Figueroa, Mary Norell Jackson Figueroa, Mary Norell, norellxo, Norell Modeling, the artist Zander, current projects">
-  <meta name="description" content="Multi-faceted Artist, Singer, Writer, and More. View Norell's current projects here.">
+  <meta name="keywords" content="artist, body painter, renowned body painter, designer, programmer, developer, famous, famous band, Jacob Alexander, Jacob Alexander Figueroa, Xander, Zander, the artist Zander, current projects">
+  <meta name="description" content="Multi-faceted Artist, Body Painter, Designer, Programmer, and More. View Zander's current projects here.">
     <title>Ph&ouml;nix Intl Creative Agency</title>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/foundation/foundation.css" type="text/css" />
     <link rel="stylesheet" href="css/star.css" type="text/css" />
     <link rel="stylesheet" href="css/artist.css" type="text/css" />
-    <link rel="stylesheet" href="css/foundation/foundation.css" type="text/css" />
-    <link href='https://fonts.googleapis.com/css?family=Crushed|News+Cycle:400,700|Michroma|Philosopher:400,700,400italic,700italic|Architects+Daughter|Orbitron:400,500,700,900|Rock+Salt' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Codystar|Give+You+Glory|Poiret+One|Londrina+Outline|Ovo|Great+Vibes|Julius+Sans+One|Shadows+Into+Light+Two|Megrim' rel='stylesheet' type='text/css'>
-    <script src="https://apis.google.com/js/plusone.js"></script>
-    <script type="text/javascript">
-        var tumblr_link_url = "http://phonixintl.com/norell";
-        var tumblr_link_name = "Meet Norell, Singer, Artist, Writer, & More.";
-        var tumblr_link_description = "Singer, Artist, Writer, & More.";
-    </script>
+    <link href='http://fonts.googleapis.com/css?family=Crushed|News+Cycle:400,700|Michroma|Philosopher:400,700,400italic,700italic|Architects+Daughter|Orbitron:400,500,700,900|Rock+Salt' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Codystar|Give+You+Glory|Poiret+One|Londrina+Outline|Ovo|Great+Vibes|Julius+Sans+One|Shadows+Into+Light+Two|Megrim' rel='stylesheet' type='text/css'>
     <script src="js/custom.modernizr.js"></script>
    <style>
-      /* stubborn css */
-      ul.docs
-      {
-        list-style: none;
-      }
-      ul.docs li
-      {
-        display: inline;
-      }
-      ul.docs li img
-      {
-        width: 48%;
-        height: auto;
-      }
-      h3.footer {
-        background: transparent;
-      }
-    
-      a#famous{
-        text-decoration: none;
-        font-weight: bold;
-      }
 
-      a#famous:hover{
-        color: #0199c7;
-      }
-
-      a#lmda{
-        text-decoration: none;
-        font-weight: bold;
-      }
-
-      a#lmda:hover{
-        color: indigo;
-      }
-
-      a#resume{
-        text-decoration: none;
-        color:white;
-        font-family: 'Michroma', sans-serif;
-        font-size: 30px;
-      }
-
-      a#resume:hover{
-        color: #0199c7;
-      }
-
-      /* Responsive Nav Bar */
 
     ul.topnav {
 
@@ -87,14 +34,14 @@
     }
 
 
+    
   </style>
 </head>
 <body>
 
 <ul class="topnav" id="phonixnav">
   <li><a href="index.html">HOME</a></li>
-  <li><a href="team.html">MUSIC</a></li>
-  <li><a href="art.html">ART</a></li>
+  <li><a href="team.html">BAND</a></li>
   <li><a href="apps.html">APPS</a></li>
   <li><a href="contact.html">SUPPORT</a></li>
   <li class="icon">
@@ -111,144 +58,215 @@
     </script>
   </li>
 </ul>
+
 <hr>
 <hr>      
 <hr>
-<header><h1>Norell</h1>
+
+<header><h1>Zander</h1>
+
+  <!--
+<nav class="main-nav">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="#" class="drop">See:</a>
+               <ul>
+                  <li><a href="#" class="dropp">Press</a>
+               <ul>
+                    <li><a href="http://tomgreen.com/2015/03/12/episode-5-the-tom-green-podcast-3/" target="_blank">Tom Green Podcast</a></li>
+                    <li><a href="http://plymouthmag.com/native-apps" target="_blank">Plymouth Magazine</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=06bWyS7KgxE" target="_blank">JCT tv</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=FN3vgeGc3S4" target="_blank">JCT92.G Radio</a></li>
+                    <li><a href="http://www.mixcloud.com/WEEKONradio/week-on-radio-show-season-2-07-nov-24-alvaro-duran-the-band-famous-and-ramsey-w-jack-bianka/" target="_blank">WeekONLA Radio</a></li>
+                    <li><a href="http://www.thecurrent.org/programs/local-show/2014/11/23" target="_blank">89.3FM The Local Show</a></li>
+                    <li><a href="http://blog.thecurrent.org/2014/11/music-body-painting-web-development-meet-the-band-famous/" target="_blank">MPR Local Current Blog</a></li>
+                    <li><a href="http://www.ilovebodyart.com/jacob-alexander-figueroa-artist-zander/" target="_blank">I Love Body Art</a></li>
+                    <li><a href="http://www.wakemag.org/sound-vision/looking-back-jacob-alexander-goes-forward/" target="_blank">The Wake Magazine</a></li>
+                    <li><a href="http://www.nyartsmagazine.com/?p=6102" target="_blank">NY Arts Magazine</a></li>
+                    <li><a href="http://www.tcdailyplanet.net/article/2009/03/21/live-nude-art.html" target="_blank">TC Daily Planet</a></li>
+                    <li><a href="http://www.citypages.com/2009-09-23/calendar/the-atlantis-exhibition/" target="_blank">City Pages</a></li>
+                    <li><a href="http://www.tcdailyplanet.net/news/2009/09/23/atlantis-exhibition-under-sea-erotic-art-party-minneapolis-has-been-waiting" target="_blank">Atlantis Exhibition</a></li>
+                    <li><a href="http://www.bluebridgemediagroup.com/" target="_blank">All Over the Walls</a></li>
+                    <li><a href="http://blogs.mprnews.org/state-of-the-arts/2011/04/pumping-up-the-minnesota-in-mspiff"target="_blank">MPR News</a></li>
+                </ul>
+                <li><a href="#" class="dropp">Social</a>
+                  <ul>
+                      <li><a href="http://www.twitter.com/XanderFigueroa" target="_blank">Twitter</a></li>
+                      <li><a href="http://www.instagram.com/theartistzander" target="_blank">Instagram</a></li>
+                      <li><a href="http://www.theartistzander.wordpress.com" target="_blank">Wordpress</a></li>
+                      <li><a href="http://www.youtube.com/virtualwarriorink" target="_blank">YouTube</a></li>
+                      <li><a href="http://www.supportxander.tumblr.com">Tumblr</a></li>
+                      
+                  </ul>
+                </li>      
+            </ul>
+            <li><a href="#" class="drop">Affiliates</a>
+              <ul>
+                <li><a href="#" class="dropp">Artists</a>
+                  <ul>
+                    <li><a href="http://jessicacollette.com" target="_blank">Jessica Collette</a></li>
+                    <li><a href="http://www.jambots.com" target="_blank">Jambots</a></li>
+                    <li><a href="http://www.jammit.com" target="_blank">Jammit</a></li>
+                    <li><a href="norell.html">Norell</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+          </ul>
+  </nav>    
+
+-->
+
 
 </header>
 
-  <!--<div style="background: #fff; padding: 0.6em; color: #333; margin-top: 4px; font-family: 'Michroma', sans-serif; font-size: 65px; text-align: center; letter-spacing: 2px; word-spacing: 2px;">Norell</div>-->
-
   <div class="page-wrapper">
     <section class="content">
-      <div><h2 style="font-size: 30px;">Singer</h2>
-
-          
+      <div><h2 style="font-size: 30px;">Body Painter</h2>
         <center>
-  
-          <img data-caption="Norell, Lead Singer of The Band Famous. Photography by Jessica Ramaker. Painting by Zander Figueroa" src="img/norell_bandfamous.jpg" alt="Norell"> 
-          <p style="font-family: 'News Cycle'; font-size: 25px;">Norell is the frontwoman to <a href="https://www.bandfamous.com" target="_blank" id="lmda">the Band Famous</a>.</p>
-          <iframe width="90%" height="340" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/134366596&amp;color=00cc11&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
-
-          <iframe width="80%" height="315" src="https://www.youtube.com/embed/d64e1m4_MJA" frameborder="0" allowfullscreen></iframe>
-
-          <p class="buy">A Famous song may be heard in the documentary,</p><p class="free"><a id="lmda" href="https://www.youtube.com/embed/ZyxYEODA11A" target="_blank">Life of a Modern Day Artist</a></p>
-
-      <ul class="docs"><li><a id="lmda" href="https://www.youtube.com/embed/ZyxYEODA11A" target="_blank"><img src="images/zander/lmda.jpg" alt="Famous is included in the soundtrack to LMDA"/></a></li><li><a href="http://www.facebook.com/events/1432806496966976/" target="_blank"><img src="images/LoveMonsters.jpg" style="margin-left: 5px; width: 49.5%;" alt="Famous Debut Love Monsters - Party Coming Soon"/></a></li></ul>
-
-      <p class="buy">Enjoy this TBF Mixtape, it is free to download, featuring Norell's vocals in the mix as well:</p>
-      <p style="font-family: 'News Cycle'; font-size: 25px;">Free Download</p>
-      <iframe width="80%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/198436900&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
-
-          <script src="https://w.soundcloud.com/player/api.js" type="text/javascript"></script>
-          <script type="text/javascript">
-            (function(){
-              var widgetIframe = document.getElementById('sc-widget'),
-                  widget       = SC.Widget(widgetIframe);
-
-              widget.bind(SC.Widget.Events.READY, function() {
-                widget.bind(SC.Widget.Events.PLAY, function() {
-                  // get information about currently playing sound
-                  widget.getCurrentSound(function(currentSound) {
-                    console.log('sound ' + currentSound.get('') + 'began to play');
-                  });
-                });
-                // get current level of volume
-                widget.getVolume(function(volume) {
-                  console.log('current volume value is ' + volume);
-                });
-                // set new volume level
-                widget.setVolume(50);
-                // get the value of the current position
-              });
-
-            }());
-          </script>
-
-          <p class="buy">Curious of Norell's solo work? Here is a song called "The Way It Is", which she wrote, recorded, and produced:</p>
-          <iframe style="position: relative; display: block; width:80%; height:100px;" src="http://bandcamp.com/EmbeddedPlayer/v=2/track=3724067488/size=venti/bgcol=FFFFFF/linkcol=4a4a4a/"></iframe>
-          <p class="buy">Here is a completely a cappella song called "My Love For You", another original song by Norell that she wrote, recorded, and produced:</p>
-          <iframe width="80%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/85980046&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
-
+          <p class="buy">Do you want Jacob Alexander body painting at your _____________________ ?</p>
+          <p class="buy" style="font-size: 14px;">[Insert: Concert, Gallery Showing, Private Party, Nightclub, Yacht, Anywhere You Like]</p>
+          <p class="buy">Or maybe you want to be painted, and even have professional photos taken of your experience?</p>
         </center>
-      </div>
+
+        <!-- Testimonials -->
+         <div class="colWeb">
+            <a href="#" id="testimonial" class="btn" data-animate="flap-up" style="font-family: 'Michroma', sans-serif; font-size: 30px;" title="Click to read testimonials for Jacob Alexander Figueroa.">Testimonials</a>
+             <div id="hidden_infoZ">
+               <div class="column-w">
+                  <div class="column main">
+                      <article>
+                        <p class="buy">"If you want personalized art done, he is available for commissions. It's full of little hidden gems and I like that he got to know me before doing the paintings. I didn't tell him what to do, he's just brilliant! I wish the camera did them justice!" 
+-Karen Stever</p>
+                        <p class="buy">"One such feeling is passion, as demonstrated by the work of Minneapolis-based artist, Jacob Alexander, whose multi-media abstract creations fuse futurist landscapes with dreams capes, incorporating decadent color and exuberant design elements."
+-NY Arts Magazine</p>
+                        <p class="buy">"We are pleased to have had the opportunity to become acquainted with your paintings and wish you the best of success in the future."
+-Kristen Stegemoeller, Guggenheim NYC</p>
+                        <p class="buy">"By comparison, Alexander seems a bit more hopeful about humanity’s future, and he tries to spread that feeling through his colorful and symbol-laden mixed-media works."
+-Downtown Journal</p>
+                        <p class="buy">"You know that dancing-fish number in The little Mermaid? This party is going to be nothing like that." (Atlantis Exhibition)
+-City Pages</p>
+                        <p class="buy">"He also creates his own paint, according to a secret recipe, and uses other materials...."
+-Jamie Thomas, Journalist</p>
+                        <p class="buy">"Alexander loves to challenge the constructs and codified meanings of the world that everyone else takes for granted. At its core, Alexander’s art does away with modernistic definitions, instead symbolizing ancient, primeval, incredibly romanticized views of the world. By making his audience turn around and view art on his own terms, Alexander breaks the signals and codes we use to define our surroundings, instead forcing us to view the world through his inspirational, uplifting, slightly megalomaniacal visions."
+-The Wake</p>
+                        <p class="buy">"There is nothing vanilla about Alexander."
+-Twin Cities Daily Planet</p>
+                        <p class="buy">.."his fellow post-abstract expressionist, Ingrid Calame, who like Alexander, contends with the splatters and stains of action painting through a graphic, traced, and contoured approach to form." 
+-Suzie Walshe, Editor for the NY Arts Magazine </p>
+                        <p class="buy">"Jacob Alexander opened up the only multi-media art venue in Downtown Minneapolis, on 1st Avenue. Equipped with one of the largest sound systems in Minnesota, natural lighting, track lighting, and high definition video projection." 
+-Wikibin</p>
+ 
+                        <p class="buy">"Jacob Alexander is a wonder child. His presence is joy invoking and his art deep."
+-Tchera Niyego</p>
+                        <p class="buy">"Jacob Alexander is one of my great artist Friend.. we worked together during the same project in NY.. we have new art project with him for near future..."
+-Gulay Alpay</p>
+                        <p class="buy">"Jacob is very professional. I started working with him as a model for events. At the time I was new to body-painting and had never been painted before. He made me feel very at ease and comfortable with the whole experience. Since then I have done a variety of events with Jacob and each event has been handled with the upmost professionalism, dignity, and attune to the models needs. I highly recommend working with Jacob Alexander his work speaks for itself and his caring demeanor is a definite plus too!"
+-Melissa Anne Smed, Actress and Model</p>
+                      </article>
+                  </div>
+                </div>
+              </div>
+            </div>  
+
+        <center>
+          
+          <p class="free">Click below to learn more about the</p>
+          <p class="free" style="margin-top:-20px;">Live Art and Studio Work we do:</p>
+
+          <a href="liveart.html" target="_blank" title="Body Painting"><img src="img/vwink.jpg" style="margin-bottom: 11px;" alt="Live Art vw|NK"/></a>
+        </center>
+        <!-- Documentary -->
+        <center><iframe id="ytplayer" type="text/html" width="90%" height="300px"
+src="https://www.youtube.com/embed/YZyXXt-WAPM"
+frameborder="0" allowfullscreen></iframe></center>
+      
+      <p class="buy">With the help of fellow artists and friends, Zander produced a documentary as a sort of follow up to All Over the Walls, a Blue Bridge Media Group production.</p>
+      <ul class="docs"><li><img src="images/zander/lmda.jpg" alt="Life of a Modern Day Artist"/></li><li><img src="images/zander/aotw.jpg" style="width: 50.30%; height: auto; margin-left: 5px;" alt="All Over the Walls"/></li></ul>
+
+      <center><iframe id="ytplayer" type="text/html" width="90%" height="300px"
+src="https://www.youtube.com/embed/ZyxYEODA11A"
+frameborder="0" allowfullscreen></iframe></center>
+  </div>
+
     </section>
     <aside class="sidebar left">
-      <div><h3 style="font-size: 30px;">Model</h3>
+      <div><h3 style="font-size: 30px;">Designer</h3>
 
-        <p class="buy">Norell is an independent freelance model.</p>
-        <p class="buy">Click on the image below to view a few samples of her modeling portfolio.</p>
+        <p class="buy">Zander has designed, and created several works of art over the years.</p>
+
+        <p class="free">Exhibits</p>
+        <!-- Fan Art -->
+        <ul class="clearing-thumbs clearing-feature" data-clearing> 
+          <li class="clearing-featured-img"><a href="images/zander/x1.jpg"><img data-caption="NY Arts Magazine" src="images/zander/x1.jpg" alt="Press and Exhibits" title="Click to view sample exhibitions, press and publications."></a></li> 
+          <li><a href="images/zander/x2.jpg"><img data-caption="NY Arts Magazine" src="images/zander/x2.jpg" alt="Press and Exhibits"></a></li> 
+          <li><a href="images/zander/x3.jpg"><img data-caption="NY Arts Magazine" src="images/zander/x3.jpg" alt="Press and Exhibits"></a></li> 
+          <li><a href="images/zander/x4.jpg"><img data-caption="Minneapolis St. Paul International Film Festival" src="images/zander/x4.jpg" alt="Press and Exhibits"></a></li> 
+          <li><a href="images/zander/x5.jpg"><img data-caption="Paul Van Dyk" src="images/zander/x5.jpg" alt="Press and Exhibits"></a></li> 
+          <li><a href="images/zander/x6.jpg"><img data-caption="Summer Set Music &amp; Camping Festival" src="images/zander/x6.jpg" alt="Press and Exhibits"></a></li> 
+          <li><a href="images/zander/x7.jpg"><img data-caption="Sexapalooza Minneapolis" src="images/zander/x7.jpg" alt="Press and Exhibits"></a></li> 
+          <li><a href="images/zander/x8.jpg"><img data-caption="Sexapalooza Portland" src="images/zander/x8.jpg" alt="Press and Exhibits"></a></li> 
+          <li><a href="images/zander/x9.jpg"><img data-caption="Benny Benassi" src="images/zander/x9.jpg" alt="Press and Exhibits"></a></li> 
+          <li><a href="images/zander/x10.jpg"><img data-caption="Twin Cities Pride Festival - The Gay 90s" src="images/zander/x10.jpg" alt="Press and Exhibits"></a></li>
+          <li><a href="images/zander/x11.jpg"><img data-caption="Twin Cities Pride Parade - City Pages" src="images/zander/x11.jpg" alt="Press and Exhibits"></a></li>
+          <li><a href="images/zander/xx.jpg"><img data-caption="All Over the Walls, a Blue Bride Media Group Documentary" src="images/zander/xx.jpg" alt="Press and Exhibits"></a></li>
+          <li><a href="images/zander/aotw.jpg"><img data-caption="All Over the Walls, a Blue Bride Media Group Documentary" src="images/zander/aotw.jpg" alt="Press and Exhibits"></a></li> 
+
+        </ul>
+
+        <p class="buy">Click on the image below to view a few samples of some of his most popular mixed media designs:</p>
       
         <!-- Gallery -->
         <p class="free">Gallery</p>
         <!-- model -->
         <ul class="clearing-thumbs clearing-feature" data-clearing> 
-          <li class="clearing-featured-img"><a href="images/norell/start.jpg"><img style="width: 100%, height: auto;" data-caption="vw|NK Agency" src="images/norell/start.jpg" alt="Norell"></a></li> 
-          <li><a href="images/norell/001.jpg"><img data-caption="Oliver Kristón Photography" src="images/norell/001.jpg" alt="Norell"></a></li> 
-          <li><a href="images/norell/002.jpg"><img data-caption="vw|NK Agency" src="images/norell/002.jpg" alt="Norell"></a></li> 
-          <li><a href="images/norell/003.jpg"><img data-caption="vw|NK Agency with Emily" src="images/norell/003.jpg" alt="Norell"></a></li> 
-          <li><a href="images/norell/004.jpg"><img data-caption="vw|NK Agency" src="images/norell/004.jpg" alt="Norell"></a></li> 
-          <li><a href="images/norell/005.jpg"><img data-caption="vw|NK Agency" src="images/norell/005.jpg" alt="Norell"></a></li> 
-          <li><a href="images/norell/006.JPG"><img data-caption="vw|NK Agency" src="images/norell/006.JPG" alt="Norell"></a></li> 
-          <li><a href="images/norell/007.jpg"><img data-caption="vw|NK Agency" src="images/norell/007.jpg" alt="Norell"></a></li> 
-          <li><a href="images/norell/008.jpg"><img data-caption="Ian Holyoak Photography" src="images/norell/008.jpg" alt="Norell"></a></li> 
-          <li><a href="images/norell/009.jpg"><img data-caption="vw|NK Agency" src="images/norell/009.jpg" alt="Norell"></a></li> 
-          <li><a href="images/norell/010.jpg"><img data-caption="Johnny Jiron with vw|NK Agency & Setara" src="images/norell/010.jpg" alt="Norell"></a></li> 
-          <li><a href="images/norell/011.jpg"><img data-caption="Ian Holyoak Photography" src="images/norell/011.jpg" alt="Norell"></a></li> 
-          <li><a href="images/norell/012.jpg"><img data-caption="vw|NK Agency" src="images/norell/012.jpg" alt="Norell"></a></li> 
-          <li><a href="images/norell/013.jpg"><img data-caption="vw|NK Agency" src="images/norell/013.jpg" alt="Norell"></a></li> 
-          <li><a href="images/norell/014.jpg"><img data-caption="vw|NK Agency" src="images/norell/014.jpg" alt="Norell"></a></li> 
-          <li><a href="images/norell/015.jpg"><img data-caption="vw|NK Agency" src="images/norell/015.jpg" alt="Norell"></a></li> 
-          <li><a href="images/norell/016.jpg"><img data-caption="vw|NK Agency" src="images/norell/016.jpg" alt="Norell"></a></li> 
-          <li><a href="images/norell/017.jpg"><img data-caption="vw|NK Agency with Lo Beth J" src="images/norell/017.jpg" alt="Norell"></a></li> 
-          <li><a href="images/norell/018.jpg"><img data-caption="vw|NK Agency" src="images/norell/018.jpg" alt="Norell"></a></li>
-          <li><a href="images/norell/jcNorell.jpg"><img data-caption="Jessica Collette Photography" src="images/norell/jcNorell.jpg" alt="Norell"></a>
-          </li> 
-          <li><a href="images/norell/abphoto.jpg"><img data-caption="Andrew Bacha Photography" src="images/norell/abphoto.jpg" alt="Norell"></a></li>
+          <li class="clearing-featured-img"><a href="images/zander/start.jpg"><img data-caption="Photo by Johnny Jiron" src="images/zander/start.jpg" alt="Zander" title="Click to view popular mixed media designs by the artist Zander."></a></li> 
+          <li><a href="images/zander/clock.jpg"><img data-caption="Earth, Sun &amp; Moon - Clock Edition" src="images/zander/clock.jpg" alt="Clock Design"></a></li> 
+          <li><a href="images/zander/shoes.jpg"><img data-caption="© Jacob Alexander Figueroa" src="images/zander/shoes.jpg" alt="Shoe Design"></a></li> 
+          <li><a href="images/zander/pathPassion.jpg"><img data-caption="Path of Passion" src="images/zander/pathPassion.jpg" alt="Path of Passion"></a></li> 
+          <li><a href="images/zander/ilovesex.jpg"><img data-caption="I Love Sex" src="images/zander/ilovesex.jpg" alt="I Love Sex"></a></li> 
+          <li><a href="images/zander/garden.jpg"><img data-caption="Garden of Ascension" src="images/zander/garden.jpg" alt="Garden of Ascension"></a></li> 
+          <li><a href="images/zander/poseidon.jpg"><img data-caption="Poseidon" src="images/zander/poseidon.jpg" alt="Poseidon"></a></li> 
+          <li><a href="images/zander/art.jpg"><img data-caption="Famous" src="images/zander/art.jpg" alt="Famous"></a></li> 
+          <li><a href="images/zander/Questioneverything.jpg"><img data-caption="Question Everything" src="images/zander/Questioneverything.jpg" alt="Question Everything"></a></li> 
+          <li><a href="images/zander/reincarnation.jpg"><img data-caption="Reincarnation" src="images/zander/reincarnation.jpg" alt="Reincarnation"></a></li> 
+          <li><a href="images/zander/Love.jpg"><img data-caption="Love" src="images/zander/Love.jpg" alt="Love"></a></li> 
+          <li><a href="images/zander/micCheck.jpg"><img data-caption="Mic Check" src="images/zander/micCheck.jpg" alt="Mic Check"></a></li> 
+          <li><a href="images/zander/Neverland.jpg"><img data-caption="Neverland" src="images/zander/Neverland.jpg" alt="Neverland"></a></li> 
         </ul>
         
-        <p class="free">Fan Art</p>
-        <!-- Fan Art -->
-        <ul class="clearing-thumbs clearing-feature" data-clearing> 
-            <li class="clearing-featured-img"><a href="images/norell/fan2.jpg"><img data-caption="Fan Art by Berk Balkaç" src="images/norell/fan2.jpg" style="width: 100%; max-width:400px; min-width: 220px; height:auto;" alt="Norell"></a></li> 
-            <li><a href="images/norell/fan1.jpg"><img data-caption="Fan Art by Berk Balkaç" src="images/norell/fan1.jpg" alt="Norell"></a></li> 
-            <li><a href="images/norell/fan3.jpg"><img data-caption="Fan Art by Berk Balkaç" src="images/norell/fan3.jpg" alt="Norell"></a></li> 
-            <li><a href="images/norell/fan4.jpg"><img data-caption="Fan Art by Berk Balkaç" src="images/norell/fan4.jpg" alt="Norell"></a></li> 
-            <li><a href="images/norell/fan5.jpg"><img data-caption="Fan Art by Berk Balkaç" src="images/norell/fan5.jpg" alt="Norell"></a></li> 
-            <li><a href="images/norell/fan6.jpg"><img data-caption="Fan Art by Berk Balkaç" src="images/norell/fan6.jpg" alt="Norell"></a></li> 
-            <li><a href="images/norell/fan7.jpg"><img data-caption="Fan Art by Berk Balkaç" src="images/norell/fan7.jpg" alt="Norell"></a></li> 
-            <li><a href="images/norell/fanart8.jpg"><img data-caption="Fan Art by Ethan Heidlebaugh" src="images/norell/fanart8.jpg" alt="Norell"></a></li> 
-            <li><a href="images/norell/fanart9.jpg"><img data-caption="Fan Art by Ethan Heidlebaugh" src="images/norell/fanart9.jpg" alt="Norell"></a></li> 
-            <li><a href="images/norell/fanart10.jpg"><img data-caption="Fan Art by Ethan Heidlebaugh" src="images/norell/fanart10.jpg" alt="Norell"></a></li> 
-        </ul>
-        <p class="free">Testimonials</p>
-        <img src="images/norell/testimonial.jpg" alt="Modeling Testimonials" />
-        <p class="buy">"She was amazing to work with and directed the models and myself very well.  She does more than just modeling, but agent work and hair and the list goes on.  All I can say is that she is a little sex kitten and has the world in her hands.  This woman is amazing to work with and easy going.  She makes you feel very comfortable in whatever situation you are in.  She is a beautiful woman inside and out.  If you get the chance and she casts you - definitely take it - you won't regret it!"</p>
-        <p class="buy">- Model Jade Valentina</p>
+        
+        <p>Zander is available for custom mixed media artworks.</p>
+        <img src="images/image-slider-2.jpg" alt="Contact him today for your personal commisssioned art piece!" style="box-shadow: 8px 8px 5px #888888;"/>
+
       </div>
     </aside>
     <aside class="sidebar right">
       <div><h3 style="font-size: 30px;">Artist</h3>
 
-        <img src="img/pro.jpg" style="margin-bottom: 11px;" alt="Mary Norell Jackson"/>
-            <p class="buy">I am a multi-faceted artist, musician, and developer. Everything - my friends, loved ones, acquaintances, to complete strangers I encounter who exchange smiles with me or spark some sort of familiar feeling within me – all of my life experiences and observations inspire me daily, transcending into my art, music, and anything I channel my energy into.</p>
-            <p class="buy">Love is my driving force, the ideal that shapes all of my creations. My goals in life put simply are to create beautiful art and music, inspire and invoke positive change, and to be happy, healthy and successful while hopefully inspiring others to do the same.</p><p class="buy">“I’ll be me, you’ll be you – it’s all we can do.” Famous – Me &amp; You.</p>
 
-            <img src="images/image-slider-4.jpg" alt="Norell"/>
+        <img src="img/artistz.jpg" style="margin-bottom: 11px; margin-top: 11px;" alt="Jacob Alexander Figueroa"/>
+            <p class="buy">I am a visual multi-media artist who incorporates literary works, futuristic landscapes, dream imagery and symbolism in my work. My aim is to create decorations with messages of hope to give back color to the people who color my life. I am a gypsy, an insatiable explorer whose work vibrates with every person, idea, frustration and challenge. Art is a luxury. It provokes the sub-conscience, asks questions, defies convention and stirs the senses in ways other luxuries cannot. I dedicate my craft to all generations, those who created before me and those that will outlive me and impact the future by launching this world into an apocalypse of inventions and revolution.</p><p class="buy">-Jacob Alexander Figueroa</p>
 
-            <a href="http://www.linkedin.com/in/marynorell" target="_blank" id="resume" class="btn">Resume</a>
+            <img src="img/zanderShop.jpg" alt="Zander"/>
+
+            <a href="http://www.linkedin.com/in/zandermpls" target="_blank" id="resume" class="btn">Resume</a>
 
             <!-- Twitter and Instagram  -->
-            <a class="twitter-timeline" href="https://twitter.com/MaryNorell" data-widget-id="395387245907025920">Tweets by @MaryNorell</a>
-           <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+            <center>
+              <a class="twitter-timeline" href="https://twitter.com/XanderFigueroa" data-widget-id="388511850364542976">Tweets by @XanderFigueroa</a>
+              <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+
+            </center>
       </div>
             
-
     </aside>
-
+ 
     <!-- Let's get social. -->
     <p style="font-family: 'News Cycle'; font-size: 25px; text-align:center;">Get Social</p>
+
     <td align="center" valign="top" id="templateFooter" style="background:#FAFAFA none no-repeat center/cover;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;background-color: #FAFAFA;background-image: none;background-repeat: no-repeat;background-position: center;background-size: cover;border-top: 0;border-bottom: 0;padding-top: 9px;padding-bottom: 9px;">
                   <!--[if gte mso 9]>
                   <table align="center" border="0" cellspacing="0" cellpadding="0" width="600" style="width:600px;">
@@ -290,7 +308,7 @@
                                                                         <tbody><tr>
                                                                             
                                                                                 <td align="center" valign="middle" width="24" class="mcnFollowIconContent" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-                                                                                    <a href="http://www.twitter.com/NorellFigueroa" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/color-twitter-48.png" style="display: block;border: 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;" height="24" width="24" class=""></a>
+                                                                                    <a href="http://www.twitter.com/XanderFigueroa" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/color-twitter-48.png" style="display: block;border: 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;" height="24" width="24" class=""></a>
                                                                                 </td>
                                                                             
                                                                             
@@ -398,8 +416,7 @@
                                                     </td>
                                                 </tr>
                                             </tbody></table>
-                                        
-              
+
                                         
                                         <!--[if mso]>
                                         </td>
@@ -468,7 +485,12 @@
                                         <!--[if mso]>
                                         </td>
                                         <![endif]-->
-                          
+                                    
+                                    
+                                    <!--[if mso]>
+                                    </tr>
+                                    </table>
+                                    <![endif]-->
                                 </td>
                             </tr>
                         </tbody></table>
@@ -485,22 +507,13 @@
 </table>
 
 
+
   </div>
 <div id="footer" style="background-color:lavender; color: black; clear:both; text-align:center; font-family: 'Michroma', sans-serif; width: 100%;">Copyright &copy; Ph&ouml;nix LLC</div>
   <!--<img src="http://fbcdn-sphotos-h-a.akamaihd.net/hphotos-ak-prn1/933983_615114615166233_599086299_n.jpg"/>-->
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
-<script src="https://code.jquery.com/jquery-1.9.1.min.js"></script> 
+<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script> 
 <script type="text/javascript" src="js/star.js"></script>
-<!-- script below is for tumblr share widget -->
-<script type="text/javascript">
-    var tumblr_button = document.createElement("a");
-    tumblr_button.setAttribute("href", "http://www.tumblr.com/share/link?url=" + encodeURIComponent(tumblr_link_url) + "&name=" + encodeURIComponent(tumblr_link_name) + "&description=" + encodeURIComponent(tumblr_link_description));
-      tumblr_button.setAttribute('target', '_blank');
-    tumblr_button.setAttribute("title", "Share on Tumblr");
-    tumblr_button.setAttribute("style", "display:inline-block; text-indent:-9999px; overflow:hidden; width:129px; height:20px; background:url('http://platform.tumblr.com/v1/share_3.png') top left no-repeat transparent;");
-    tumblr_button.innerHTML = "Share on Tumblr";
-    document.getElementById("tumblr_button_abc123").appendChild(tumblr_button);
-</script>
     <script src="js/vendor/jquery.js"></script>
     <script src="js/foundation/foundation.js"></script>
     <script src="js/foundation.min.js"></script>
