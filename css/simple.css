@@ -47,3 +47,63 @@ h2.nav:hover{
 	text-decoration: none;
 	outline-style: none
 }
+
+table.rev {
+
+	list-style: none;
+
+}
+
+table.rev td {
+
+  list-style: none;
+  display: inline-block;
+  min-width:280px;
+  width: 45%;
+  min-height: 250px;
+  height: 320px;
+  margin: auto;
+
+}
+
+
+@media only screen and (max-width: 500px) {
+
+  span.LIVE {
+
+    display: inline-block;
+    background: url(media/DiscoLightsVidevo.mp4) center;
+    background-image: url(img/DiscoLightsVidevo.mp4) center; 
+
+  }
+
+  table.rev {
+    border: none;
+    width: 80%;
+    max-width: 500px;
+    min-width: 220px;
+    background: transparent;
+    /*background-image: url(img/DiscoLightsVidevo.mp4) center; */
+    height: auto;
+
+  }
+
+  table.rev td {
+    display: inline-block;
+    width: 90%;
+    margin-left: 15px;
+
+  }
+
+  table.rev tr {
+    display: inline-block;
+    width: 90%;
+    margin-left: 15px;
+
+  }
+
+  table.rev tr td {
+    display: inline-block;
+    width: 100%;
+
+  }
