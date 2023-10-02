@@ -1,32 +1,3 @@
-
-h1.slogan {
-	font-family: 'Michroma', sans-serif;
-	margin-left: 11px;
-	text-shadow: 2px 2px #0199c7;
-	font-size: 32px;
-  background: url(media/animatedheader.mov) center;
-}
-
-h2.nav {
-	color: black;
-	text-shadow: 2px 2px #0199c7;
-	font-size: 40px;
-	font-family: 'Rock Salt', cursive;
-}
-
-p.fancy {
-	font-family: 'Philosopher', sans-serif;
-	font-size: 14px;
-	margin:4px;
-}
-
-a {
-	padding-bottom: 2px;
-	font-family: Orbitron; 
-	font-size: 17px;
-
-}
-
 a:hover {
 	color: indigo;
 	text-decoration: none;
@@ -34,7 +5,7 @@ a:hover {
 
 .three-column
 {
-  background:lavender;
+
   margin-bottom: 20px;
 }
 
@@ -70,13 +41,6 @@ table.rev td {
 
 @media only screen and (max-width: 500px) {
 
-  span.LIVE {
-
-    display: inline-block;
-    background: url(media/DiscoLightsVidevo.mp4) center;
-    background-image: url(img/DiscoLightsVidevo.mp4) center; 
-
-  }
 
   table.rev {
     border: none;
